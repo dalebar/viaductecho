@@ -1,0 +1,15 @@
+# Jekyll build
+_site/
+.jekyll-cache/
+
+# Bundler
+/.bundle/
+/vendor/
+
+# Logs and temp
+*.log
+tmp/
+
+# OS files
+.DS_Store
+Thumbs.db
