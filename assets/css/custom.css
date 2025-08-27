@@ -1,0 +1,11 @@
+/* Limit logo height and adjust vertical alignment */
+.site-logo img,
+.navbar-brand img {
+  max-height: 48px;   /* Adjust as needed */
+  height: auto;
+  width: auto;
+  display: inline-block;
+  vertical-align: middle;
+  padding: 0;
+  margin: 0;
+}
