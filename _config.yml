@@ -2,6 +2,7 @@ title: Viaduct Echo
 description: Stockport news under the arches
 url: https://viaductecho.info
 baseurl: ""
+timezone: Europe/London
 
 remote_theme: wowthemesnet/affiliates-jekyll-theme
 
@@ -21,7 +22,8 @@ favicon: "assets/images/favicon.ico"
 
 authors:
   archie:
-    name: "Archie"
+    name: "Archie Echo"
+    display_name: "Archie"
     bio: "Chief Editor"
     avatar: "assets/images/avatar.png"
     email: hello@viaductecho.info
