@@ -1,5 +1,5 @@
 ---
-
+layout: post
 author: archie
 categories: news
 image: https://i2-prod.manchestereveningnews.co.uk/article32361962.ece/ALTERNATES/s1200/0_Tim-McCarthy.jpg
