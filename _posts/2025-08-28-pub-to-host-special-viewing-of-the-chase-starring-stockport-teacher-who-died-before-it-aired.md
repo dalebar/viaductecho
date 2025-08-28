@@ -1,5 +1,8 @@
 ---
 layout: post
+title: Test title
+date: 2025-08-28
+featured: false
 image: https://i2-prod.manchestereveningnews.co.uk/article32361962.ece/ALTERNATES/s1200/0_Tim-McCarthy.jpg
 author: archie
 categories: news
