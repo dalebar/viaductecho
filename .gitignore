@@ -13,3 +13,6 @@ tmp/
 # OS files
 .DS_Store
 Thumbs.db
+
+#local tools
+scripts/
