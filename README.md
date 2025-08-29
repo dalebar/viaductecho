@@ -1,4 +1,4 @@
-# Viaduct Echo News Aggregation System
+# Viaduct Echo News Aggregation System (Work in progress)
 
 An automated news aggregation and publishing system that monitors local Stockport news sources and automatically publishes summarized articles to a Jekyll blog with comprehensive duplicate detection and database management.
 
