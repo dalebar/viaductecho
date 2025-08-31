@@ -1,0 +1,8 @@
+/* Make navbar logo smaller and align with social icons */
+.navbar-brand img {
+  max-height: 50px;   /* Adjust as needed */
+  height: auto;
+  width: auto;
+  vertical-align: middle;
+  margin-right: 8px;
+}
