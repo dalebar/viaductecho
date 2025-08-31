@@ -6,3 +6,20 @@
   vertical-align: middle;
   margin-right: 8px;
 }
+
+/* Reduce hero section spacing and font size on small screens */
+@media (max-width: 576px) {
+  .hero {
+    margin-bottom: 1.5rem !important;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+  }
+  .hero h1 {
+    font-size: 1.5rem !important;
+    margin-bottom: 1rem !important;
+  }
+  .hero p.lead {
+    font-size: 1rem !important;
+    margin-bottom: 1rem !important;
+  }
+}
