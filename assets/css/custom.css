@@ -1,11 +1,242 @@
 /* Make navbar logo smaller and align with social icons */
 .navbar-brand img {
   max-height: 100px;   /* Updated to match height */
-  height: 100px;       /* Set explicit height for SVG */
+  height: 40px;       /* Set explicit height for SVG */
   width: auto;
   vertical-align: middle;
   margin-right: 8px;
   display: inline-block; /* Ensure SVG displays */
+}
+
+/* Minimal Header Styles */
+.docs-header {
+  background: #1b2021;
+  border-bottom: 1px solid rgba(190, 204, 0, 0.2);
+  padding: 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+}
+
+.docs-header .navbar {
+  padding: 0 1.5rem; /* Added minimal vertical padding - 30% less than standard 1rem */
+}
+
+.navbar-brand {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #f7f7ff !important;
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+
+.navbar-brand:hover {
+  color: #becc00 !important;
+}
+
+.navbar-logo {
+  height: 32px;
+  width: auto;
+  margin-right: 0.75rem;
+}
+
+.navbar-title {
+  font-weight: 600;
+}
+
+.docs-header .nav-link {
+  color: #f7f7ff !important;
+  margin-left: 1rem;
+  font-weight: 500;
+  transition: color 0.2s ease;
+}
+
+.docs-header .nav-link:hover {
+  color: #becc00 !important;
+}
+
+.navbar-toggler {
+  border: none;
+  padding: 0.5rem;
+  color: #f7f7ff;
+}
+
+.navbar-toggler:focus {
+  box-shadow: none;
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='%23f7f7ff' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+/* Horizontal Section Navigation */
+.horizontal-nav {
+  border-top: 1px solid rgba(190, 204, 0, 0.2);
+  background: #1b2021;
+}
+
+.section-tabs {
+  display: flex;
+  padding: 0 1.5rem;
+  gap: 0;
+}
+
+.section-tab {
+  display: flex;
+  align-items: center;
+  padding: 0.5rem 1.5rem; /* Reduced vertical padding from 0.75rem to 0.5rem (33% smaller) */
+  color: rgba(247, 247, 255, 0.7);
+  text-decoration: none;
+  border-bottom: 3px solid transparent;
+  transition: all 0.2s ease;
+  font-weight: 500;
+  font-size: 0.9rem;
+}
+
+.section-tab:hover {
+  color: #f7f7ff;
+  background: rgba(190, 204, 0, 0.1);
+}
+
+.section-tab.active {
+  color: #f7f7ff;
+  border-bottom-color: #becc00;
+  background: rgba(190, 204, 0, 0.1);
+}
+
+.tab-badge {
+  margin-left: 0.5rem;
+  padding: 0.2rem 0.4rem;
+  background: #7cd4f4;
+  color: #1b2021;
+  border-radius: 10px;
+  font-size: 0.7rem;
+  font-weight: 600;
+}
+
+/* Body padding for taller fixed header */
+body {
+  padding-top: 120px; /* Account for taller header with tabs */
+}
+
+/* Documentation Layout Styles */
+.docs-layout {
+  display: flex;
+  min-height: calc(100vh - 120px);
+}
+
+/* Left Sidebar Navigation - 60% of original width */
+.docs-sidebar {
+  width: 168px; /* 280px * 0.6 = 168px */
+  background: #f7f7ff;
+  border-right: 1px solid rgba(27, 32, 33, 0.1);
+  position: fixed;
+  top: 120px; /* Below taller header with more clearance */
+  left: 0;
+  height: calc(100vh - 120px);
+  overflow-y: auto;
+  z-index: 100;
+}
+
+.sidebar-content {
+  padding: 1.5rem 0;
+}
+
+/* Sub-Section Navigation Styles */
+.nav-subsections {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-subsection {
+  margin: 0;
+}
+
+.nav-subsection-link {
+  display: block;
+  padding: 0.5rem 1rem;
+  color: #1b2021;
+  text-decoration: none;
+  transition: all 0.2s ease;
+  border-left: 3px solid transparent;
+  font-size: 0.9rem;
+}
+
+.nav-subsection-link:hover {
+  background-color: rgba(190, 204, 0, 0.1);
+  color: #1b2021;
+  text-decoration: none;
+  border-left-color: #becc00;
+}
+
+.nav-subsection-link.active {
+  background-color: rgba(190, 204, 0, 0.15);
+  color: #1b2021;
+  border-left-color: #becc00;
+  font-weight: 500;
+}
+
+/* Main Content Area */
+.docs-content {
+  flex: 1;
+  margin-left: 168px; /* Updated for narrower sidebar */
+  background: #f7f7ff;
+}
+
+.content-wrapper {
+  max-width: 900px;
+  padding: 2rem;
+  margin: 0 auto;
+}
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+  .section-tabs {
+    padding: 0 1rem;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .section-tab {
+    white-space: nowrap;
+    padding: 0.75rem 1rem;
+  }
+
+  .docs-sidebar {
+    width: 168px;
+    transform: translateX(-100%);
+    transition: transform 0.3s ease;
+    box-shadow: none;
+  }
+
+  .docs-sidebar.mobile-open {
+    transform: translateX(0);
+    box-shadow: 2px 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .docs-content {
+    margin-left: 0;
+  }
+
+  .content-wrapper {
+    padding: 1rem;
+  }
+
+  /* Mobile sidebar overlay */
+  .docs-sidebar.mobile-open::after {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 168px;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: -1;
+  }
 }
 
 /* Reduce hero section spacing and font size on small screens */

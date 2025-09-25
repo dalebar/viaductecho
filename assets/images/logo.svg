@@ -1,10 +1,10 @@
 <svg 
   fill="none" 
-  viewBox="0 0 1024 1024"
+  viewBox="0 0 900 720"
   xmlns="http://www.w3.org/2000/svg"
 >
   <!-- Proportionally scaled safe zone - translated by 93.6 units -->
-  <g transform="translate(93.6, 93.6) scale(1.4183)">
+  <g transform="translate(-25 -90) scale(1.6)">
     <g id="Vector">
       <!-- Green bars -->
       <path d="M384.5 355.5V323.5C384.5 321.5 390 314.5 397.5 314.5C405 314.5 409.5 320 409.5 323.5V356.5C409.5 360.5 404.5 365 397.5 365C390.5 365 384.5 360.5 384.5 355.5Z" fill="#BECC00" />
