@@ -53,7 +53,6 @@ gtag('config', '{{site.ganalytics}}');
 
       <!-- Right Navigation -->
       <div class="navbar-nav ms-auto">
-        <a class="nav-link" href="mailto:hello@viaductecho.info">Contact</a>
         <a class="nav-link" href="{{ '/sections/app/' | relative_url }}">Download App</a>
       </div>
     </nav>
@@ -62,22 +61,19 @@ gtag('config', '{{site.ganalytics}}');
     <div class="horizontal-nav">
       <nav class="section-tabs">
         <a href="{{ '/' | relative_url }}" class="section-tab {% if page.url == '/' %}active{% endif %}">
-          Home
-        </a>
-        <a href="{{ '/sections/news/' | relative_url }}" class="section-tab {% if page.url contains '/news/' %}active{% endif %}">
           Local News
         </a>
         <a href="{{ '/sections/events/' | relative_url }}" class="section-tab {% if page.url contains '/events/' %}active{% endif %}">
           Events
-          <span class="tab-badge">Soon</span>
+          <span class="tab-badge">Coming Soon</span>
         </a>
         <a href="{{ '/sections/directory/' | relative_url }}" class="section-tab {% if page.url contains '/directory/' %}active{% endif %}">
-          Directory
-          <span class="tab-badge">Soon</span>
+          Places
+          <span class="tab-badge">Coming Soon</span>
         </a>
         <a href="{{ '/sections/offers/' | relative_url }}" class="section-tab {% if page.url contains '/offers/' %}active{% endif %}">
-          Local Offers
-          <span class="tab-badge">Soon</span>
+          Offers
+          <span class="tab-badge">Coming Soon</span>
         </a>
       </nav>
     </div>
@@ -95,13 +91,7 @@ gtag('config', '{{site.ganalytics}}');
         {% if page.url == '/' %}
           <ul class="nav-subsections">
             <li class="nav-subsection">
-              <a href="#overview" class="nav-subsection-link active">Overview</a>
-            </li>
-            <li class="nav-subsection">
-              <a href="#sections" class="nav-subsection-link">All Sections</a>
-            </li>
-            <li class="nav-subsection">
-              <a href="#latest-news" class="nav-subsection-link">Latest News</a>
+              <a href="{{ '/' | relative_url }}" class="nav-subsection-link">Latest News</a>
             </li>
           </ul>
         {% elsif page.url contains '/news/' %}
@@ -164,7 +154,7 @@ gtag('config', '{{site.ganalytics}}');
         {% else %}
           <ul class="nav-subsections">
             <li class="nav-subsection">
-              <a href="#overview" class="nav-subsection-link active">Overview</a>
+              <a href="{{ '/' | relative_url }}" class="nav-subsection-link">Latest News</a>
             </li>
           </ul>
         {% endif %}
@@ -182,16 +172,7 @@ gtag('config', '{{site.ganalytics}}');
 
 <!-- Footer
 ================================================== -->    
-<footer class="footer container text-center">  
-
-  <!-- CREDITS BEGIN.-->
-  <!-- If you want to support my work, please donate to remove the credits. This helps me keep it up and running: https://www.wowthemes.net/donate/ -->
-  <div class="credits mx-auto text-center mb-3">
-    <a class="hover-opacity font-weight-bold" href="https://bootstrapstarter.com/template-affiliates-bootstrap-jekyll/">
-      <img src="{{site.baseurl}}/assets/images/credits.png" alt="powered by WowThemes">
-    </a>
-  </div>
-  <!-- CREDITS END -->
+<footer class="footer container-fluid text-center">  
 
   <ul class="p-0 mb-1 small">
     {% for item in site.data.menus.footermenu %}
@@ -200,9 +181,7 @@ gtag('config', '{{site.ganalytics}}');
     </li>
     {% endfor %}
     </ul>
-    <div class="copyright small">
-       Copyright © {{site.title}}. All rights reserved.
-    </div>
+
 </footer>
 
 <!-- JavaScript

@@ -34,7 +34,7 @@
 }
 
 .navbar-brand:hover {
-  color: #becc00 !important;
+  color: #82d4e3 !important;
 }
 
 .navbar-logo {
@@ -55,7 +55,7 @@
 }
 
 .docs-header .nav-link:hover {
-  color: #becc00 !important;
+  color: #82d4e3 !important;
 }
 
 .navbar-toggler {
@@ -87,62 +87,63 @@
 .section-tab {
   display: flex;
   align-items: center;
-  padding: 0.5rem 1.5rem; /* Reduced vertical padding from 0.75rem to 0.5rem (33% smaller) */
+  justify-content: flex-start; /* Left-align text content */
+  padding: 0 2.7rem 0 0; /* Remove left padding to truly left-align text */
   color: rgba(247, 247, 255, 0.7);
   text-decoration: none;
   border-bottom: 3px solid transparent;
   transition: all 0.2s ease;
   font-weight: 500;
   font-size: 0.9rem;
+  text-align: left; /* Ensure text is left-aligned */
 }
 
 .section-tab:hover {
   color: #f7f7ff;
-  background: rgba(190, 204, 0, 0.1);
+  background: #46575a;
 }
 
 .section-tab.active {
   color: #f7f7ff;
-  border-bottom-color: #becc00;
-  background: rgba(190, 204, 0, 0.1);
+  font-weight: bold;
+  background: #1b2021;
 }
 
 .tab-badge {
   margin-left: 0.5rem;
-  padding: 0.2rem 0.4rem;
-  background: #7cd4f4;
-  color: #1b2021;
-  border-radius: 10px;
+  padding: 0 0.4rem;
+
+  color: #696969;
   font-size: 0.7rem;
   font-weight: 600;
 }
 
 /* Body padding for taller fixed header */
 body {
-  padding-top: 120px; /* Account for taller header with tabs */
+  padding-top: 80px; /* Reduced from 120px to close gap */
 }
 
 /* Documentation Layout Styles */
 .docs-layout {
   display: flex;
-  min-height: calc(100vh - 120px);
+  min-height: calc(100vh - 80px);
 }
 
 /* Left Sidebar Navigation - 60% of original width */
 .docs-sidebar {
-  width: 168px; /* 280px * 0.6 = 168px */
+  width: 150px; /* 280px * 0.6 = 168px */
   background: #f7f7ff;
   border-right: 1px solid rgba(27, 32, 33, 0.1);
   position: fixed;
-  top: 120px; /* Below taller header with more clearance */
+  top: 80px; /* Reduced to close gap with header */
   left: 0;
-  height: calc(100vh - 120px);
+  height: calc(100vh - 80px);
   overflow-y: auto;
   z-index: 100;
 }
 
 .sidebar-content {
-  padding: 1.5rem 0;
+  padding: 32px 0;
 }
 
 /* Sub-Section Navigation Styles */
@@ -158,7 +159,7 @@ body {
 
 .nav-subsection-link {
   display: block;
-  padding: 0.5rem 1rem;
+  padding: 0.15rem 1rem 0.15rem 39px; 
   color: #1b2021;
   text-decoration: none;
   transition: all 0.2s ease;
@@ -170,27 +171,37 @@ body {
   background-color: rgba(190, 204, 0, 0.1);
   color: #1b2021;
   text-decoration: none;
-  border-left-color: #becc00;
+  border-left-color: #82d4e3;
 }
 
 .nav-subsection-link.active {
-  background-color: rgba(190, 204, 0, 0.15);
+  background-color: #dddddd;
   color: #1b2021;
-  border-left-color: #becc00;
+  border-left-color: #82d4e3;
   font-weight: 500;
 }
 
 /* Main Content Area */
 .docs-content {
   flex: 1;
-  margin-left: 168px; /* Updated for narrower sidebar */
+  margin-left: 150px; /* Match sidebar width exactly */
   background: #f7f7ff;
 }
 
 .content-wrapper {
-  max-width: 900px;
-  padding: 2rem;
-  margin: 0 auto;
+  width: 100%;
+  padding: 1rem 1rem; /* Symmetrical 1rem padding on left and right */
+  margin: 0;
+  position: relative; /* Ensure content wrapper creates stacking context */
+  z-index: 1; /* Lower than sidebar but creates proper stacking */
+}
+
+/* Ensure Bootstrap rows don't flow under sidebar and stay within bounds */
+.docs-content .row {
+  position: relative;
+  z-index: 1;
+  margin-left: 0; /* Override negative left margin */
+  margin-right: 0; /* Override negative right margin */
 }
 
 /* Mobile Responsive */
@@ -203,7 +214,7 @@ body {
 
   .section-tab {
     white-space: nowrap;
-    padding: 0.75rem 1rem;
+    padding: 0 1rem;
   }
 
   .docs-sidebar {
@@ -223,7 +234,7 @@ body {
   }
 
   .content-wrapper {
-    padding: 1rem;
+    padding: 0;
   }
 
   /* Mobile sidebar overlay */
@@ -237,6 +248,69 @@ body {
     background: rgba(0, 0, 0, 0.5);
     z-index: -1;
   }
+}
+
+/* Card Styles */
+.card {
+  background: #f7f7ff;
+  border: none;
+}
+
+.card-body {
+  background: #f7f7ff;
+}
+
+.card-text {
+  line-height: 1.5rem;
+  background: #f7f7ff;
+  margin-bottom: 8px !important;
+}
+
+.card-title {
+  line-height: 1.8rem;
+  background: #f7f7ff;
+}
+
+.author-meta {
+	font-style: italic;
+}
+
+.card img {
+  margin-bottom: 0;
+}
+
+.card .card-img-top {
+  margin-bottom: 0;
+  background: #f7f7ff;
+}
+
+/* Override Bootstrap margin for rounded images */
+img.rounded.mb-4 {
+  margin-bottom: 12px !important;
+	aspect-ratio: 1.9 / 1;
+	object-fit: cover; /* Crop to fit while maintaining aspect ratio */
+  object-position: center; /* Center the image when cropping */
+}
+
+/* Pagination Styles */
+.bottompagination {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.pagination {
+  background-color: #f7f7ff;
+  justify-content: center !important;
+  margin: 0 auto;
+}
+
+/* Footer Styles */
+
+footer.container-fluid.text-center {
+  background: #f7f7ff;
+	margin: 0 0 0 4.5rem;
+	width: 100%;
 }
 
 /* Reduce hero section spacing and font size on small screens */
