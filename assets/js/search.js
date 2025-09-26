@@ -5,22 +5,22 @@ class SiteSearch {
     this.searchInput = null;
     this.searchResults = null;
     this.searchOverlay = null;
+    this.searchDocuments = [];
+    this.documentMap = new Map();
+    this.baseUrl = (document.documentElement && document.documentElement.dataset && document.documentElement.dataset.baseurl) || '';
 
     this.init();
   }
 
   async init() {
-    // Load Lunr.js from CDN
-    await this.loadLunr();
-
-    // Load search data
-    await this.loadSearchData();
-
-    // Initialize search interface
-    this.initializeSearchInterface();
-
-    // Build search index
-    this.buildSearchIndex();
+    try {
+      await this.loadLunr();
+      await this.loadSearchData();
+      this.initializeSearchInterface();
+      this.buildSearchIndex();
+    } catch (error) {
+      console.error('Search initialization failed:', error);
+    }
   }
 
   loadLunr() {
@@ -31,30 +31,42 @@ class SiteSearch {
       }
 
       const script = document.createElement('script');
-      script.src = 'https://unpkg.com/lunr@2.3.9/lunr.min.js';
+      script.src = this.buildUrl('/assets/js/vendor/lunr.min.js');
       script.onload = resolve;
-      script.onerror = reject;
+      script.onerror = () => reject(new Error('Failed to load Lunr search library'));
       document.head.appendChild(script);
     });
   }
 
   async loadSearchData() {
     try {
-      const response = await fetch('/assets/js/search-index.json');
+      const response = await fetch(this.buildUrl('/assets/js/search-index.json'), {
+        credentials: 'same-origin'
+      });
+
+      if (!response.ok) {
+        throw new Error(`Search data request failed with status ${response.status}`);
+      }
+
       this.searchData = await response.json();
     } catch (error) {
       console.error('Failed to load search data:', error);
+      this.searchData = { posts: [], pages: [] };
     }
   }
 
   buildSearchIndex() {
     if (!window.lunr || !this.searchData) return;
 
-    // Combine posts and pages for indexing
     const documents = [
-      ...this.searchData.posts,
-      ...this.searchData.pages
+      ...(this.searchData.posts || []),
+      ...(this.searchData.pages || [])
     ];
+
+    this.searchDocuments = documents;
+    this.documentMap = new Map(
+      documents.map(doc => [doc.id != null ? doc.id.toString() : '', doc])
+    );
 
     this.searchIndex = lunr(function() {
       this.field('title', { boost: 10 });
@@ -66,25 +78,22 @@ class SiteSearch {
       this.ref('id');
 
       documents.forEach(doc => {
-        this.add(doc);
+        if (doc && doc.id != null) {
+          this.add(doc);
+        }
       });
     });
   }
 
   initializeSearchInterface() {
-    // Create search interface elements
     this.createSearchElements();
-
-    // Add event listeners
     this.bindEvents();
   }
 
   createSearchElements() {
-    // Create search input in header - position at the absolute far right of screen
     const navbar = document.querySelector('.navbar');
     if (!navbar) return;
 
-    // Search form positioned absolutely
     const searchForm = document.createElement('form');
     searchForm.className = 'search-form search-absolute-right';
     searchForm.innerHTML = `
@@ -96,10 +105,8 @@ class SiteSearch {
       </div>
     `;
 
-    // Insert into navbar with absolute positioning
     navbar.appendChild(searchForm);
 
-    // Search overlay and results
     const overlay = document.createElement('div');
     overlay.id = 'search-overlay';
     overlay.className = 'search-overlay';
@@ -110,16 +117,13 @@ class SiteSearch {
           <button class="search-close" aria-label="Close search">&times;</button>
         </div>
         <div class="search-results-wrapper">
-          <div id="search-results" class="search-results">
-            <!-- Results will be populated here -->
-          </div>
+          <div id="search-results" class="search-results"></div>
         </div>
       </div>
     `;
 
     document.body.appendChild(overlay);
 
-    // Store references
     this.searchInput = document.getElementById('search-input');
     this.searchResults = document.getElementById('search-results');
     this.searchOverlay = document.getElementById('search-overlay');
@@ -128,46 +132,41 @@ class SiteSearch {
   bindEvents() {
     if (!this.searchInput) return;
 
-    // Input events
     this.searchInput.addEventListener('input', this.debounce(this.handleSearch.bind(this), 300));
     this.searchInput.addEventListener('focus', this.handleSearchFocus.bind(this));
 
-    // Search button click
     const searchBtn = document.querySelector('.search-btn');
     if (searchBtn) {
       searchBtn.addEventListener('click', this.handleSearchButtonClick.bind(this));
     }
 
-    // Close search overlay
     const closeBtn = document.querySelector('.search-close');
     if (closeBtn) {
       closeBtn.addEventListener('click', this.hideSearchResults.bind(this));
     }
 
-    // Click outside to close
-    this.searchOverlay.addEventListener('click', (e) => {
-      if (e.target === this.searchOverlay) {
-        this.hideSearchResults();
-      }
-    });
+    if (this.searchOverlay) {
+      this.searchOverlay.addEventListener('click', (e) => {
+        if (e.target === this.searchOverlay) {
+          this.hideSearchResults();
+        }
+      });
+    }
 
-    // Keyboard shortcuts
     document.addEventListener('keydown', (e) => {
-      // Ctrl/Cmd + K to focus search
       if ((e.ctrlKey || e.metaKey) && e.key === 'k') {
         e.preventDefault();
         this.searchInput.focus();
       }
 
-      // Escape to close search
       if (e.key === 'Escape') {
         this.hideSearchResults();
       }
     });
   }
 
-  handleSearch(e) {
-    const query = e.target.value.trim();
+  handleSearch(event) {
+    const query = event.target.value.trim();
 
     if (query.length < 2) {
       this.hideSearchResults();
@@ -180,7 +179,7 @@ class SiteSearch {
   handleSearchFocus() {
     const query = this.searchInput.value.trim();
     if (query.length >= 2) {
-      this.showSearchResults();
+      this.performSearch(query);
     }
   }
 
@@ -191,79 +190,132 @@ class SiteSearch {
     }
   }
 
-  performSearch(query) {
+  performSearch(rawQuery) {
     if (!this.searchIndex) {
       console.warn('Search index not ready');
       return;
     }
 
+    const tokens = this.tokenizeQuery(rawQuery);
+    if (!tokens.length) {
+      this.hideSearchResults();
+      return;
+    }
+
+    const expressionParts = tokens
+      .map(term => this.escapeForLunr(term))
+      .filter(Boolean)
+      .map(term => `${term}~1 ${term}*`);
+
+    if (!expressionParts.length) {
+      this.hideSearchResults();
+      return;
+    }
+
     try {
-      // Perform fuzzy search
-      const results = this.searchIndex.search(`${query}~1 ${query}*`);
+      const results = this.searchIndex.search(expressionParts.join(' '));
+      const documents = results
+        .map(result => this.documentMap.get(result.ref))
+        .filter(Boolean);
 
-      // Get full document data for results
-      const searchResults = results.map(result => {
-        const allDocuments = [...this.searchData.posts, ...this.searchData.pages];
-        const doc = allDocuments.find(item => item.id.toString() === result.ref);
-        return { ...doc, score: result.score };
-      });
-
-      this.displayResults(searchResults, query);
+      this.displayResults(documents, tokens, rawQuery);
       this.showSearchResults();
     } catch (error) {
       console.error('Search error:', error);
     }
   }
 
-  displayResults(results, query) {
+  displayResults(documents, tokens, rawQuery) {
     if (!this.searchResults) return;
 
-    if (results.length === 0) {
-      this.searchResults.innerHTML = `
-        <div class="search-no-results">
-          <p>No results found for "<strong>${query}</strong>"</p>
-          <p class="text-muted">Try different keywords or check your spelling.</p>
-        </div>
-      `;
+    this.searchResults.innerHTML = '';
+
+    if (!documents.length) {
+      const noResults = document.createElement('div');
+      noResults.className = 'search-no-results';
+
+      const message = document.createElement('p');
+      message.textContent = `No results found for "${rawQuery}"`;
+      const tip = document.createElement('p');
+      tip.className = 'text-muted';
+      tip.textContent = 'Try different keywords or check your spelling.';
+
+      noResults.appendChild(message);
+      noResults.appendChild(tip);
+      this.searchResults.appendChild(noResults);
       return;
     }
 
-    const resultsHTML = results.map(result => {
-      const typeIcon = this.getTypeIcon(result.type, result.section);
-      const dateStr = result.timestamp ? `<span class="result-date">${result.date}</span>` : '';
-      const authorStr = result.author ? `<span class="result-author">by ${result.author}</span>` : '';
+    const fragment = document.createDocumentFragment();
 
-      return `
-        <div class="search-result-item" data-url="${result.url}">
-          <div class="result-header">
-            <span class="result-type">${typeIcon}</span>
-            <h4 class="result-title">${this.highlightText(result.title, query)}</h4>
-          </div>
-          <p class="result-excerpt">${this.highlightText(result.excerpt, query)}</p>
-          <div class="result-meta">
-            ${dateStr}
-            ${authorStr}
-          </div>
-        </div>
-      `;
-    }).join('');
+    const header = document.createElement('div');
+    header.className = 'search-results-header';
+    const headerText = document.createElement('p');
+    headerText.textContent = `Found ${documents.length} result${documents.length !== 1 ? 's' : ''} for "${rawQuery}"`;
+    header.appendChild(headerText);
+    fragment.appendChild(header);
 
-    this.searchResults.innerHTML = `
-      <div class="search-results-header">
-        <p>Found ${results.length} result${results.length !== 1 ? 's' : ''} for "<strong>${query}</strong>"</p>
-      </div>
-      ${resultsHTML}
-    `;
+    documents.forEach(doc => {
+      const item = document.createElement('div');
+      item.className = 'search-result-item';
+      if (doc.url) {
+        item.dataset.url = doc.url;
+      }
 
-    // Add click handlers to results
-    this.searchResults.querySelectorAll('.search-result-item').forEach(item => {
+      const resultHeader = document.createElement('div');
+      resultHeader.className = 'result-header';
+
+      const typeIcon = document.createElement('span');
+      typeIcon.className = 'result-type';
+      typeIcon.textContent = this.getTypeIcon(doc.type, doc.section);
+
+      const titleHeading = document.createElement('h4');
+      titleHeading.className = 'result-title';
+      this.applyHighlight(titleHeading, doc.title, tokens);
+
+      resultHeader.appendChild(typeIcon);
+      resultHeader.appendChild(titleHeading);
+      item.appendChild(resultHeader);
+
+      if (doc.excerpt) {
+        const excerpt = document.createElement('p');
+        excerpt.className = 'result-excerpt';
+        this.applyHighlight(excerpt, doc.excerpt, tokens);
+        item.appendChild(excerpt);
+      }
+
+      const meta = document.createElement('div');
+      meta.className = 'result-meta';
+
+      if (doc.timestamp) {
+        const dateSpan = document.createElement('span');
+        dateSpan.className = 'result-date';
+        dateSpan.textContent = doc.date || '';
+        meta.appendChild(dateSpan);
+      }
+
+      if (doc.author) {
+        if (meta.childNodes.length) {
+          meta.appendChild(document.createTextNode(' '));
+        }
+        const authorSpan = document.createElement('span');
+        authorSpan.className = 'result-author';
+        authorSpan.textContent = `by ${doc.author}`;
+        meta.appendChild(authorSpan);
+      }
+
+      item.appendChild(meta);
+
       item.addEventListener('click', () => {
-        const url = item.dataset.url;
-        if (url) {
-          window.location.href = url;
+        if (doc.url) {
+          window.location.href = doc.url;
         }
       });
+
+      fragment.appendChild(item);
     });
+
+    this.searchResults.appendChild(fragment);
   }
 
   getTypeIcon(type, section) {
@@ -274,11 +326,70 @@ class SiteSearch {
     return '📄';
   }
 
-  highlightText(text, query) {
-    if (!text || !query) return text;
+  applyHighlight(container, text, tokens) {
+    container.textContent = '';
 
-    const regex = new RegExp(`(${query})`, 'gi');
-    return text.replace(regex, '<mark>$1</mark>');
+    if (!text) {
+      return;
+    }
+
+    const filteredTokens = (tokens || [])
+      .map(token => token.trim())
+      .filter(Boolean);
+
+    if (!filteredTokens.length) {
+      container.textContent = text;
+      return;
+    }
+
+    const escapedTokens = filteredTokens
+      .map(token => this.escapeForRegex(token))
+      .filter(Boolean);
+
+    if (!escapedTokens.length) {
+      container.textContent = text;
+      return;
+    }
+
+    const pattern = new RegExp(`(${escapedTokens.join('|')})`, 'gi');
+    let lastIndex = 0;
+    let match;
+
+    while ((match = pattern.exec(text)) !== null) {
+      if (match.index > lastIndex) {
+        container.appendChild(document.createTextNode(text.slice(lastIndex, match.index)));
+      }
+
+      const mark = document.createElement('mark');
+      mark.textContent = match[0];
+      container.appendChild(mark);
+
+      lastIndex = pattern.lastIndex;
+    }
+
+    if (lastIndex < text.length) {
+      container.appendChild(document.createTextNode(text.slice(lastIndex)));
+    }
+  }
+
+  tokenizeQuery(query) {
+    if (!query) return [];
+    return query
+      .split(/\s+/)
+      .map(term => term.trim())
+      .filter(Boolean);
+  }
+
+  escapeForLunr(term) {
+    return term
+      .replace(/\\/g, '\\\\')
+      .replace(/&&/g, '\\&&')
+      .replace(/\|\|/g, '\\||')
+      .replace(/[-^~*+!:"']/g, match => `\\${match}`);
+  }
+
+  escapeForRegex(term) {
+    return term.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
   }
 
   showSearchResults() {
@@ -291,8 +402,11 @@ class SiteSearch {
   hideSearchResults() {
     if (this.searchOverlay) {
       this.searchOverlay.classList.remove('active');
-      document.body.style.overflow = '';
     }
+    if (this.searchResults) {
+      this.searchResults.innerHTML = '';
+    }
+    document.body.style.overflow = '';
   }
 
   debounce(func, wait) {
@@ -305,6 +419,16 @@ class SiteSearch {
       clearTimeout(timeout);
       timeout = setTimeout(later, wait);
     };
+  }
+
+  buildUrl(path) {
+    const normalizedPath = path.startsWith('/') ? path : `/${path}`;
+    if (!this.baseUrl) {
+      return normalizedPath;
+    }
+
+    const trimmedBase = this.baseUrl.endsWith('/') ? this.baseUrl.slice(0, -1) : this.baseUrl;
+    return `${trimmedBase}${normalizedPath}`;
   }
 }
 

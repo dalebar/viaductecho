@@ -2,30 +2,40 @@ class InfiniteScroll {
   constructor() {
     this.postsContainer = document.querySelector('#posts-container');
     this.loadingIndicator = document.querySelector('#loading-indicator');
+
+    if (!this.postsContainer) {
+      return;
+    }
+
     this.posts = [];
     this.currentIndex = 0;
     this.postsPerLoad = 12;
     this.isLoading = false;
     this.hasMorePosts = true;
+    this.featuredPosts = [];
+    this.regularPosts = [];
+    this.baseUrl = (document.documentElement && document.documentElement.dataset && document.documentElement.dataset.baseurl) || '';
 
     this.init();
   }
 
   async init() {
-    // Load all posts data
     try {
-      const response = await fetch('/api/posts.json');
-      const data = await response.json();
-      this.posts = data.posts;
+      const response = await fetch(this.buildUrl('/api/posts.json'), {
+        credentials: 'same-origin'
+      });
 
-      // Separate featured posts
+      if (!response.ok) {
+        throw new Error(`Posts request failed with status ${response.status}`);
+      }
+
+      const data = await response.json();
+      this.posts = Array.isArray(data.posts) ? data.posts : [];
+
       this.featuredPosts = this.posts.filter(post => post.featured);
       this.regularPosts = this.posts.filter(post => !post.featured);
 
-      // Load initial posts
       this.loadInitialPosts();
-
-      // Set up scroll listener
       this.setupScrollListener();
     } catch (error) {
       console.error('Failed to load posts:', error);
@@ -34,11 +44,9 @@ class InfiniteScroll {
   }
 
   loadInitialPosts() {
-    // Clear existing posts (except featured)
     const existingPosts = this.postsContainer.querySelectorAll('.regular-post');
     existingPosts.forEach(post => post.remove());
 
-    // Load first batch of regular posts
     this.loadMorePosts();
   }
 
@@ -48,7 +56,6 @@ class InfiniteScroll {
     this.isLoading = true;
     this.showLoading();
 
-    // Simulate network delay for better UX
     setTimeout(() => {
       const endIndex = Math.min(this.currentIndex + this.postsPerLoad, this.regularPosts.length);
       const postsToLoad = this.regularPosts.slice(this.currentIndex, endIndex);
@@ -63,7 +70,6 @@ class InfiniteScroll {
       this.hideLoading();
       this.isLoading = false;
 
-      // Apply lazy loading to new images
       this.applyLazyLoading();
     }, 500);
   }
@@ -72,26 +78,79 @@ class InfiniteScroll {
     const postElement = document.createElement('div');
     postElement.className = 'col-12 col-md-6 col-lg-4 mb-4 regular-post';
 
-    postElement.innerHTML = `
-      <div class="card">
-        <a href="${post.url}">
-          ${post.image ? `<img class="rounded mb-4" data-src="${post.image}" alt="${post.title}" loading="lazy">` : ''}
-        </a>
-        <div class="card-block">
-          <h2 class="card-title h4 serif-font"><a href="${post.url}">${post.title}</a></h2>
-          <p class="card-text text-muted">${post.excerpt}</p>
-          <div class="metafooter">
-            <div class="wrapfooter small d-flex align-items-center">
-              <span class="author-meta">
-                By <span class="post-name">${post.author},</span>
-                on <span class="post-date">${post.date}</span>
-              </span>
-              <div class="clearfix"></div>
-            </div>
-          </div>
-        </div>
-      </div>
-    `;
+    const card = document.createElement('div');
+    card.className = 'card';
+
+    const link = document.createElement('a');
+    link.href = post.url || '#';
+
+    if (post.image) {
+      const img = document.createElement('img');
+      img.className = 'rounded mb-4';
+      img.setAttribute('data-src', post.image);
+      img.alt = post.title || 'Post image';
+      img.loading = 'lazy';
+      link.appendChild(img);
+    }
+
+    card.appendChild(link);
+
+    const cardBlock = document.createElement('div');
+    cardBlock.className = 'card-block';
+
+    const titleHeading = document.createElement('h2');
+    titleHeading.className = 'card-title h4 serif-font';
+
+    const titleLink = document.createElement('a');
+    titleLink.href = post.url || '#';
+    titleLink.textContent = post.title || 'Untitled';
+
+    titleHeading.appendChild(titleLink);
+    cardBlock.appendChild(titleHeading);
+
+    if (post.excerpt) {
+      const excerpt = document.createElement('p');
+      excerpt.className = 'card-text text-muted';
+      excerpt.textContent = post.excerpt;
+      cardBlock.appendChild(excerpt);
+    }
+
+    const metaFooter = document.createElement('div');
+    metaFooter.className = 'metafooter';
+
+    const wrapFooter = document.createElement('div');
+    wrapFooter.className = 'wrapfooter small d-flex align-items-center';
+
+    const authorMeta = document.createElement('span');
+    authorMeta.className = 'author-meta';
+
+    const authorName = post.author || '';
+
+    authorMeta.appendChild(document.createTextNode('By '));
+
+    const nameSpan = document.createElement('span');
+    nameSpan.className = 'post-name';
+    nameSpan.textContent = authorName ? `${authorName},` : '';
+    authorMeta.appendChild(nameSpan);
+
+    authorMeta.appendChild(document.createTextNode(' on '));
+
+    const dateSpan = document.createElement('span');
+    dateSpan.className = 'post-date';
+    dateSpan.textContent = post.date || '';
+    authorMeta.appendChild(dateSpan);
+
+    wrapFooter.appendChild(authorMeta);
+
+    const clearfix = document.createElement('div');
+    clearfix.className = 'clearfix';
+    wrapFooter.appendChild(clearfix);
+
+    metaFooter.appendChild(wrapFooter);
+    cardBlock.appendChild(metaFooter);
+
+    card.appendChild(cardBlock);
+    postElement.appendChild(card);
 
     this.postsContainer.appendChild(postElement);
   }
@@ -115,7 +174,6 @@ class InfiniteScroll {
     const windowHeight = window.innerHeight;
     const documentHeight = document.documentElement.scrollHeight;
 
-    // Load more when user is 200px from bottom
     if (scrollTop + windowHeight >= documentHeight - 200) {
       this.loadMorePosts();
     }
@@ -133,7 +191,6 @@ class InfiniteScroll {
             img.removeAttribute('data-src');
             observer.unobserve(img);
 
-            // Add fade-in effect
             img.style.opacity = '0';
             img.onload = () => {
               img.style.transition = 'opacity 0.3s';
@@ -145,7 +202,6 @@ class InfiniteScroll {
 
       images.forEach(img => imageObserver.observe(img));
     } else {
-      // Fallback for older browsers
       images.forEach(img => {
         img.src = img.dataset.src;
         img.removeAttribute('data-src');
@@ -168,13 +224,31 @@ class InfiniteScroll {
   showError() {
     const errorElement = document.createElement('div');
     errorElement.className = 'col-12 text-center';
-    errorElement.innerHTML = `
-      <div class="alert alert-danger" role="alert">
-        <h4>Unable to load posts</h4>
-        <p>Please refresh the page and try again.</p>
-      </div>
-    `;
+
+    const alert = document.createElement('div');
+    alert.className = 'alert alert-danger';
+    alert.setAttribute('role', 'alert');
+
+    const heading = document.createElement('h4');
+    heading.textContent = 'Unable to load posts';
+    const message = document.createElement('p');
+    message.textContent = 'Please refresh the page and try again.';
+
+    alert.appendChild(heading);
+    alert.appendChild(message);
+    errorElement.appendChild(alert);
+
     this.postsContainer.appendChild(errorElement);
+  }
+
+  buildUrl(path) {
+    const normalizedPath = path.startsWith('/') ? path : `/${path}`;
+    if (!this.baseUrl) {
+      return normalizedPath;
+    }
+
+    const trimmedBase = this.baseUrl.endsWith('/') ? this.baseUrl.slice(0, -1) : this.baseUrl;
+    return `${trimmedBase}${normalizedPath}`;
   }
 }
 
