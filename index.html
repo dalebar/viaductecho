@@ -4,38 +4,35 @@ title: "Viaduct Echo"
 background: assets/images/viaduct-banner.jpg
 ---
 
-<!-- Featured
+<!-- Featured Posts
 ================================================== -->
-<section class="row">
-  {% for post in site.posts %}
-      {% if post.featured == true %}
-          <div class="col-md-4 mb-4">
-          {% include postbox.html %}
-          </div>
-      {% endif %}
-  {% endfor %}
+{% assign featured_posts = site.posts | where: "featured", true %}
+{% if featured_posts.size > 0 %}
+<section class="row mb-4">
+  <div class="col-12">
+    <h2 class="h4 mb-3">Featured Stories</h2>
   </div>
+  {% for post in featured_posts %}
+    <div class="col-md-4 mb-4">
+      {% include postbox-lazy.html %}
+    </div>
+  {% endfor %}
+</section>
+{% endif %}
+
+<!-- All Posts with Infinite Scroll
+================================================== -->
+<section class="row" id="posts-container">
+  <!-- Initial posts will be loaded here by JavaScript -->
 </section>
 
-<!-- Posts List with Sidebar (except featured)
-================================================== -->
-<section class="row">
-
-    <div class="row">
-      {% for post in paginator.posts %}
-      {% unless post.featured == true %}
-      <div class="col-12 col-md-6 col-lg-4 mb-4">
-        {% include postbox.html %}
+<!-- Loading Indicator -->
+<div class="row">
+  <div class="col-12 text-center">
+    <div id="loading-indicator" style="display: none;">
+      <div class="spinner-border text-primary" role="status">
+        <span class="visually-hidden">Loading more stories...</span>
       </div>
-      {% endunless %}
-      {% endfor %}
     </div>
-    <!-- Pagination -->
-    <div class="bottompagination">
-      <span class="navigation" role="navigation">
-          {% include pagination.html %}
-      </span>
-    </div>
-
-
+  </div>
 </section>

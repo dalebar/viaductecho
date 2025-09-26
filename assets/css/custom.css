@@ -305,6 +305,32 @@ img.rounded.mb-4 {
   margin: 0 auto;
 }
 
+/* Infinite Scroll & Lazy Loading Styles */
+#loading-indicator {
+  padding: 2rem 0;
+}
+
+.spinner-border {
+  width: 2rem;
+  height: 2rem;
+}
+
+img[data-src] {
+  opacity: 0.3;
+  transition: opacity 0.3s ease;
+}
+
+img[data-src].loaded {
+  opacity: 1;
+}
+
+/* Section headings */
+section h2.h4 {
+  color: #1b2021;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+}
+
 /* Footer Styles */
 
 footer.container-fluid.text-center {
