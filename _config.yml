@@ -14,10 +14,10 @@ plugins:
   - jekyll-sitemap
 
 permalink: "/:title/"
-paginate: 10                 
+paginate: 24                 
 paginate_path: "/page:num/"  
 
-logo: "assets/images/logo.png"
+logo: "assets/images/logo.svg"
 favicon: "assets/images/favicon.ico"
 
 authors:

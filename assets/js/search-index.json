@@ -1,0 +1,52 @@
+---
+layout: null
+---
+{
+  "posts": [
+    {% for post in site.posts %}
+    {
+      "id": {{ forloop.index | jsonify }},
+      "title": {{ post.title | jsonify }},
+      "url": {{ post.url | relative_url | jsonify }},
+      "content": {{ post.content | strip_html | strip_newlines | truncatewords: 50 | jsonify }},
+      "excerpt": {{ post.excerpt | strip_html | strip_newlines | jsonify }},
+      "date": {{ post.date | date: "%B %d, %Y" | jsonify }},
+      "timestamp": {{ post.date | date: "%Y-%m-%d" | jsonify }},
+      "author": {% if post.author %}"{{ site.authors[post.author].display_name }}"{% else %}"{{ site.author }}"{% endif %},
+      "categories": {{ post.categories | jsonify }},
+      "tags": {{ post.tags | jsonify }},
+      "featured": {% if post.featured %}true{% else %}false{% endif %},
+      "type": "post"
+    }{% unless forloop.last %},{% endunless %}
+    {% endfor %}
+  ],
+  "pages": [
+    {
+      "id": 100,
+      "title": "Stockport Events",
+      "url": "/events/",
+      "content": "Discover what's happening around Stockport - from community gatherings to cultural celebrations. Upcoming local events and festivals, community meetings and workshops, cultural performances and exhibitions, sports events and competitions, market days and special offers.",
+      "excerpt": "Discover what's happening around Stockport - from community gatherings to cultural celebrations.",
+      "type": "page",
+      "section": "events"
+    },
+    {
+      "id": 101,
+      "title": "Stockport Directory",
+      "url": "/places/",
+      "content": "Your comprehensive guide to local businesses, services, and places of interest in Stockport. Restaurants, cafes, and pubs, shops and retail outlets, professional services, healthcare providers, entertainment venues, community organizations.",
+      "excerpt": "Your comprehensive guide to local businesses, services, and places of interest in Stockport.",
+      "type": "page",
+      "section": "places"
+    },
+    {
+      "id": 102,
+      "title": "Local Offers & Deals",
+      "url": "/offers/",
+      "content": "Exclusive discounts and special offers from Stockport businesses for our community. Restaurant and cafe discounts, retail promotions and sales, service provider special offers, event tickets and group deals, seasonal promotions, member-exclusive discounts.",
+      "excerpt": "Exclusive discounts and special offers from Stockport businesses for our community.",
+      "type": "page",
+      "section": "offers"
+    }
+  ]
+}
