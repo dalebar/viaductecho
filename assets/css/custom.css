@@ -349,6 +349,23 @@ body.page-home .navbar-toggler {
   display: none;
 }
 
+/* Hide sidebar and burger menu on post pages */
+body.layout-post .docs-sidebar {
+  display: none;
+}
+
+body.layout-post .docs-content {
+  margin-left: 0;
+}
+
+body.layout-post footer.container-fluid.text-center {
+  margin-left: 0;
+}
+
+body.layout-post .navbar-toggler {
+  display: none;
+}
+
 /* Footer Styles */
 
 footer.container-fluid.text-center {

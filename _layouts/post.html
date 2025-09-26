@@ -8,31 +8,18 @@ post_class: post-template
 <!-- Begin Article
 ================================================== -->
 
-	<div class="row">
+	<div class="row justify-content-center">
 
-		<!-- Post -->        
+		<!-- Post -->
         {% assign author = site.authors[page.author] %}
-        
-		<div class="col-sm-8">
-            
-			<div class="mainheading">             
-                
-                <!-- Post Categories -->
-                <div class="after-post-tags">
-                    <ul class="tags">
-                        {% assign sortedCategories = page.categories | sort %}
-                        {% for category in sortedCategories %}
-                        <li>
-                         <a href="{{ site.baseurl }}/categories#{{ category | slugify }}">{{ category }}</a>
-                        </li>
-                        {% endfor %}
-                    </ul>
-                </div>
-                <!-- End Categories -->
-                
+
+		<div class="col-lg-8 col-xl-6">
+
+			<div class="mainheading">
+
                 <!-- Post Title -->
-				<h1 class="posttitle">{{ page.title }}</h1> 
-                
+				<h1 class="posttitle">{{ page.title }}</h1>
+
 			</div>
 
 			
@@ -73,10 +60,6 @@ post_class: post-template
 		</div>
 		<!-- End Post -->
 
-        <!-- Sidebar -->
-        <div class="col-sm-4">
-            {% include sidebar.html %}
-            </div>
 	</div>
 
 <!-- End Article
