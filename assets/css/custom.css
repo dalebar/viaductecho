@@ -331,6 +331,24 @@ section h2.h4 {
   margin-bottom: 1.5rem;
 }
 
+/* Hide sidebar on homepage */
+body.page-home .docs-sidebar {
+  display: none;
+}
+
+body.page-home .docs-content {
+  margin-left: 0;
+}
+
+body.page-home footer.container-fluid.text-center {
+  margin-left: 0;
+}
+
+/* Hide burger menu on homepage for medium and small screens */
+body.page-home .navbar-toggler {
+  display: none;
+}
+
 /* Footer Styles */
 
 footer.container-fluid.text-center {
