@@ -64,6 +64,13 @@
   color: #f7f7ff;
 }
 
+/* Hide burger menu on medium screens (768px - 991.98px) but keep it on small screens */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .navbar-toggler {
+    display: none;
+  }
+}
+
 .navbar-toggler:focus {
   box-shadow: none;
 }
