@@ -579,20 +579,6 @@ mark {
   font-weight: 600;
 }
 
-/* Medium screens - reposition Download App link */
-@media (min-width: 769px) and (max-width: 991.98px) {
-  .navbar-nav.ms-auto {
-    position: absolute;
-    left: 212px;
-    top: 50%;
-    transform: translateY(-50%);
-  }
-
-  .search-absolute-right {
-    right: 1rem;
-  }
-}
-
 /* Mobile responsive */
 @media (max-width: 768px) {
   .search-input {
