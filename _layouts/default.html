@@ -64,7 +64,6 @@ gtag('config', '{{site.ganalytics}}');
         </a>
         <a href="{{ '/events/' | relative_url }}" class="section-tab {% if page.url contains '/events/' %}active{% endif %}">
           Events
-          <span class="tab-badge">Coming Soon</span>
         </a>
         <a href="{{ '/places/' | relative_url }}" class="section-tab {% if page.url contains '/places/' %}active{% endif %}">
           Places
@@ -114,13 +113,10 @@ gtag('config', '{{site.ganalytics}}');
         {% elsif page.url contains '/events/' %}
           <ul class="nav-subsections">
             <li class="nav-subsection">
-              <a href="#upcoming" class="nav-subsection-link active">Upcoming Events</a>
+              <a href="{{ '/events/' | relative_url }}" class="nav-subsection-link {% if page.url == '/events/' %}active{% endif %}">All Events</a>
             </li>
             <li class="nav-subsection">
-              <a href="#categories" class="nav-subsection-link">Event Categories</a>
-            </li>
-            <li class="nav-subsection">
-              <a href="#venues" class="nav-subsection-link">Venues</a>
+              <a href="{{ '/events/calendar/' | relative_url }}" class="nav-subsection-link {% if page.url contains '/events/calendar/' %}active{% endif %}">Calendar View</a>
             </li>
           </ul>
         {% elsif page.url contains '/directory/' %}
