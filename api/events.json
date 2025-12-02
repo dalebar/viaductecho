@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-12-02T18:03:48.828553",
+  "generated_at": "2025-12-02T19:24:58.330478",
   "events": [
     {
       "id": 930,
@@ -322,26 +322,6 @@
       "ticket_url": "https://www.skiddle.com/whats-on/Stockport/Holy-Diver/System-of-a-Down---BYOB/41498367/"
     },
     {
-      "id": 943,
-      "title": "Muslim Marriage Events Manchester - 2 Age Groups",
-      "slug": "muslim-marriage-events-manchester-2-age-groups-2025-12-07",
-      "start_datetime": "2025-12-07T11:30:00+00:00",
-      "venue": {
-        "id": 282,
-        "name": "Royal Nawaab Pyramid",
-        "slug": "royal-nawaab-pyramid",
-        "town": "Stockport",
-        "postcode": "SK2 2JU",
-        "venue_type": null
-      },
-      "event_type": "other",
-      "image_url": "https://d31fr2pwly4c4s.cloudfront.net/4/c/3/2141983_f778a8e1_muslim-marriage-events-manchester-2-age-groups.jpg",
-      "price_min": null,
-      "price_max": null,
-      "is_free": false,
-      "ticket_url": "https://www.skiddle.com/whats-on/Stockport/Royal-Nawaab-Pyramid/Muslim-Marriage-Events-Manchester---2-Age-Groups/41498406/"
-    },
-    {
       "id": 944,
       "title": "Muslim Marriage Events Manchester - Divorcee/Widow Event",
       "slug": "muslim-marriage-events-manchester-divorceewidow-event-2025-12-07",
@@ -360,6 +340,26 @@
       "price_max": null,
       "is_free": false,
       "ticket_url": "https://www.skiddle.com/whats-on/Stockport/Royal-Nawaab-Pyramid/Muslim-Marriage-Events-Manchester---DivorceeWidow-Event/41498405/"
+    },
+    {
+      "id": 943,
+      "title": "Muslim Marriage Events Manchester - 2 Age Groups",
+      "slug": "muslim-marriage-events-manchester-2-age-groups-2025-12-07",
+      "start_datetime": "2025-12-07T11:30:00+00:00",
+      "venue": {
+        "id": 282,
+        "name": "Royal Nawaab Pyramid",
+        "slug": "royal-nawaab-pyramid",
+        "town": "Stockport",
+        "postcode": "SK2 2JU",
+        "venue_type": null
+      },
+      "event_type": "other",
+      "image_url": "https://d31fr2pwly4c4s.cloudfront.net/4/c/3/2141983_f778a8e1_muslim-marriage-events-manchester-2-age-groups.jpg",
+      "price_min": null,
+      "price_max": null,
+      "is_free": false,
+      "ticket_url": "https://www.skiddle.com/whats-on/Stockport/Royal-Nawaab-Pyramid/Muslim-Marriage-Events-Manchester---2-Age-Groups/41498406/"
     },
     {
       "id": 897,
@@ -524,7 +524,7 @@
     {
       "id": 902,
       "title": "10 Years of Microfunk Music with Mystic State",
-      "slug": "10-years-of-microfunk-music-with-mystic-state-2025-12-12",
+      "slug": "10-years-of-microfunk-music-with-mystic-state",
       "start_datetime": "2025-12-12T19:00:00+00:00",
       "venue": {
         "id": 285,
@@ -538,7 +538,7 @@
       "image_url": "https://d31fr2pwly4c4s.cloudfront.net/0/2/6/2147558_a78c72ae_10-years-of-microfunk-music-with-mystic-state.jpg",
       "price_min": null,
       "price_max": null,
-      "is_free": false,
+      "is_free": true,
       "ticket_url": "https://www.skiddle.com/whats-on/Stockport/BRUK/10-Years-of-Microfunk-Music-with-Mystic-State/41585921/"
     },
     {
@@ -582,26 +582,6 @@
       "ticket_url": "https://www.instagram.com/p/DQukQQFjEzS/"
     },
     {
-      "id": 937,
-      "title": "Speed Dating Singles Event - Didsbury - Ages 35-55",
-      "slug": "speed-dating-singles-event-didsbury-ages-35-55-2025-12-15",
-      "start_datetime": "2025-12-15T19:30:00+00:00",
-      "venue": {
-        "id": 290,
-        "name": "Grosvenor G Casino Didsbury",
-        "slug": "grosvenor-g-casino-didsbury",
-        "town": "Didsbury",
-        "postcode": "M20 5PG",
-        "venue_type": null
-      },
-      "event_type": "other",
-      "image_url": "https://d31fr2pwly4c4s.cloudfront.net/a/a/f/2138807_98948949_Speed-Dating-Singles-Event---Didsbury---Ages-35-55.jpg",
-      "price_min": 17.0,
-      "price_max": 17.0,
-      "is_free": false,
-      "ticket_url": "https://www.skiddle.com/whats-on/Manchester/Grosvenor-G-Casino-Didsbury/Speed-Dating-Singles-Event---Didsbury---Ages-35-55/41485622/"
-    },
-    {
       "id": 936,
       "title": "Speed Dating Singles Event - Didsbury - Ages 50-65",
       "slug": "speed-dating-singles-event-didsbury-ages-50-65-2025-12-15",
@@ -620,6 +600,26 @@
       "price_max": 17.0,
       "is_free": false,
       "ticket_url": "https://www.skiddle.com/whats-on/Manchester/Grosvenor-G-Casino-Didsbury/Speed-Dating-Singles-Event---Didsbury---Ages-50-65/41485623/"
+    },
+    {
+      "id": 937,
+      "title": "Speed Dating Singles Event - Didsbury - Ages 35-55",
+      "slug": "speed-dating-singles-event-didsbury-ages-35-55-2025-12-15",
+      "start_datetime": "2025-12-15T19:30:00+00:00",
+      "venue": {
+        "id": 290,
+        "name": "Grosvenor G Casino Didsbury",
+        "slug": "grosvenor-g-casino-didsbury",
+        "town": "Didsbury",
+        "postcode": "M20 5PG",
+        "venue_type": null
+      },
+      "event_type": "other",
+      "image_url": "https://d31fr2pwly4c4s.cloudfront.net/a/a/f/2138807_98948949_Speed-Dating-Singles-Event---Didsbury---Ages-35-55.jpg",
+      "price_min": 17.0,
+      "price_max": 17.0,
+      "is_free": false,
+      "ticket_url": "https://www.skiddle.com/whats-on/Manchester/Grosvenor-G-Casino-Didsbury/Speed-Dating-Singles-Event---Didsbury---Ages-35-55/41485622/"
     },
     {
       "id": 928,
