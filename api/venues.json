@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-12-02T17:51:00.201373",
+  "generated_at": "2025-12-02T18:02:29.561003",
   "venues": [
     {
       "id": 285,
@@ -18,6 +18,24 @@
       "phone": null,
       "image_url": null,
       "source_name": "skiddle"
+    },
+    {
+      "id": 303,
+      "name": "Bohemian Bus Caf\u00e9",
+      "slug": "bohemian-bus-caf\u00e9",
+      "address_line1": "Calico Lane",
+      "address_line2": "Furness Vale",
+      "town": "High Peak",
+      "postcode": "SK23 7SW",
+      "latitude": 53.3521,
+      "longitude": -1.99142,
+      "description": "Double decker bus cafe, bar & coffee shop in Furness Vale with local produce and veggie/vegan options for brunch & lunch",
+      "venue_type": null,
+      "capacity": null,
+      "website_url": "https://bohemian-bus-caf.square.site/",
+      "phone": null,
+      "image_url": null,
+      "source_name": "manual"
     },
     {
       "id": 295,
@@ -198,6 +216,24 @@
       "phone": null,
       "image_url": null,
       "source_name": "skiddle"
+    },
+    {
+      "id": 302,
+      "name": "SJS Smith Jewellery",
+      "slug": "sjs-smith-jewellery",
+      "address_line1": "20 Little Underbank",
+      "address_line2": "Flat D",
+      "town": "Stockport",
+      "postcode": "SK1 1JT",
+      "latitude": 53.41095,
+      "longitude": -2.15716,
+      "description": null,
+      "venue_type": "shop",
+      "capacity": null,
+      "website_url": "https://sjssmithjewellery.com/",
+      "phone": "07729594632",
+      "image_url": null,
+      "source_name": "manual"
     },
     {
       "id": 279,
@@ -416,5 +452,5 @@
       "source_name": "manual"
     }
   ],
-  "total": 23
+  "total": 25
 }
