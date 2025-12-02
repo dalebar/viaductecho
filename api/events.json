@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-12-02T17:19:03.784953",
+  "generated_at": "2025-12-02T17:24:39.528518",
   "events": [
     {
       "id": 917,
@@ -122,26 +122,6 @@
       "ticket_url": "https://www.skiddle.com/whats-on/Stockport/Holy-Diver/System-of-a-Down---BYOB/41498367/"
     },
     {
-      "id": 899,
-      "title": "Muslim Marriage Events Manchester - Divorcee/Widow Event",
-      "slug": "muslim-marriage-events-manchester-divorceewidow-event-2025-12-07",
-      "start_datetime": "2025-12-07T11:30:00+00:00",
-      "venue": {
-        "id": 282,
-        "name": "Royal Nawaab Pyramid",
-        "slug": "royal-nawaab-pyramid",
-        "town": "Stockport",
-        "postcode": "SK2 2JU",
-        "venue_type": null
-      },
-      "event_type": "other",
-      "image_url": "https://d31fr2pwly4c4s.cloudfront.net/1/6/f/2141982_1fda20b4_muslim-marriage-events-manchester-divorcee-widow-event.jpg",
-      "price_min": null,
-      "price_max": null,
-      "is_free": false,
-      "ticket_url": "https://www.skiddle.com/whats-on/Stockport/Royal-Nawaab-Pyramid/Muslim-Marriage-Events-Manchester---DivorceeWidow-Event/41498405/"
-    },
-    {
       "id": 898,
       "title": "Muslim Marriage Events Manchester - 2 Age Groups",
       "slug": "muslim-marriage-events-manchester-2-age-groups-2025-12-07",
@@ -162,24 +142,24 @@
       "ticket_url": "https://www.skiddle.com/whats-on/Stockport/Royal-Nawaab-Pyramid/Muslim-Marriage-Events-Manchester---2-Age-Groups/41498406/"
     },
     {
-      "id": 920,
-      "title": "Pinoy Kitchen Take-Over",
-      "slug": "pinoy-kitchen-take-over-2025-12-07",
-      "start_datetime": "2025-12-07T14:00:00+00:00",
+      "id": 927,
+      "title": "Muslim Marriage Events Manchester - Divorcee/Widow Event",
+      "slug": "muslim-marriage-events-manchester-divorceewidow-event-2025-12-07",
+      "start_datetime": "2025-12-07T11:30:00+00:00",
       "venue": {
-        "id": 294,
-        "name": "Red Bull",
-        "slug": "red-bull",
+        "id": 282,
+        "name": "Royal Nawaab Pyramid",
+        "slug": "royal-nawaab-pyramid",
         "town": "Stockport",
-        "postcode": "SK1 3AY",
-        "venue_type": "pub"
+        "postcode": "SK2 2JU",
+        "venue_type": null
       },
       "event_type": "other",
-      "image_url": "https://api.viaductecho.info/static/event_images/1c3c9a80-33b0-4f9d-8dd2-3247e01ee393.png",
+      "image_url": "https://d31fr2pwly4c4s.cloudfront.net/1/6/f/2141982_1fda20b4_muslim-marriage-events-manchester-divorcee-widow-event.jpg",
       "price_min": null,
       "price_max": null,
-      "is_free": true,
-      "ticket_url": "https://www.instagram.com/cookingwithmamaz/p/DRNUDKLjb5o/"
+      "is_free": false,
+      "ticket_url": "https://www.skiddle.com/whats-on/Stockport/Royal-Nawaab-Pyramid/Muslim-Marriage-Events-Manchester---DivorceeWidow-Event/41498405/"
     },
     {
       "id": 897,
@@ -382,24 +362,24 @@
       "ticket_url": "https://www.skiddle.com/whats-on/Stockport/Holy-Diver/KISS-Dressed-to-Kill/41600332/"
     },
     {
-      "id": 916,
-      "title": "Christmas Craft Fair",
-      "slug": "christmas-craft-fair-2025-12-14",
-      "start_datetime": "2025-12-14T10:00:00+00:00",
+      "id": 926,
+      "title": "Stockport Does Gothmas",
+      "slug": "stockport-does-gothmas-2025-12-14",
+      "start_datetime": "2025-12-14T12:00:00+00:00",
       "venue": {
-        "id": 292,
-        "name": "Stockport Market Hall",
-        "slug": "stockport-market-hall",
+        "id": 281,
+        "name": "Stockport Masonic Guildhall",
+        "slug": "stockport-masonic-guildhall",
         "town": "Stockport",
-        "postcode": "SK1 1EU",
-        "venue_type": "market"
+        "postcode": "SK1 3UA",
+        "venue_type": null
       },
-      "event_type": "community",
-      "image_url": null,
+      "event_type": "other",
+      "image_url": "https://api.viaductecho.info/static/event_images/8933889c-4efb-4803-9de8-c394497da50a.png",
       "price_min": null,
       "price_max": null,
       "is_free": true,
-      "ticket_url": "https://viaductecho.info/events"
+      "ticket_url": "https://www.instagram.com/p/DQukQQFjEzS/"
     },
     {
       "id": 913,
@@ -622,5 +602,5 @@
       "ticket_url": "https://www.skiddle.com/whats-on/Manchester/The-Talleyrand/Comedy-at-the-Talleyrand/41421338/"
     }
   ],
-  "total": 31
+  "total": 30
 }
