@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-12-02T16:50:45.547202",
+  "generated_at": "2025-12-02T17:01:50.987999",
   "venues": [
     {
       "id": 285,
@@ -254,6 +254,24 @@
       "source_name": "skiddle"
     },
     {
+      "id": 296,
+      "name": "The Blossoms",
+      "slug": "the-blossoms",
+      "address_line1": "2 Buxton Road",
+      "address_line2": null,
+      "town": "Stockport",
+      "postcode": "SK2 6NU",
+      "latitude": 53.3989,
+      "longitude": -2.15252,
+      "description": "Award-winning community pub",
+      "venue_type": "pub",
+      "capacity": null,
+      "website_url": null,
+      "phone": null,
+      "image_url": null,
+      "source_name": "manual"
+    },
+    {
       "id": 289,
       "name": "The Talleyrand",
       "slug": "the-talleyrand",
@@ -308,5 +326,5 @@
       "source_name": "manual"
     }
   ],
-  "total": 17
+  "total": 18
 }
