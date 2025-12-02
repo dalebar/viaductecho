@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-12-02T17:51:00.201373",
+  "generated_at": "2025-12-02T18:02:29.561003",
   "events": [
     {
       "id": 930,
@@ -42,26 +42,6 @@
       "ticket_url": null
     },
     {
-      "id": 917,
-      "title": "Pandemonium Wines Wine Tasting",
-      "slug": "pandemonium-wines-wine-tasting",
-      "start_datetime": "2025-12-03T17:00:00+00:00",
-      "venue": {
-        "id": 285,
-        "name": "BRUK",
-        "slug": "bruk",
-        "town": "Stockport",
-        "postcode": "SK1 1JT",
-        "venue_type": null
-      },
-      "event_type": "other",
-      "image_url": "https://api.viaductecho.info/static/event_images/9fec03ea-5b4b-4a4e-9672-c728687c4edf.png",
-      "price_min": null,
-      "price_max": null,
-      "is_free": true,
-      "ticket_url": "https://www.instagram.com/brukunderbank/"
-    },
-    {
       "id": 932,
       "title": "Youth Night Double Bill with Local Artist Kat Wood",
       "slug": "youth-night-double-bill-with-local-artist-kat-wood-2025-12-03",
@@ -82,6 +62,26 @@
       "ticket_url": "https://www.stockrm.org/events/youth-night-double-bill?date=2025-12-03"
     },
     {
+      "id": 917,
+      "title": "Pandemonium Wines Wine Tasting",
+      "slug": "pandemonium-wines-wine-tasting",
+      "start_datetime": "2025-12-03T17:00:00+00:00",
+      "venue": {
+        "id": 285,
+        "name": "BRUK",
+        "slug": "bruk",
+        "town": "Stockport",
+        "postcode": "SK1 1JT",
+        "venue_type": null
+      },
+      "event_type": "other",
+      "image_url": "https://api.viaductecho.info/static/event_images/9fec03ea-5b4b-4a4e-9672-c728687c4edf.png",
+      "price_min": null,
+      "price_max": null,
+      "is_free": true,
+      "ticket_url": "https://www.instagram.com/brukunderbank/"
+    },
+    {
       "id": 933,
       "title": "Women in Creativity with Alabaster Queen & DJ Sandra D",
       "slug": "women-in-creativity-with-alabaster-queen-dj-sandra-d-2025-12-03",
@@ -100,6 +100,26 @@
       "price_max": null,
       "is_free": true,
       "ticket_url": "https://www.stockrm.org/events/wic-festive?date=2025-12-03"
+    },
+    {
+      "id": 942,
+      "title": "Wreath Workshop",
+      "slug": "wreath-workshop-2025-12-03",
+      "start_datetime": "2025-12-03T18:00:00+00:00",
+      "venue": {
+        "id": 303,
+        "name": "Bohemian Bus Caf\u00e9",
+        "slug": "bohemian-bus-caf\u00e9",
+        "town": "High Peak",
+        "postcode": "SK23 7SW",
+        "venue_type": null
+      },
+      "event_type": "community",
+      "image_url": "https://api.viaductecho.info/static/event_images/f6735a9e-733d-4abf-805d-2b6881affb35.png",
+      "price_min": 50.0,
+      "price_max": 50.0,
+      "is_free": false,
+      "ticket_url": "https://www.instagram.com/bohemianbuscafe/"
     },
     {
       "id": 909,
@@ -242,6 +262,26 @@
       "ticket_url": "https://www.skiddle.com/whats-on/Stockport/Stockport-Garrick-Theatre/Live-Comedy---Friday-5th-December/40867995/"
     },
     {
+      "id": 941,
+      "title": "Christmas Bauble Workshop",
+      "slug": "christmas-bauble-workshop-2025-12-06",
+      "start_datetime": "2025-12-06T10:00:00+00:00",
+      "venue": {
+        "id": 302,
+        "name": "SJS Smith Jewellery",
+        "slug": "sjs-smith-jewellery",
+        "town": "Stockport",
+        "postcode": "SK1 1JT",
+        "venue_type": "shop"
+      },
+      "event_type": "music",
+      "image_url": "https://api.viaductecho.info/static/event_images/dd6852c8-9aa2-44d4-b083-04042d190903.png",
+      "price_min": 65.0,
+      "price_max": 65.0,
+      "is_free": false,
+      "ticket_url": "https://sjssmithjewellery.com/product-category/silver-jewellery-classes/christmas-bauble-making-workshop/"
+    },
+    {
       "id": 929,
       "title": "Stockport Zine & Print Fair",
       "slug": "stockport-zine-print-fair",
@@ -282,26 +322,6 @@
       "ticket_url": "https://www.skiddle.com/whats-on/Stockport/Holy-Diver/System-of-a-Down---BYOB/41498367/"
     },
     {
-      "id": 934,
-      "title": "Muslim Marriage Events Manchester - 2 Age Groups",
-      "slug": "muslim-marriage-events-manchester-2-age-groups-2025-12-07",
-      "start_datetime": "2025-12-07T11:30:00+00:00",
-      "venue": {
-        "id": 282,
-        "name": "Royal Nawaab Pyramid",
-        "slug": "royal-nawaab-pyramid",
-        "town": "Stockport",
-        "postcode": "SK2 2JU",
-        "venue_type": null
-      },
-      "event_type": "other",
-      "image_url": "https://d31fr2pwly4c4s.cloudfront.net/4/c/3/2141983_f778a8e1_muslim-marriage-events-manchester-2-age-groups.jpg",
-      "price_min": null,
-      "price_max": null,
-      "is_free": false,
-      "ticket_url": "https://www.skiddle.com/whats-on/Stockport/Royal-Nawaab-Pyramid/Muslim-Marriage-Events-Manchester---2-Age-Groups/41498406/"
-    },
-    {
       "id": 935,
       "title": "Muslim Marriage Events Manchester - Divorcee/Widow Event",
       "slug": "muslim-marriage-events-manchester-divorceewidow-event-2025-12-07",
@@ -320,6 +340,26 @@
       "price_max": null,
       "is_free": false,
       "ticket_url": "https://www.skiddle.com/whats-on/Stockport/Royal-Nawaab-Pyramid/Muslim-Marriage-Events-Manchester---DivorceeWidow-Event/41498405/"
+    },
+    {
+      "id": 934,
+      "title": "Muslim Marriage Events Manchester - 2 Age Groups",
+      "slug": "muslim-marriage-events-manchester-2-age-groups-2025-12-07",
+      "start_datetime": "2025-12-07T11:30:00+00:00",
+      "venue": {
+        "id": 282,
+        "name": "Royal Nawaab Pyramid",
+        "slug": "royal-nawaab-pyramid",
+        "town": "Stockport",
+        "postcode": "SK2 2JU",
+        "venue_type": null
+      },
+      "event_type": "other",
+      "image_url": "https://d31fr2pwly4c4s.cloudfront.net/4/c/3/2141983_f778a8e1_muslim-marriage-events-manchester-2-age-groups.jpg",
+      "price_min": null,
+      "price_max": null,
+      "is_free": false,
+      "ticket_url": "https://www.skiddle.com/whats-on/Stockport/Royal-Nawaab-Pyramid/Muslim-Marriage-Events-Manchester---2-Age-Groups/41498406/"
     },
     {
       "id": 897,
@@ -542,26 +582,6 @@
       "ticket_url": "https://www.instagram.com/p/DQukQQFjEzS/"
     },
     {
-      "id": 936,
-      "title": "Speed Dating Singles Event - Didsbury - Ages 50-65",
-      "slug": "speed-dating-singles-event-didsbury-ages-50-65-2025-12-15",
-      "start_datetime": "2025-12-15T19:30:00+00:00",
-      "venue": {
-        "id": 290,
-        "name": "Grosvenor G Casino Didsbury",
-        "slug": "grosvenor-g-casino-didsbury",
-        "town": "Didsbury",
-        "postcode": "M20 5PG",
-        "venue_type": null
-      },
-      "event_type": "other",
-      "image_url": "https://d31fr2pwly4c4s.cloudfront.net/d/c/1/2138808_44861464_Speed-Dating-Singles-Event---Didsbury---Ages-50-65.jpg",
-      "price_min": 17.0,
-      "price_max": 17.0,
-      "is_free": false,
-      "ticket_url": "https://www.skiddle.com/whats-on/Manchester/Grosvenor-G-Casino-Didsbury/Speed-Dating-Singles-Event---Didsbury---Ages-50-65/41485623/"
-    },
-    {
       "id": 937,
       "title": "Speed Dating Singles Event - Didsbury - Ages 35-55",
       "slug": "speed-dating-singles-event-didsbury-ages-35-55-2025-12-15",
@@ -580,6 +600,26 @@
       "price_max": 17.0,
       "is_free": false,
       "ticket_url": "https://www.skiddle.com/whats-on/Manchester/Grosvenor-G-Casino-Didsbury/Speed-Dating-Singles-Event---Didsbury---Ages-35-55/41485622/"
+    },
+    {
+      "id": 936,
+      "title": "Speed Dating Singles Event - Didsbury - Ages 50-65",
+      "slug": "speed-dating-singles-event-didsbury-ages-50-65-2025-12-15",
+      "start_datetime": "2025-12-15T19:30:00+00:00",
+      "venue": {
+        "id": 290,
+        "name": "Grosvenor G Casino Didsbury",
+        "slug": "grosvenor-g-casino-didsbury",
+        "town": "Didsbury",
+        "postcode": "M20 5PG",
+        "venue_type": null
+      },
+      "event_type": "other",
+      "image_url": "https://d31fr2pwly4c4s.cloudfront.net/d/c/1/2138808_44861464_Speed-Dating-Singles-Event---Didsbury---Ages-50-65.jpg",
+      "price_min": 17.0,
+      "price_max": 17.0,
+      "is_free": false,
+      "ticket_url": "https://www.skiddle.com/whats-on/Manchester/Grosvenor-G-Casino-Didsbury/Speed-Dating-Singles-Event---Didsbury---Ages-50-65/41485623/"
     },
     {
       "id": 928,
@@ -782,5 +822,5 @@
       "ticket_url": "https://www.skiddle.com/whats-on/Manchester/The-Talleyrand/Comedy-at-the-Talleyrand/41421338/"
     }
   ],
-  "total": 39
+  "total": 41
 }
