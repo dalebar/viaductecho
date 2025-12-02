@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-12-02T17:24:39.528518",
+  "generated_at": "2025-12-02T17:30:27.913203",
   "events": [
     {
       "id": 917,
@@ -422,6 +422,26 @@
       "ticket_url": "https://www.skiddle.com/whats-on/Manchester/Grosvenor-G-Casino-Didsbury/Speed-Dating-Singles-Event---Didsbury---Ages-50-65/41485623/"
     },
     {
+      "id": 928,
+      "title": "Film Screening: The Night Of The Hunter",
+      "slug": "film-screening-the-night-of-the-hunter-2025-12-18",
+      "start_datetime": "2025-12-18T18:00:00+00:00",
+      "venue": {
+        "id": 300,
+        "name": "Rare Mags",
+        "slug": "rare-mags",
+        "town": "Stockport",
+        "postcode": "SK1 1JQ",
+        "venue_type": "shop"
+      },
+      "event_type": "arts",
+      "image_url": "https://api.viaductecho.info/static/event_images/ebd94dee-d468-4815-97d2-a02c1ef90b75.png",
+      "price_min": 6.0,
+      "price_max": 6.0,
+      "is_free": false,
+      "ticket_url": "https://raremags.co.uk/collections/featured/products/night-of-the-hunter-1955-18-12-film-night"
+    },
+    {
       "id": 924,
       "title": "Christmas Foodie Friday",
       "slug": "christmas-foodie-friday-2025-12-19",
@@ -602,5 +622,5 @@
       "ticket_url": "https://www.skiddle.com/whats-on/Manchester/The-Talleyrand/Comedy-at-the-Talleyrand/41421338/"
     }
   ],
-  "total": 30
+  "total": 31
 }
