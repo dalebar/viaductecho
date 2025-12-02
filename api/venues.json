@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-12-01T16:19:56.850743",
+  "generated_at": "2025-12-02T10:32:12.077587",
   "venues": [
     {
       "id": 285,
@@ -164,6 +164,24 @@
       "source_name": "skiddle"
     },
     {
+      "id": 292,
+      "name": "Stockport Market Hall",
+      "slug": "stockport-market-hall",
+      "address_line1": "Market Place",
+      "address_line2": null,
+      "town": "Stockport",
+      "postcode": "SK1 1EU",
+      "latitude": 53.4083,
+      "longitude": -2.1574,
+      "description": "Historic market hall",
+      "venue_type": "market",
+      "capacity": null,
+      "website_url": null,
+      "phone": null,
+      "image_url": null,
+      "source_name": "manual"
+    },
+    {
       "id": 281,
       "name": "Stockport Masonic Guildhall",
       "slug": "stockport-masonic-guildhall",
@@ -236,5 +254,5 @@
       "source_name": "skiddle"
     }
   ],
-  "total": 13
+  "total": 14
 }

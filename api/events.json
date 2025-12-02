@@ -1,6 +1,26 @@
 {
-  "generated_at": "2025-12-01T16:19:56.850743",
+  "generated_at": "2025-12-02T10:32:12.077587",
   "events": [
+    {
+      "id": 917,
+      "title": "Pandemonium Wines Wine Tasting",
+      "slug": "pandemonium-wines-wine-tasting-2025-12-03",
+      "start_datetime": "2025-12-03T17:00:00+00:00",
+      "venue": {
+        "id": 285,
+        "name": "BRUK",
+        "slug": "bruk",
+        "town": "Stockport",
+        "postcode": "SK1 1JT",
+        "venue_type": null
+      },
+      "event_type": "other",
+      "image_url": "http://localhost:8000/static/event_images/88d302d6-feb3-4806-89c7-d2afdd8d6cad.png",
+      "price_min": null,
+      "price_max": null,
+      "is_free": true,
+      "ticket_url": null
+    },
     {
       "id": 909,
       "title": "Laughs and Draughts - Christmas Special - An evening of stand up",
@@ -242,6 +262,26 @@
       "ticket_url": "https://www.skiddle.com/whats-on/Stockport/Holy-Diver/KISS-Dressed-to-Kill/41600332/"
     },
     {
+      "id": 916,
+      "title": "Christmas Craft Fair",
+      "slug": "christmas-craft-fair-2025-12-14",
+      "start_datetime": "2025-12-14T10:00:00+00:00",
+      "venue": {
+        "id": 292,
+        "name": "Stockport Market Hall",
+        "slug": "stockport-market-hall",
+        "town": "Stockport",
+        "postcode": "SK1 1EU",
+        "venue_type": "market"
+      },
+      "event_type": "community",
+      "image_url": null,
+      "price_min": null,
+      "price_max": null,
+      "is_free": true,
+      "ticket_url": "https://viaductecho.info/events"
+    },
+    {
       "id": 912,
       "title": "Speed Dating Singles Event - Didsbury - Ages 50-65",
       "slug": "speed-dating-singles-event-didsbury-ages-50-65-2025-12-15",
@@ -422,5 +462,5 @@
       "ticket_url": "https://www.skiddle.com/whats-on/Manchester/The-Talleyrand/Comedy-at-the-Talleyrand/41421338/"
     }
   ],
-  "total": 21
+  "total": 23
 }
