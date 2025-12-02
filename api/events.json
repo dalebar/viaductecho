@@ -1,6 +1,66 @@
 {
-  "generated_at": "2025-12-02T17:37:48.040445",
+  "generated_at": "2025-12-02T17:45:50.155712",
   "events": [
+    {
+      "id": 930,
+      "title": "Children's Story Time",
+      "slug": "childrens-story-time-2025-12-03",
+      "start_datetime": "2025-12-03T11:00:00+00:00",
+      "venue": {
+        "id": 301,
+        "name": "Stockroom",
+        "slug": "stockroom",
+        "town": "Stockport",
+        "postcode": "SK1 1PW1",
+        "venue_type": "community space"
+      },
+      "event_type": "family",
+      "image_url": "https://api.viaductecho.info/static/event_images/010d5a1b-6fbd-479e-a1c5-4da386bd39b7.png",
+      "price_min": null,
+      "price_max": null,
+      "is_free": true,
+      "ticket_url": "https://www.stockrm.org/events/weekly-storytime?date=2025-12-03"
+    },
+    {
+      "id": 931,
+      "title": "LEGO Club",
+      "slug": "lego-club-2025-12-03",
+      "start_datetime": "2025-12-03T15:30:00+00:00",
+      "venue": {
+        "id": 301,
+        "name": "Stockroom",
+        "slug": "stockroom",
+        "town": "Stockport",
+        "postcode": "SK1 1PW1",
+        "venue_type": "community space"
+      },
+      "event_type": "other",
+      "image_url": "https://api.viaductecho.info/static/event_images/6c9d2133-5f1f-4160-873f-9ba37f30a2c1.png",
+      "price_min": null,
+      "price_max": null,
+      "is_free": true,
+      "ticket_url": null
+    },
+    {
+      "id": 932,
+      "title": "Youth Night Double Bill with Local Artist Kat Wood",
+      "slug": "youth-night-double-bill-with-local-artist-kat-wood-2025-12-03",
+      "start_datetime": "2025-12-03T17:00:00+00:00",
+      "venue": {
+        "id": 301,
+        "name": "Stockroom",
+        "slug": "stockroom",
+        "town": "Stockport",
+        "postcode": "SK1 1PW1",
+        "venue_type": "community space"
+      },
+      "event_type": "music",
+      "image_url": "https://api.viaductecho.info/static/event_images/f4a1a1c5-05ac-41d3-b844-25b34db8cca0.png",
+      "price_min": null,
+      "price_max": null,
+      "is_free": true,
+      "ticket_url": "https://www.stockrm.org/events/youth-night-double-bill?date=2025-12-03"
+    },
     {
       "id": 917,
       "title": "Pandemonium Wines Wine Tasting",
@@ -20,6 +80,26 @@
       "price_max": null,
       "is_free": true,
       "ticket_url": "https://www.instagram.com/brukunderbank/"
+    },
+    {
+      "id": 933,
+      "title": "Women in Creativity with Alabaster Queen & DJ Sandra D",
+      "slug": "women-in-creativity-with-alabaster-queen-dj-sandra-d-2025-12-03",
+      "start_datetime": "2025-12-03T17:30:00+00:00",
+      "venue": {
+        "id": 301,
+        "name": "Stockroom",
+        "slug": "stockroom",
+        "town": "Stockport",
+        "postcode": "SK1 1PW1",
+        "venue_type": "community space"
+      },
+      "event_type": "arts",
+      "image_url": "https://api.viaductecho.info/static/event_images/f33bfc73-c487-44fb-b387-2eccd11b3a9b.png",
+      "price_min": null,
+      "price_max": null,
+      "is_free": true,
+      "ticket_url": "https://www.stockrm.org/events/wic-festive?date=2025-12-03"
     },
     {
       "id": 909,
@@ -142,7 +222,7 @@
       "ticket_url": "https://www.skiddle.com/whats-on/Stockport/Holy-Diver/System-of-a-Down---BYOB/41498367/"
     },
     {
-      "id": 898,
+      "id": 934,
       "title": "Muslim Marriage Events Manchester - 2 Age Groups",
       "slug": "muslim-marriage-events-manchester-2-age-groups-2025-12-07",
       "start_datetime": "2025-12-07T11:30:00+00:00",
@@ -162,7 +242,7 @@
       "ticket_url": "https://www.skiddle.com/whats-on/Stockport/Royal-Nawaab-Pyramid/Muslim-Marriage-Events-Manchester---2-Age-Groups/41498406/"
     },
     {
-      "id": 927,
+      "id": 935,
       "title": "Muslim Marriage Events Manchester - Divorcee/Widow Event",
       "slug": "muslim-marriage-events-manchester-divorceewidow-event-2025-12-07",
       "start_datetime": "2025-12-07T11:30:00+00:00",
@@ -402,7 +482,7 @@
       "ticket_url": "https://www.instagram.com/p/DQukQQFjEzS/"
     },
     {
-      "id": 913,
+      "id": 937,
       "title": "Speed Dating Singles Event - Didsbury - Ages 35-55",
       "slug": "speed-dating-singles-event-didsbury-ages-35-55-2025-12-15",
       "start_datetime": "2025-12-15T19:30:00+00:00",
@@ -422,7 +502,7 @@
       "ticket_url": "https://www.skiddle.com/whats-on/Manchester/Grosvenor-G-Casino-Didsbury/Speed-Dating-Singles-Event---Didsbury---Ages-35-55/41485622/"
     },
     {
-      "id": 912,
+      "id": 936,
       "title": "Speed Dating Singles Event - Didsbury - Ages 50-65",
       "slug": "speed-dating-singles-event-didsbury-ages-50-65-2025-12-15",
       "start_datetime": "2025-12-15T19:30:00+00:00",
@@ -642,5 +722,5 @@
       "ticket_url": "https://www.skiddle.com/whats-on/Manchester/The-Talleyrand/Comedy-at-the-Talleyrand/41421338/"
     }
   ],
-  "total": 32
+  "total": 36
 }
