@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-12-02T17:01:50.987999",
+  "generated_at": "2025-12-02T17:19:03.784953",
   "events": [
     {
       "id": 917,
@@ -262,6 +262,26 @@
       "ticket_url": "https://www.instagram.com/alaughinstockport/"
     },
     {
+      "id": 925,
+      "title": "Share Shop Soir\u00e9e 01",
+      "slug": "share-shop-soir\u00e9e-01-2025-12-11",
+      "start_datetime": "2025-12-11T18:00:00+00:00",
+      "venue": {
+        "id": 299,
+        "name": "What If?",
+        "slug": "what-if",
+        "town": "Stockport",
+        "postcode": "SK3 0BJ",
+        "venue_type": "community space"
+      },
+      "event_type": "music",
+      "image_url": "https://api.viaductecho.info/static/event_images/c19a0e02-ef24-44e1-bb7c-1f5b0243a052.png",
+      "price_min": 5.0,
+      "price_max": 5.0,
+      "is_free": false,
+      "ticket_url": "https://www.instagram.com/p/DRufD_5DKsD/"
+    },
+    {
       "id": 911,
       "title": "Comedy at the Talleyrand",
       "slug": "comedy-at-the-talleyrand-2025-12-11",
@@ -300,6 +320,26 @@
       "price_max": null,
       "is_free": false,
       "ticket_url": "https://www.skiddle.com/whats-on/Stockport/The-Underbank/The-Underbank-Weekender--Friday-12th-December/41592874/"
+    },
+    {
+      "id": 923,
+      "title": "herbal tea and conversation",
+      "slug": "herbal-tea-and-conversation-2025-12-12",
+      "start_datetime": "2025-12-12T18:00:00+00:00",
+      "venue": {
+        "id": 297,
+        "name": "Y\u00f3n Orang\u00e9",
+        "slug": "y\u00f3n-orang\u00e9",
+        "town": "Stockport",
+        "postcode": "SK1 1NE",
+        "venue_type": "cafe"
+      },
+      "event_type": "other",
+      "image_url": "https://api.viaductecho.info/static/event_images/4c0e62ab-bf63-49a8-b8b8-3d4d4a35fbd3.png",
+      "price_min": 22.0,
+      "price_max": 22.0,
+      "is_free": false,
+      "ticket_url": "https://byyonorange.com/products/tea-conversation-by-yon-orange?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMjU2MjgxMDQwNTU4AAGntzdA7CpV2oAIbGjBbMIWElCXfU7jeD2oohUC7RZ2bxizpWMPXsTjorykOeY_aem_6xyidt_8XCo1UQjO16ws-A"
     },
     {
       "id": 902,
@@ -362,6 +402,26 @@
       "ticket_url": "https://viaductecho.info/events"
     },
     {
+      "id": 913,
+      "title": "Speed Dating Singles Event - Didsbury - Ages 35-55",
+      "slug": "speed-dating-singles-event-didsbury-ages-35-55-2025-12-15",
+      "start_datetime": "2025-12-15T19:30:00+00:00",
+      "venue": {
+        "id": 290,
+        "name": "Grosvenor G Casino Didsbury",
+        "slug": "grosvenor-g-casino-didsbury",
+        "town": "Didsbury",
+        "postcode": "M20 5PG",
+        "venue_type": null
+      },
+      "event_type": "other",
+      "image_url": "https://d31fr2pwly4c4s.cloudfront.net/a/a/f/2138807_98948949_Speed-Dating-Singles-Event---Didsbury---Ages-35-55.jpg",
+      "price_min": 17.0,
+      "price_max": 17.0,
+      "is_free": false,
+      "ticket_url": "https://www.skiddle.com/whats-on/Manchester/Grosvenor-G-Casino-Didsbury/Speed-Dating-Singles-Event---Didsbury---Ages-35-55/41485622/"
+    },
+    {
       "id": 912,
       "title": "Speed Dating Singles Event - Didsbury - Ages 50-65",
       "slug": "speed-dating-singles-event-didsbury-ages-50-65-2025-12-15",
@@ -382,24 +442,24 @@
       "ticket_url": "https://www.skiddle.com/whats-on/Manchester/Grosvenor-G-Casino-Didsbury/Speed-Dating-Singles-Event---Didsbury---Ages-50-65/41485623/"
     },
     {
-      "id": 913,
-      "title": "Speed Dating Singles Event - Didsbury - Ages 35-55",
-      "slug": "speed-dating-singles-event-didsbury-ages-35-55-2025-12-15",
-      "start_datetime": "2025-12-15T19:30:00+00:00",
+      "id": 924,
+      "title": "Christmas Foodie Friday",
+      "slug": "christmas-foodie-friday-2025-12-19",
+      "start_datetime": "2025-12-19T18:00:00+00:00",
       "venue": {
-        "id": 290,
-        "name": "Grosvenor G Casino Didsbury",
-        "slug": "grosvenor-g-casino-didsbury",
-        "town": "Didsbury",
-        "postcode": "M20 5PG",
-        "venue_type": null
+        "id": 292,
+        "name": "Stockport Market Hall",
+        "slug": "stockport-market-hall",
+        "town": "Stockport",
+        "postcode": "SK1 1EU",
+        "venue_type": "market"
       },
-      "event_type": "other",
-      "image_url": "https://d31fr2pwly4c4s.cloudfront.net/a/a/f/2138807_98948949_Speed-Dating-Singles-Event---Didsbury---Ages-35-55.jpg",
-      "price_min": 17.0,
-      "price_max": 17.0,
-      "is_free": false,
-      "ticket_url": "https://www.skiddle.com/whats-on/Manchester/Grosvenor-G-Casino-Didsbury/Speed-Dating-Singles-Event---Didsbury---Ages-35-55/41485622/"
+      "event_type": "community",
+      "image_url": "https://api.viaductecho.info/static/event_images/c6386119-e877-4558-8f26-305f000ebdb1.png",
+      "price_min": null,
+      "price_max": null,
+      "is_free": true,
+      "ticket_url": "https://www.instagram.com/p/DRw9jgMCJ__/"
     },
     {
       "id": 904,
@@ -562,5 +622,5 @@
       "ticket_url": "https://www.skiddle.com/whats-on/Manchester/The-Talleyrand/Comedy-at-the-Talleyrand/41421338/"
     }
   ],
-  "total": 28
+  "total": 31
 }
