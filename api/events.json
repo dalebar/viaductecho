@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-12-02T17:30:27.913203",
+  "generated_at": "2025-12-02T17:37:48.040445",
   "events": [
     {
       "id": 917,
@@ -100,6 +100,26 @@
       "price_max": null,
       "is_free": false,
       "ticket_url": "https://www.skiddle.com/whats-on/Stockport/Stockport-Garrick-Theatre/Live-Comedy---Friday-5th-December/40867995/"
+    },
+    {
+      "id": 929,
+      "title": "Stockport Zine & Print Fair",
+      "slug": "stockport-zine-print-fair",
+      "start_datetime": "2025-12-06T11:00:00+00:00",
+      "venue": {
+        "id": 301,
+        "name": "Stockroom",
+        "slug": "stockroom",
+        "town": "Stockport",
+        "postcode": "SK1 1PW1",
+        "venue_type": "community space"
+      },
+      "event_type": "arts",
+      "image_url": "https://api.viaductecho.info/static/event_images/9e5af9ff-cff9-497e-9e73-9756c86c01de.png",
+      "price_min": null,
+      "price_max": null,
+      "is_free": true,
+      "ticket_url": "https://www.stockrm.org/events/winter-zine-and-print?date=2025-12-06"
     },
     {
       "id": 896,
@@ -622,5 +642,5 @@
       "ticket_url": "https://www.skiddle.com/whats-on/Manchester/The-Talleyrand/Comedy-at-the-Talleyrand/41421338/"
     }
   ],
-  "total": 31
+  "total": 32
 }
