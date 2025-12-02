@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-12-02T17:01:50.987999",
+  "generated_at": "2025-12-02T17:19:03.784953",
   "venues": [
     {
       "id": 285,
@@ -200,6 +200,24 @@
       "source_name": "skiddle"
     },
     {
+      "id": 298,
+      "name": "Stockport Indoor Market",
+      "slug": "stockport-indoor-market",
+      "address_line1": "Market Place",
+      "address_line2": null,
+      "town": "Stockport",
+      "postcode": "SK1 1YJ",
+      "latitude": 53.41114,
+      "longitude": -2.15613,
+      "description": "Stockport Indoor Market",
+      "venue_type": "market",
+      "capacity": null,
+      "website_url": null,
+      "phone": null,
+      "image_url": null,
+      "source_name": "manual"
+    },
+    {
       "id": 292,
       "name": "Stockport Market Hall",
       "slug": "stockport-market-hall",
@@ -324,7 +342,43 @@
       "phone": "07729594632",
       "image_url": null,
       "source_name": "manual"
+    },
+    {
+      "id": 299,
+      "name": "What If?",
+      "slug": "what-if",
+      "address_line1": "Hardman Street",
+      "address_line2": null,
+      "town": "Stockport",
+      "postcode": "SK3 0BJ",
+      "latitude": 53.40719,
+      "longitude": -2.16927,
+      "description": "An ideas collective/new community space in the Hollywood Park area of Edgeley in Stockport.",
+      "venue_type": "community space",
+      "capacity": null,
+      "website_url": "https://www.instagram.com/whatif_stockport/",
+      "phone": null,
+      "image_url": null,
+      "source_name": "manual"
+    },
+    {
+      "id": 297,
+      "name": "Y\u00f3n Orang\u00e9",
+      "slug": "y\u00f3n-orang\u00e9",
+      "address_line1": "57 Great Underbank",
+      "address_line2": null,
+      "town": "Stockport",
+      "postcode": "SK1 1NE",
+      "latitude": 53.41091,
+      "longitude": -2.15896,
+      "description": "a little soft space led by a couple for slow hearts and living.\ncoffee, matcha, herbal tea and homey bakes.",
+      "venue_type": "cafe",
+      "capacity": null,
+      "website_url": "https://www.instagram.com/by___yon___orange/",
+      "phone": null,
+      "image_url": null,
+      "source_name": "manual"
     }
   ],
-  "total": 18
+  "total": 21
 }
