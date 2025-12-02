@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-12-02T13:09:09.996249",
+  "generated_at": "2025-12-02T16:50:45.547202",
   "events": [
     {
       "id": 917,
@@ -19,7 +19,7 @@
       "price_min": null,
       "price_max": null,
       "is_free": true,
-      "ticket_url": null
+      "ticket_url": "https://www.instagram.com/brukunderbank/"
     },
     {
       "id": 909,
@@ -180,6 +180,26 @@
       "price_max": null,
       "is_free": false,
       "ticket_url": "https://www.skiddle.com/whats-on/Stockport/Plough-On-The-Moor/Live-at-the-Plough/41496201/"
+    },
+    {
+      "id": 918,
+      "title": "Murder Inc. Presents Toys Were Us",
+      "slug": "murder-inc-presents-toys-were-us-2025-12-10",
+      "start_datetime": "2025-12-10T20:00:00+00:00",
+      "venue": {
+        "id": 293,
+        "name": "Thread",
+        "slug": "thread",
+        "town": "Stockport",
+        "postcode": "SK1 1EU",
+        "venue_type": "bar"
+      },
+      "event_type": "comedy",
+      "image_url": "https://api.viaductecho.info/static/event_images/63bbe03e-fba7-4411-89a9-6a7099781ee3.png",
+      "price_min": null,
+      "price_max": null,
+      "is_free": true,
+      "ticket_url": "https://www.instagram.com/alaughinstockport/"
     },
     {
       "id": 911,
@@ -362,6 +382,26 @@
       "ticket_url": "https://www.skiddle.com/whats-on/Stockport/Holy-Diver/Gothmas-With-Cassyette-DJ-Set/41614441/"
     },
     {
+      "id": 919,
+      "title": "NYE & NYD Fiesta",
+      "slug": "nye-nyd-fiesta-2025-12-31",
+      "start_datetime": "2025-12-31T22:00:00+00:00",
+      "venue": {
+        "id": 294,
+        "name": "Red Bull",
+        "slug": "red-bull",
+        "town": "Stockport",
+        "postcode": "SK1 3AY",
+        "venue_type": "pub"
+      },
+      "event_type": "music",
+      "image_url": "https://api.viaductecho.info/static/event_images/c3b31093-4980-4914-89fa-c54dde3e3437.png",
+      "price_min": null,
+      "price_max": null,
+      "is_free": true,
+      "ticket_url": "https://www.instagram.com/p/DRkcpwXiA5V/"
+    },
+    {
       "id": 906,
       "title": "Jon Fitz Presents - The 1st Dance",
       "slug": "jon-fitz-presents-the-1st-dance-2026-01-01",
@@ -462,5 +502,5 @@
       "ticket_url": "https://www.skiddle.com/whats-on/Manchester/The-Talleyrand/Comedy-at-the-Talleyrand/41421338/"
     }
   ],
-  "total": 23
+  "total": 25
 }
