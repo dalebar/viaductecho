@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-12-02T17:45:50.155712",
+  "generated_at": "2025-12-02T17:51:00.201373",
   "events": [
     {
       "id": 930,
@@ -42,26 +42,6 @@
       "ticket_url": null
     },
     {
-      "id": 932,
-      "title": "Youth Night Double Bill with Local Artist Kat Wood",
-      "slug": "youth-night-double-bill-with-local-artist-kat-wood-2025-12-03",
-      "start_datetime": "2025-12-03T17:00:00+00:00",
-      "venue": {
-        "id": 301,
-        "name": "Stockroom",
-        "slug": "stockroom",
-        "town": "Stockport",
-        "postcode": "SK1 1PW1",
-        "venue_type": "community space"
-      },
-      "event_type": "music",
-      "image_url": "https://api.viaductecho.info/static/event_images/f4a1a1c5-05ac-41d3-b844-25b34db8cca0.png",
-      "price_min": null,
-      "price_max": null,
-      "is_free": true,
-      "ticket_url": "https://www.stockrm.org/events/youth-night-double-bill?date=2025-12-03"
-    },
-    {
       "id": 917,
       "title": "Pandemonium Wines Wine Tasting",
       "slug": "pandemonium-wines-wine-tasting",
@@ -80,6 +60,26 @@
       "price_max": null,
       "is_free": true,
       "ticket_url": "https://www.instagram.com/brukunderbank/"
+    },
+    {
+      "id": 932,
+      "title": "Youth Night Double Bill with Local Artist Kat Wood",
+      "slug": "youth-night-double-bill-with-local-artist-kat-wood-2025-12-03",
+      "start_datetime": "2025-12-03T17:00:00+00:00",
+      "venue": {
+        "id": 301,
+        "name": "Stockroom",
+        "slug": "stockroom",
+        "town": "Stockport",
+        "postcode": "SK1 1PW1",
+        "venue_type": "community space"
+      },
+      "event_type": "music",
+      "image_url": "https://api.viaductecho.info/static/event_images/f4a1a1c5-05ac-41d3-b844-25b34db8cca0.png",
+      "price_min": null,
+      "price_max": null,
+      "is_free": true,
+      "ticket_url": "https://www.stockrm.org/events/youth-night-double-bill?date=2025-12-03"
     },
     {
       "id": 933,
@@ -142,6 +142,46 @@
       "ticket_url": "https://www.instagram.com/p/DMK-tLjiDHG/"
     },
     {
+      "id": 938,
+      "title": "Pages for the Heart",
+      "slug": "pages-for-the-heart-2025-12-04",
+      "start_datetime": "2025-12-04T10:30:00+00:00",
+      "venue": {
+        "id": 301,
+        "name": "Stockroom",
+        "slug": "stockroom",
+        "town": "Stockport",
+        "postcode": "SK1 1PW1",
+        "venue_type": "community space"
+      },
+      "event_type": "arts",
+      "image_url": "https://api.viaductecho.info/static/event_images/1676aa14-1278-4f07-a097-e52d40abe071.png",
+      "price_min": null,
+      "price_max": null,
+      "is_free": true,
+      "ticket_url": "https://www.stockrm.org/events/Pages-for-the%20-Heart%20?date=2025-12-04"
+    },
+    {
+      "id": 939,
+      "title": "Stockroom Screening: Pride (2014)",
+      "slug": "stockroom-screening-pride-2014-2025-12-04",
+      "start_datetime": "2025-12-04T17:00:00+00:00",
+      "venue": {
+        "id": 301,
+        "name": "Stockroom",
+        "slug": "stockroom",
+        "town": "Stockport",
+        "postcode": "SK1 1PW1",
+        "venue_type": "community space"
+      },
+      "event_type": "arts",
+      "image_url": "https://api.viaductecho.info/static/event_images/1c342896-b1ca-49a3-9d1a-603bb2337aef.png",
+      "price_min": 5.0,
+      "price_max": null,
+      "is_free": false,
+      "ticket_url": "https://www.stockrm.org/events/screening-pride?date=2025-12-04"
+    },
+    {
       "id": 921,
       "title": "Quiz Night",
       "slug": "quiz-night",
@@ -160,6 +200,26 @@
       "price_max": null,
       "is_free": true,
       "ticket_url": "https://www.instagram.com/p/DMNntX9ivQJ/"
+    },
+    {
+      "id": 940,
+      "title": "Dungeon Crawlers",
+      "slug": "dungeon-crawlers-2025-12-05",
+      "start_datetime": "2025-12-05T16:00:00+00:00",
+      "venue": {
+        "id": 301,
+        "name": "Stockroom",
+        "slug": "stockroom",
+        "town": "Stockport",
+        "postcode": "SK1 1PW1",
+        "venue_type": "community space"
+      },
+      "event_type": "community",
+      "image_url": "https://api.viaductecho.info/static/event_images/b8a1487e-2bb3-4071-b068-ebd97508d811.png",
+      "price_min": null,
+      "price_max": null,
+      "is_free": true,
+      "ticket_url": "https://www.stockrm.org/events/dungeon-crawlers?date=2025-12-05"
     },
     {
       "id": 895,
@@ -482,26 +542,6 @@
       "ticket_url": "https://www.instagram.com/p/DQukQQFjEzS/"
     },
     {
-      "id": 937,
-      "title": "Speed Dating Singles Event - Didsbury - Ages 35-55",
-      "slug": "speed-dating-singles-event-didsbury-ages-35-55-2025-12-15",
-      "start_datetime": "2025-12-15T19:30:00+00:00",
-      "venue": {
-        "id": 290,
-        "name": "Grosvenor G Casino Didsbury",
-        "slug": "grosvenor-g-casino-didsbury",
-        "town": "Didsbury",
-        "postcode": "M20 5PG",
-        "venue_type": null
-      },
-      "event_type": "other",
-      "image_url": "https://d31fr2pwly4c4s.cloudfront.net/a/a/f/2138807_98948949_Speed-Dating-Singles-Event---Didsbury---Ages-35-55.jpg",
-      "price_min": 17.0,
-      "price_max": 17.0,
-      "is_free": false,
-      "ticket_url": "https://www.skiddle.com/whats-on/Manchester/Grosvenor-G-Casino-Didsbury/Speed-Dating-Singles-Event---Didsbury---Ages-35-55/41485622/"
-    },
-    {
       "id": 936,
       "title": "Speed Dating Singles Event - Didsbury - Ages 50-65",
       "slug": "speed-dating-singles-event-didsbury-ages-50-65-2025-12-15",
@@ -520,6 +560,26 @@
       "price_max": 17.0,
       "is_free": false,
       "ticket_url": "https://www.skiddle.com/whats-on/Manchester/Grosvenor-G-Casino-Didsbury/Speed-Dating-Singles-Event---Didsbury---Ages-50-65/41485623/"
+    },
+    {
+      "id": 937,
+      "title": "Speed Dating Singles Event - Didsbury - Ages 35-55",
+      "slug": "speed-dating-singles-event-didsbury-ages-35-55-2025-12-15",
+      "start_datetime": "2025-12-15T19:30:00+00:00",
+      "venue": {
+        "id": 290,
+        "name": "Grosvenor G Casino Didsbury",
+        "slug": "grosvenor-g-casino-didsbury",
+        "town": "Didsbury",
+        "postcode": "M20 5PG",
+        "venue_type": null
+      },
+      "event_type": "other",
+      "image_url": "https://d31fr2pwly4c4s.cloudfront.net/a/a/f/2138807_98948949_Speed-Dating-Singles-Event---Didsbury---Ages-35-55.jpg",
+      "price_min": 17.0,
+      "price_max": 17.0,
+      "is_free": false,
+      "ticket_url": "https://www.skiddle.com/whats-on/Manchester/Grosvenor-G-Casino-Didsbury/Speed-Dating-Singles-Event---Didsbury---Ages-35-55/41485622/"
     },
     {
       "id": 928,
@@ -722,5 +782,5 @@
       "ticket_url": "https://www.skiddle.com/whats-on/Manchester/The-Talleyrand/Comedy-at-the-Talleyrand/41421338/"
     }
   ],
-  "total": 36
+  "total": 39
 }
