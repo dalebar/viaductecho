@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-12-02T17:30:27.913203",
+  "generated_at": "2025-12-02T17:37:48.040445",
   "venues": [
     {
       "id": 285,
@@ -272,6 +272,24 @@
       "source_name": "skiddle"
     },
     {
+      "id": 301,
+      "name": "Stockroom",
+      "slug": "stockroom",
+      "address_line1": "Merseyway",
+      "address_line2": null,
+      "town": "Stockport",
+      "postcode": "SK1 1PW1",
+      "latitude": 53.41145,
+      "longitude": -2.15993,
+      "description": null,
+      "venue_type": "community space",
+      "capacity": null,
+      "website_url": "https://www.stockrm.org/",
+      "phone": null,
+      "image_url": null,
+      "source_name": "manual"
+    },
+    {
       "id": 288,
       "name": "The Barlow RC High School ",
       "slug": "the-barlow-rc-high-school",
@@ -398,5 +416,5 @@
       "source_name": "manual"
     }
   ],
-  "total": 22
+  "total": 23
 }
