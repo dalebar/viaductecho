@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-12-02T13:09:09.996249",
+  "generated_at": "2025-12-02T16:50:45.547202",
   "venues": [
     {
       "id": 285,
@@ -18,6 +18,24 @@
       "phone": null,
       "image_url": null,
       "source_name": "skiddle"
+    },
+    {
+      "id": 295,
+      "name": "Core international",
+      "slug": "core-international",
+      "address_line1": "26 Middle Hillgate",
+      "address_line2": null,
+      "town": "Stockport",
+      "postcode": "SK1 3AY",
+      "latitude": 53.40759,
+      "longitude": -2.15494,
+      "description": "Coffee & Occasional Bar",
+      "venue_type": "bar",
+      "capacity": null,
+      "website_url": "https://www.instagram.com/thecoreinternational/",
+      "phone": null,
+      "image_url": null,
+      "source_name": "manual"
     },
     {
       "id": 286,
@@ -126,6 +144,24 @@
       "phone": null,
       "image_url": null,
       "source_name": "skiddle"
+    },
+    {
+      "id": 294,
+      "name": "Red Bull",
+      "slug": "red-bull",
+      "address_line1": "14 Middle Hillgate",
+      "address_line2": null,
+      "town": "Stockport",
+      "postcode": "SK1 3AY",
+      "latitude": 53.40762,
+      "longitude": -2.15533,
+      "description": "A Country Pub in the Heart of SK1\nDog friendly | Vegan friendly | Cask ales served with a smile \ud83c\udf7a\ud83d\ude42",
+      "venue_type": "pub",
+      "capacity": null,
+      "website_url": "www.robinsonsbrewery.com/redbullstockport",
+      "phone": null,
+      "image_url": null,
+      "source_name": "manual"
     },
     {
       "id": 282,
@@ -252,7 +288,25 @@
       "phone": null,
       "image_url": null,
       "source_name": "skiddle"
+    },
+    {
+      "id": 293,
+      "name": "Thread",
+      "slug": "thread",
+      "address_line1": "22 Market Place",
+      "address_line2": null,
+      "town": "Stockport",
+      "postcode": "SK1 1EU",
+      "latitude": 53.41168,
+      "longitude": -2.1574,
+      "description": null,
+      "venue_type": "bar",
+      "capacity": 100,
+      "website_url": null,
+      "phone": "07729594632",
+      "image_url": null,
+      "source_name": "manual"
     }
   ],
-  "total": 14
+  "total": 17
 }
