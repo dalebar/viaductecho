@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-12-03T21:22:02.346786",
+  "generated_at": "2025-12-03T21:26:05.575463",
   "events": [
     {
       "id": 938,
@@ -615,7 +615,7 @@
         "venue_type": null
       },
       "event_type": "other",
-      "image_url": "https://d31fr2pwly4c4s.cloudfront.net/a/b/7/2153954_8323fbe1_gothmas-with-cassyette-dj-set.jpg",
+      "image_url": "https://api.viaductecho.info/static/event_images/1fa82d2f-19a1-4e9a-808f-4cc4f1b8863b.jpg",
       "price_min": 11.25,
       "price_max": null,
       "is_free": false,
@@ -715,7 +715,7 @@
         "venue_type": null
       },
       "event_type": "music",
-      "image_url": "https://d31fr2pwly4c4s.cloudfront.net/1/b/4/2134079_11789628_Barefoot-Beats.jpg",
+      "image_url": "https://api.viaductecho.info/static/event_images/db441212-28d4-4c03-8f7b-d4ef4b231d2a.jpg",
       "price_min": 10.0,
       "price_max": null,
       "is_free": false,
