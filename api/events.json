@@ -1,26 +1,6 @@
 {
-  "generated_at": "2025-12-02T19:37:23.422705",
+  "generated_at": "2025-12-03T11:20:34.326140",
   "events": [
-    {
-      "id": 917,
-      "title": "Pandemonium Wines Wine Tasting",
-      "slug": "pandemonium-wines-wine-tasting",
-      "start_datetime": "2025-12-03T17:00:00+00:00",
-      "venue": {
-        "id": 285,
-        "name": "BRUK",
-        "slug": "bruk",
-        "town": "Stockport",
-        "postcode": "SK1 1JT",
-        "venue_type": null
-      },
-      "event_type": "other",
-      "image_url": "https://api.viaductecho.info/static/event_images/9fec03ea-5b4b-4a4e-9672-c728687c4edf.png",
-      "price_min": null,
-      "price_max": null,
-      "is_free": true,
-      "ticket_url": "https://www.instagram.com/brukunderbank/"
-    },
     {
       "id": 932,
       "title": "Youth Night Double Bill with Local Artist Kat Wood",
@@ -40,6 +20,26 @@
       "price_max": null,
       "is_free": true,
       "ticket_url": "https://www.stockrm.org/events/youth-night-double-bill?date=2025-12-03"
+    },
+    {
+      "id": 917,
+      "title": "Pandemonium Wines Wine Tasting",
+      "slug": "pandemonium-wines-wine-tasting",
+      "start_datetime": "2025-12-03T17:00:00+00:00",
+      "venue": {
+        "id": 285,
+        "name": "BRUK",
+        "slug": "bruk",
+        "town": "Stockport",
+        "postcode": "SK1 1JT",
+        "venue_type": null
+      },
+      "event_type": "other",
+      "image_url": "https://api.viaductecho.info/static/event_images/9fec03ea-5b4b-4a4e-9672-c728687c4edf.png",
+      "price_min": null,
+      "price_max": null,
+      "is_free": true,
+      "ticket_url": "https://www.instagram.com/brukunderbank/"
     },
     {
       "id": 933,
@@ -64,7 +64,7 @@
     {
       "id": 942,
       "title": "Wreath Workshop",
-      "slug": "wreath-workshop-2025-12-03",
+      "slug": "wreath-workshop",
       "start_datetime": "2025-12-03T18:00:00+00:00",
       "venue": {
         "id": 303,
@@ -77,7 +77,7 @@
       "event_type": "community",
       "image_url": "https://api.viaductecho.info/static/event_images/f6735a9e-733d-4abf-805d-2b6881affb35.png",
       "price_min": 50.0,
-      "price_max": 50.0,
+      "price_max": null,
       "is_free": false,
       "ticket_url": "https://www.instagram.com/bohemianbuscafe/"
     },
@@ -144,7 +144,7 @@
     {
       "id": 939,
       "title": "Stockroom Screening: Pride (2014)",
-      "slug": "stockroom-screening-pride-2014-2025-12-04",
+      "slug": "stockroom-screening-pride-2014",
       "start_datetime": "2025-12-04T17:00:00+00:00",
       "venue": {
         "id": 301,
@@ -156,8 +156,8 @@
       },
       "event_type": "arts",
       "image_url": "https://api.viaductecho.info/static/event_images/1c342896-b1ca-49a3-9d1a-603bb2337aef.png",
-      "price_min": 5.0,
-      "price_max": null,
+      "price_min": null,
+      "price_max": 5.0,
       "is_free": false,
       "ticket_url": "https://www.stockrm.org/events/screening-pride?date=2025-12-04"
     },
@@ -224,7 +224,7 @@
     {
       "id": 941,
       "title": "Christmas Bauble Workshop",
-      "slug": "christmas-bauble-workshop-2025-12-06",
+      "slug": "christmas-bauble-workshop",
       "start_datetime": "2025-12-06T10:00:00+00:00",
       "venue": {
         "id": 302,
@@ -236,7 +236,7 @@
       },
       "event_type": "music",
       "image_url": "https://api.viaductecho.info/static/event_images/dd6852c8-9aa2-44d4-b083-04042d190903.png",
-      "price_min": 65.0,
+      "price_min": null,
       "price_max": 65.0,
       "is_free": false,
       "ticket_url": "https://sjssmithjewellery.com/product-category/silver-jewellery-classes/christmas-bauble-making-workshop/"
@@ -404,7 +404,7 @@
     {
       "id": 925,
       "title": "Share Shop Soir\u00e9e 01",
-      "slug": "share-shop-soir\u00e9e-01-2025-12-11",
+      "slug": "share-shop-soir\u00e9e-01",
       "start_datetime": "2025-12-11T18:00:00+00:00",
       "venue": {
         "id": 299,
@@ -416,7 +416,7 @@
       },
       "event_type": "music",
       "image_url": "https://api.viaductecho.info/static/event_images/c19a0e02-ef24-44e1-bb7c-1f5b0243a052.png",
-      "price_min": 5.0,
+      "price_min": null,
       "price_max": 5.0,
       "is_free": false,
       "ticket_url": "https://www.instagram.com/p/DRufD_5DKsD/"
@@ -464,7 +464,7 @@
     {
       "id": 923,
       "title": "herbal tea and conversation",
-      "slug": "herbal-tea-and-conversation-2025-12-12",
+      "slug": "herbal-tea-and-conversation",
       "start_datetime": "2025-12-12T18:00:00+00:00",
       "venue": {
         "id": 297,
@@ -476,7 +476,7 @@
       },
       "event_type": "other",
       "image_url": "https://api.viaductecho.info/static/event_images/4c0e62ab-bf63-49a8-b8b8-3d4d4a35fbd3.png",
-      "price_min": 22.0,
+      "price_min": null,
       "price_max": 22.0,
       "is_free": false,
       "ticket_url": "https://byyonorange.com/products/tea-conversation-by-yon-orange?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMjU2MjgxMDQwNTU4AAGntzdA7CpV2oAIbGjBbMIWElCXfU7jeD2oohUC7RZ2bxizpWMPXsTjorykOeY_aem_6xyidt_8XCo1UQjO16ws-A"
@@ -542,6 +542,26 @@
       "ticket_url": "https://www.instagram.com/p/DQukQQFjEzS/"
     },
     {
+      "id": 937,
+      "title": "Speed Dating Singles Event - Didsbury - Ages 35-55",
+      "slug": "speed-dating-singles-event-didsbury-ages-35-55",
+      "start_datetime": "2025-12-15T19:30:00+00:00",
+      "venue": {
+        "id": 290,
+        "name": "Grosvenor G Casino Didsbury",
+        "slug": "grosvenor-g-casino-didsbury",
+        "town": "Didsbury",
+        "postcode": "M20 5PG",
+        "venue_type": null
+      },
+      "event_type": "other",
+      "image_url": "https://d31fr2pwly4c4s.cloudfront.net/a/a/f/2138807_98948949_Speed-Dating-Singles-Event---Didsbury---Ages-35-55.jpg",
+      "price_min": null,
+      "price_max": 17.0,
+      "is_free": false,
+      "ticket_url": "https://www.skiddle.com/whats-on/Manchester/Grosvenor-G-Casino-Didsbury/Speed-Dating-Singles-Event---Didsbury---Ages-35-55/41485622/"
+    },
+    {
       "id": 936,
       "title": "Speed Dating Singles Event - Didsbury - Ages 50-65",
       "slug": "speed-dating-singles-event-didsbury-ages-50-65-2025-12-15",
@@ -560,26 +580,6 @@
       "price_max": 17.0,
       "is_free": false,
       "ticket_url": "https://www.skiddle.com/whats-on/Manchester/Grosvenor-G-Casino-Didsbury/Speed-Dating-Singles-Event---Didsbury---Ages-50-65/41485623/"
-    },
-    {
-      "id": 937,
-      "title": "Speed Dating Singles Event - Didsbury - Ages 35-55",
-      "slug": "speed-dating-singles-event-didsbury-ages-35-55-2025-12-15",
-      "start_datetime": "2025-12-15T19:30:00+00:00",
-      "venue": {
-        "id": 290,
-        "name": "Grosvenor G Casino Didsbury",
-        "slug": "grosvenor-g-casino-didsbury",
-        "town": "Didsbury",
-        "postcode": "M20 5PG",
-        "venue_type": null
-      },
-      "event_type": "other",
-      "image_url": "https://d31fr2pwly4c4s.cloudfront.net/a/a/f/2138807_98948949_Speed-Dating-Singles-Event---Didsbury---Ages-35-55.jpg",
-      "price_min": 17.0,
-      "price_max": 17.0,
-      "is_free": false,
-      "ticket_url": "https://www.skiddle.com/whats-on/Manchester/Grosvenor-G-Casino-Didsbury/Speed-Dating-Singles-Event---Didsbury---Ages-35-55/41485622/"
     },
     {
       "id": 928,
@@ -660,6 +660,26 @@
       "price_max": null,
       "is_free": false,
       "ticket_url": "https://www.skiddle.com/whats-on/Stockport/Holy-Diver/Gothmas-With-Cassyette-DJ-Set/41614441/"
+    },
+    {
+      "id": 945,
+      "title": "Christmas Party Night",
+      "slug": "christmas-party-night-2025-12-21",
+      "start_datetime": "2025-12-21T18:30:00+00:00",
+      "venue": {
+        "id": 304,
+        "name": "Village Hotel Cheadle",
+        "slug": "village-hotel-cheadle",
+        "town": "Cheadle",
+        "postcode": "SK8 1HW",
+        "venue_type": null
+      },
+      "event_type": "other",
+      "image_url": "https://d31fr2pwly4c4s.cloudfront.net/9/c/e/2159842_85962619_Christmas-Party-Night.jpg",
+      "price_min": null,
+      "price_max": null,
+      "is_free": false,
+      "ticket_url": "https://www.skiddle.com/whats-on/Stockport/Village-Hotel-Cheadle/Christmas-Party-Night/41639406/"
     },
     {
       "id": 919,
@@ -782,5 +802,5 @@
       "ticket_url": "https://www.skiddle.com/whats-on/Manchester/The-Talleyrand/Comedy-at-the-Talleyrand/41421338/"
     }
   ],
-  "total": 39
+  "total": 40
 }
