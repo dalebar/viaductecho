@@ -1,10 +1,10 @@
 {
-  "generated_at": "2025-12-03T11:20:34.326140",
+  "generated_at": "2025-12-03T12:03:44.427943",
   "events": [
     {
       "id": 932,
       "title": "Youth Night Double Bill with Local Artist Kat Wood",
-      "slug": "youth-night-double-bill-with-local-artist-kat-wood-2025-12-03",
+      "slug": "youth-night-double-bill-with-local-artist-kat-wood",
       "start_datetime": "2025-12-03T17:00:00+00:00",
       "venue": {
         "id": 301,
@@ -44,7 +44,7 @@
     {
       "id": 933,
       "title": "Women in Creativity with Alabaster Queen & DJ Sandra D",
-      "slug": "women-in-creativity-with-alabaster-queen-dj-sandra-d-2025-12-03",
+      "slug": "women-in-creativity-with-alabaster-queen-dj-sandra-d",
       "start_datetime": "2025-12-03T17:30:00+00:00",
       "venue": {
         "id": 301,
@@ -84,7 +84,7 @@
     {
       "id": 909,
       "title": "Laughs and Draughts - Christmas Special - An evening of stand up",
-      "slug": "laughs-and-draughts-christmas-special-an-evening-of-stand-up-2025-12-03",
+      "slug": "laughs-and-draughts-christmas-special-an-evening-of-stand-up",
       "start_datetime": "2025-12-03T19:30:00+00:00",
       "venue": {
         "id": 287,
@@ -104,7 +104,7 @@
     {
       "id": 922,
       "title": "Open Mic Night",
-      "slug": "open-mic-night-2025-12-03",
+      "slug": "open-mic-night",
       "start_datetime": "2025-12-03T20:00:00+00:00",
       "venue": {
         "id": 296,
@@ -124,7 +124,7 @@
     {
       "id": 938,
       "title": "Pages for the Heart",
-      "slug": "pages-for-the-heart-2025-12-04",
+      "slug": "pages-for-the-heart",
       "start_datetime": "2025-12-04T10:30:00+00:00",
       "venue": {
         "id": 301,
@@ -184,7 +184,7 @@
     {
       "id": 940,
       "title": "Dungeon Crawlers",
-      "slug": "dungeon-crawlers-2025-12-05",
+      "slug": "dungeon-crawlers",
       "start_datetime": "2025-12-05T16:00:00+00:00",
       "venue": {
         "id": 301,
@@ -264,7 +264,7 @@
     {
       "id": 896,
       "title": "System of a Down - B.Y.O.B",
-      "slug": "system-of-a-down-byob-2025-12-06",
+      "slug": "system-of-a-down-byob",
       "start_datetime": "2025-12-06T19:00:00+00:00",
       "venue": {
         "id": 280,
@@ -280,46 +280,6 @@
       "price_max": null,
       "is_free": false,
       "ticket_url": "https://www.skiddle.com/whats-on/Stockport/Holy-Diver/System-of-a-Down---BYOB/41498367/"
-    },
-    {
-      "id": 944,
-      "title": "Muslim Marriage Events Manchester - Divorcee/Widow Event",
-      "slug": "muslim-marriage-events-manchester-divorceewidow-event-2025-12-07",
-      "start_datetime": "2025-12-07T11:30:00+00:00",
-      "venue": {
-        "id": 282,
-        "name": "Royal Nawaab Pyramid",
-        "slug": "royal-nawaab-pyramid",
-        "town": "Stockport",
-        "postcode": "SK2 2JU",
-        "venue_type": null
-      },
-      "event_type": "other",
-      "image_url": "https://d31fr2pwly4c4s.cloudfront.net/1/6/f/2141982_1fda20b4_muslim-marriage-events-manchester-divorcee-widow-event.jpg",
-      "price_min": null,
-      "price_max": null,
-      "is_free": false,
-      "ticket_url": "https://www.skiddle.com/whats-on/Stockport/Royal-Nawaab-Pyramid/Muslim-Marriage-Events-Manchester---DivorceeWidow-Event/41498405/"
-    },
-    {
-      "id": 943,
-      "title": "Muslim Marriage Events Manchester - 2 Age Groups",
-      "slug": "muslim-marriage-events-manchester-2-age-groups-2025-12-07",
-      "start_datetime": "2025-12-07T11:30:00+00:00",
-      "venue": {
-        "id": 282,
-        "name": "Royal Nawaab Pyramid",
-        "slug": "royal-nawaab-pyramid",
-        "town": "Stockport",
-        "postcode": "SK2 2JU",
-        "venue_type": null
-      },
-      "event_type": "other",
-      "image_url": "https://d31fr2pwly4c4s.cloudfront.net/4/c/3/2141983_f778a8e1_muslim-marriage-events-manchester-2-age-groups.jpg",
-      "price_min": null,
-      "price_max": null,
-      "is_free": false,
-      "ticket_url": "https://www.skiddle.com/whats-on/Stockport/Royal-Nawaab-Pyramid/Muslim-Marriage-Events-Manchester---2-Age-Groups/41498406/"
     },
     {
       "id": 897,
@@ -384,7 +344,7 @@
     {
       "id": 918,
       "title": "Murder Inc. Presents Toys Were Us",
-      "slug": "murder-inc-presents-toys-were-us-2025-12-10",
+      "slug": "murder-inc-presents-toys-were-us",
       "start_datetime": "2025-12-10T20:00:00+00:00",
       "venue": {
         "id": 293,
@@ -424,7 +384,7 @@
     {
       "id": 911,
       "title": "Comedy at the Talleyrand",
-      "slug": "comedy-at-the-talleyrand-2025-12-11",
+      "slug": "comedy-at-the-talleyrand",
       "start_datetime": "2025-12-11T19:45:00+00:00",
       "venue": {
         "id": 289,
@@ -524,7 +484,7 @@
     {
       "id": 926,
       "title": "Stockport Does Gothmas",
-      "slug": "stockport-does-gothmas-2025-12-14",
+      "slug": "stockport-does-gothmas",
       "start_datetime": "2025-12-14T12:00:00+00:00",
       "venue": {
         "id": 281,
@@ -540,26 +500,6 @@
       "price_max": null,
       "is_free": true,
       "ticket_url": "https://www.instagram.com/p/DQukQQFjEzS/"
-    },
-    {
-      "id": 937,
-      "title": "Speed Dating Singles Event - Didsbury - Ages 35-55",
-      "slug": "speed-dating-singles-event-didsbury-ages-35-55",
-      "start_datetime": "2025-12-15T19:30:00+00:00",
-      "venue": {
-        "id": 290,
-        "name": "Grosvenor G Casino Didsbury",
-        "slug": "grosvenor-g-casino-didsbury",
-        "town": "Didsbury",
-        "postcode": "M20 5PG",
-        "venue_type": null
-      },
-      "event_type": "other",
-      "image_url": "https://d31fr2pwly4c4s.cloudfront.net/a/a/f/2138807_98948949_Speed-Dating-Singles-Event---Didsbury---Ages-35-55.jpg",
-      "price_min": null,
-      "price_max": 17.0,
-      "is_free": false,
-      "ticket_url": "https://www.skiddle.com/whats-on/Manchester/Grosvenor-G-Casino-Didsbury/Speed-Dating-Singles-Event---Didsbury---Ages-35-55/41485622/"
     },
     {
       "id": 936,
@@ -582,9 +522,29 @@
       "ticket_url": "https://www.skiddle.com/whats-on/Manchester/Grosvenor-G-Casino-Didsbury/Speed-Dating-Singles-Event---Didsbury---Ages-50-65/41485623/"
     },
     {
+      "id": 937,
+      "title": "Speed Dating Singles Event - Didsbury - Ages 35-55",
+      "slug": "speed-dating-singles-event-didsbury-ages-35-55",
+      "start_datetime": "2025-12-15T19:30:00+00:00",
+      "venue": {
+        "id": 290,
+        "name": "Grosvenor G Casino Didsbury",
+        "slug": "grosvenor-g-casino-didsbury",
+        "town": "Didsbury",
+        "postcode": "M20 5PG",
+        "venue_type": null
+      },
+      "event_type": "other",
+      "image_url": "https://d31fr2pwly4c4s.cloudfront.net/a/a/f/2138807_98948949_Speed-Dating-Singles-Event---Didsbury---Ages-35-55.jpg",
+      "price_min": null,
+      "price_max": 17.0,
+      "is_free": false,
+      "ticket_url": "https://www.skiddle.com/whats-on/Manchester/Grosvenor-G-Casino-Didsbury/Speed-Dating-Singles-Event---Didsbury---Ages-35-55/41485622/"
+    },
+    {
       "id": 928,
       "title": "Film Screening: The Night Of The Hunter",
-      "slug": "film-screening-the-night-of-the-hunter-2025-12-18",
+      "slug": "film-screening-the-night-of-the-hunter",
       "start_datetime": "2025-12-18T18:00:00+00:00",
       "venue": {
         "id": 300,
@@ -604,7 +564,7 @@
     {
       "id": 924,
       "title": "Christmas Foodie Friday",
-      "slug": "christmas-foodie-friday-2025-12-19",
+      "slug": "christmas-foodie-friday",
       "start_datetime": "2025-12-19T18:00:00+00:00",
       "venue": {
         "id": 292,
@@ -684,7 +644,7 @@
     {
       "id": 919,
       "title": "NYE & NYD Fiesta",
-      "slug": "nye-nyd-fiesta-2025-12-31",
+      "slug": "nye-nyd-fiesta",
       "start_datetime": "2025-12-31T22:00:00+00:00",
       "venue": {
         "id": 294,
@@ -802,5 +762,5 @@
       "ticket_url": "https://www.skiddle.com/whats-on/Manchester/The-Talleyrand/Comedy-at-the-Talleyrand/41421338/"
     }
   ],
-  "total": 40
+  "total": 38
 }
