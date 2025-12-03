@@ -1,26 +1,6 @@
 {
-  "generated_at": "2025-12-03T19:57:05.918575",
+  "generated_at": "2025-12-03T20:34:58.928432",
   "events": [
-    {
-      "id": 922,
-      "title": "Open Mic Night",
-      "slug": "open-mic-night",
-      "start_datetime": "2025-12-03T20:00:00+00:00",
-      "venue": {
-        "id": 296,
-        "name": "The Blossoms",
-        "slug": "the-blossoms",
-        "town": "Stockport",
-        "postcode": "SK2 6NU",
-        "venue_type": "pub"
-      },
-      "event_type": "music",
-      "image_url": "https://api.viaductecho.info/static/event_images/b79bdd1a-f84e-45fc-9cbf-e945cb680a1f.png",
-      "price_min": null,
-      "price_max": null,
-      "is_free": true,
-      "ticket_url": "https://www.instagram.com/p/DMK-tLjiDHG/"
-    },
     {
       "id": 938,
       "title": "Pages for the Heart",
@@ -715,7 +695,7 @@
         "venue_type": null
       },
       "event_type": "other",
-      "image_url": "https://d31fr2pwly4c4s.cloudfront.net/4/6/1/2046125_49fc4227_live-comedy-saturday-17th-january.jpg",
+      "image_url": "https://api.viaductecho.info/static/event_images/82e1d28e-6ffd-43d2-9b4d-79cdbcbb81c6.png",
       "price_min": 14.5,
       "price_max": null,
       "is_free": false,
@@ -742,5 +722,5 @@
       "ticket_url": "https://www.skiddle.com/whats-on/Manchester/The-Talleyrand/Comedy-at-the-Talleyrand/41421338/"
     }
   ],
-  "total": 37
+  "total": 36
 }
