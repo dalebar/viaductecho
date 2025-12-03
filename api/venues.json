@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-12-03T21:13:33.496167",
+  "generated_at": "2025-12-03T21:22:02.346786",
   "venues": [
     {
       "id": 285,
@@ -272,6 +272,24 @@
       "source_name": "manual"
     },
     {
+      "id": 307,
+      "name": "Shaw Road",
+      "slug": "shaw-road",
+      "address_line1": "Shaw Road",
+      "address_line2": null,
+      "town": "Stockport",
+      "postcode": "SK4 4AG",
+      "latitude": 53.42346,
+      "longitude": -2.18595,
+      "description": null,
+      "venue_type": null,
+      "capacity": null,
+      "website_url": null,
+      "phone": null,
+      "image_url": null,
+      "source_name": "manual"
+    },
+    {
       "id": 279,
       "name": "Stockport Garrick Theatre",
       "slug": "stockport-garrick-theatre",
@@ -506,5 +524,5 @@
       "source_name": "manual"
     }
   ],
-  "total": 28
+  "total": 29
 }
