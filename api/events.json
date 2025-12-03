@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-12-03T12:03:44.427943",
+  "generated_at": "2025-12-03T12:04:46.668429",
   "events": [
     {
       "id": 932,
@@ -502,46 +502,6 @@
       "ticket_url": "https://www.instagram.com/p/DQukQQFjEzS/"
     },
     {
-      "id": 936,
-      "title": "Speed Dating Singles Event - Didsbury - Ages 50-65",
-      "slug": "speed-dating-singles-event-didsbury-ages-50-65-2025-12-15",
-      "start_datetime": "2025-12-15T19:30:00+00:00",
-      "venue": {
-        "id": 290,
-        "name": "Grosvenor G Casino Didsbury",
-        "slug": "grosvenor-g-casino-didsbury",
-        "town": "Didsbury",
-        "postcode": "M20 5PG",
-        "venue_type": null
-      },
-      "event_type": "other",
-      "image_url": "https://d31fr2pwly4c4s.cloudfront.net/d/c/1/2138808_44861464_Speed-Dating-Singles-Event---Didsbury---Ages-50-65.jpg",
-      "price_min": 17.0,
-      "price_max": 17.0,
-      "is_free": false,
-      "ticket_url": "https://www.skiddle.com/whats-on/Manchester/Grosvenor-G-Casino-Didsbury/Speed-Dating-Singles-Event---Didsbury---Ages-50-65/41485623/"
-    },
-    {
-      "id": 937,
-      "title": "Speed Dating Singles Event - Didsbury - Ages 35-55",
-      "slug": "speed-dating-singles-event-didsbury-ages-35-55",
-      "start_datetime": "2025-12-15T19:30:00+00:00",
-      "venue": {
-        "id": 290,
-        "name": "Grosvenor G Casino Didsbury",
-        "slug": "grosvenor-g-casino-didsbury",
-        "town": "Didsbury",
-        "postcode": "M20 5PG",
-        "venue_type": null
-      },
-      "event_type": "other",
-      "image_url": "https://d31fr2pwly4c4s.cloudfront.net/a/a/f/2138807_98948949_Speed-Dating-Singles-Event---Didsbury---Ages-35-55.jpg",
-      "price_min": null,
-      "price_max": 17.0,
-      "is_free": false,
-      "ticket_url": "https://www.skiddle.com/whats-on/Manchester/Grosvenor-G-Casino-Didsbury/Speed-Dating-Singles-Event---Didsbury---Ages-35-55/41485622/"
-    },
-    {
       "id": 928,
       "title": "Film Screening: The Night Of The Hunter",
       "slug": "film-screening-the-night-of-the-hunter",
@@ -762,5 +722,5 @@
       "ticket_url": "https://www.skiddle.com/whats-on/Manchester/The-Talleyrand/Comedy-at-the-Talleyrand/41421338/"
     }
   ],
-  "total": 38
+  "total": 36
 }
