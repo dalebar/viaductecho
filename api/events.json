@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-12-03T20:58:10.135338",
+  "generated_at": "2025-12-03T21:00:25.590265",
   "events": [
     {
       "id": 938,
@@ -135,7 +135,7 @@
         "venue_type": null
       },
       "event_type": "comedy",
-      "image_url": "https://d31fr2pwly4c4s.cloudfront.net/5/7/5/1986432_6f1b3693_live-comedy-friday-5th-december.jpg",
+      "image_url": "https://api.viaductecho.info/static/event_images/8be5cf03-8078-4d54-9c62-4755edc1dcb4.jpg",
       "price_min": 14.5,
       "price_max": null,
       "is_free": false,
