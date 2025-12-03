@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-12-03T19:36:05.808750",
+  "generated_at": "2025-12-03T19:57:05.918575",
   "events": [
     {
       "id": 922,
@@ -135,7 +135,7 @@
         "venue_type": "bar"
       },
       "event_type": "music",
-      "image_url": "https://api.viaductecho.info/static/event_images/6b8461d1-98c9-443b-9a8e-4b7d5436ab37.png",
+      "image_url": "https://api.viaductecho.info/static/event_images/b3669ee6-8c30-4b6b-bc44-c655741772ff.png",
       "price_min": 10.0,
       "price_max": null,
       "is_free": false,
@@ -735,7 +735,7 @@
         "venue_type": null
       },
       "event_type": "other",
-      "image_url": "https://d31fr2pwly4c4s.cloudfront.net/d/c/b/2121783_0665f77f_comedy-at-the-talleyrand.jpg",
+      "image_url": null,
       "price_min": null,
       "price_max": null,
       "is_free": true,
