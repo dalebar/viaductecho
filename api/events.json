@@ -1,66 +1,6 @@
 {
-  "generated_at": "2025-12-03T17:25:44.078816",
+  "generated_at": "2025-12-03T19:34:57.012689",
   "events": [
-    {
-      "id": 933,
-      "title": "Women in Creativity with Alabaster Queen & DJ Sandra D",
-      "slug": "women-in-creativity-with-alabaster-queen-dj-sandra-d",
-      "start_datetime": "2025-12-03T17:30:00+00:00",
-      "venue": {
-        "id": 301,
-        "name": "Stockroom",
-        "slug": "stockroom",
-        "town": "Stockport",
-        "postcode": "SK1 1PW1",
-        "venue_type": "community space"
-      },
-      "event_type": "arts",
-      "image_url": "https://api.viaductecho.info/static/event_images/f33bfc73-c487-44fb-b387-2eccd11b3a9b.png",
-      "price_min": null,
-      "price_max": null,
-      "is_free": true,
-      "ticket_url": "https://www.stockrm.org/events/wic-festive?date=2025-12-03"
-    },
-    {
-      "id": 942,
-      "title": "Wreath Workshop",
-      "slug": "wreath-workshop",
-      "start_datetime": "2025-12-03T18:00:00+00:00",
-      "venue": {
-        "id": 303,
-        "name": "Bohemian Bus Caf\u00e9",
-        "slug": "bohemian-bus-caf\u00e9",
-        "town": "High Peak",
-        "postcode": "SK23 7SW",
-        "venue_type": null
-      },
-      "event_type": "community",
-      "image_url": "https://api.viaductecho.info/static/event_images/f6735a9e-733d-4abf-805d-2b6881affb35.png",
-      "price_min": 50.0,
-      "price_max": null,
-      "is_free": false,
-      "ticket_url": "https://www.instagram.com/bohemianbuscafe/"
-    },
-    {
-      "id": 909,
-      "title": "Laughs and Draughts - Christmas Special - An evening of stand up",
-      "slug": "laughs-and-draughts-christmas-special-an-evening-of-stand-up",
-      "start_datetime": "2025-12-03T19:30:00+00:00",
-      "venue": {
-        "id": 287,
-        "name": "OverDraught",
-        "slug": "overdraught",
-        "town": "Manchester",
-        "postcode": "M19 3PW",
-        "venue_type": null
-      },
-      "event_type": "comedy",
-      "image_url": "https://d31fr2pwly4c4s.cloudfront.net/3/e/e/2154854_3f2575d0_laughs-and-draughts-christmas-special-an-evening-of-stand-up.jpg",
-      "price_min": null,
-      "price_max": null,
-      "is_free": true,
-      "ticket_url": "https://www.skiddle.com/whats-on/Manchester/OverDraught/Laughs-and-Draughts---Christmas-Special---An-evening-of-stand-up/41619042/"
-    },
     {
       "id": 922,
       "title": "Open Mic Night",
@@ -802,5 +742,5 @@
       "ticket_url": "https://www.skiddle.com/whats-on/Manchester/The-Talleyrand/Comedy-at-the-Talleyrand/41421338/"
     }
   ],
-  "total": 40
+  "total": 37
 }
