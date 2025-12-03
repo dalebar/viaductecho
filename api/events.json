@@ -1,46 +1,6 @@
 {
-  "generated_at": "2025-12-03T14:53:42.163170",
+  "generated_at": "2025-12-03T17:12:13.000904",
   "events": [
-    {
-      "id": 932,
-      "title": "Youth Night Double Bill with Local Artist Kat Wood",
-      "slug": "youth-night-double-bill-with-local-artist-kat-wood",
-      "start_datetime": "2025-12-03T17:00:00+00:00",
-      "venue": {
-        "id": 301,
-        "name": "Stockroom",
-        "slug": "stockroom",
-        "town": "Stockport",
-        "postcode": "SK1 1PW1",
-        "venue_type": "community space"
-      },
-      "event_type": "music",
-      "image_url": "https://api.viaductecho.info/static/event_images/f4a1a1c5-05ac-41d3-b844-25b34db8cca0.png",
-      "price_min": null,
-      "price_max": null,
-      "is_free": true,
-      "ticket_url": "https://www.stockrm.org/events/youth-night-double-bill?date=2025-12-03"
-    },
-    {
-      "id": 917,
-      "title": "Pandemonium Wines Wine Tasting",
-      "slug": "pandemonium-wines-wine-tasting",
-      "start_datetime": "2025-12-03T17:00:00+00:00",
-      "venue": {
-        "id": 285,
-        "name": "BRUK",
-        "slug": "bruk",
-        "town": "Stockport",
-        "postcode": "SK1 1JT",
-        "venue_type": null
-      },
-      "event_type": "other",
-      "image_url": "https://api.viaductecho.info/static/event_images/9fec03ea-5b4b-4a4e-9672-c728687c4edf.png",
-      "price_min": null,
-      "price_max": null,
-      "is_free": true,
-      "ticket_url": "https://www.instagram.com/brukunderbank/"
-    },
     {
       "id": 933,
       "title": "Women in Creativity with Alabaster Queen & DJ Sandra D",
@@ -222,6 +182,26 @@
       "ticket_url": "https://www.instagram.com/p/DRw-WFjCI5c/"
     },
     {
+      "id": 950,
+      "title": "Thought Leadership / Ace Of Swords LP Launch",
+      "slug": "thought-leadership-ace-of-swords-lp-launch",
+      "start_datetime": "2025-12-05T19:00:00+00:00",
+      "venue": {
+        "id": 295,
+        "name": "Core international",
+        "slug": "core-international",
+        "town": "Stockport",
+        "postcode": "SK1 3AY",
+        "venue_type": "bar"
+      },
+      "event_type": "music",
+      "image_url": "https://api.viaductecho.info/static/event_images/6b8461d1-98c9-443b-9a8e-4b7d5436ab37.png",
+      "price_min": 10.0,
+      "price_max": null,
+      "is_free": false,
+      "ticket_url": "https://www.instagram.com/thecoreinternational/"
+    },
+    {
       "id": 895,
       "title": "Live Comedy - Friday 5th December",
       "slug": "live-comedy-friday-5th-december",
@@ -280,6 +260,26 @@
       "price_max": null,
       "is_free": true,
       "ticket_url": "https://www.stockrm.org/events/winter-zine-and-print?date=2025-12-06"
+    },
+    {
+      "id": 951,
+      "title": "Before Store Record Sale",
+      "slug": "before-store-record-sale-2025-12-06",
+      "start_datetime": "2025-12-06T16:00:00+00:00",
+      "venue": {
+        "id": 295,
+        "name": "Core international",
+        "slug": "core-international",
+        "town": "Stockport",
+        "postcode": "SK1 3AY",
+        "venue_type": "bar"
+      },
+      "event_type": "arts",
+      "image_url": "https://api.viaductecho.info/static/event_images/5019ef64-1ce2-43d0-a43d-3eeffbff501e.png",
+      "price_min": null,
+      "price_max": null,
+      "is_free": true,
+      "ticket_url": "https://www.instagram.com/thecoreinternational/"
     },
     {
       "id": 896,
