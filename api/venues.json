@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-12-02T19:37:23.422705",
+  "generated_at": "2025-12-03T11:20:34.326140",
   "venues": [
     {
       "id": 285,
@@ -416,6 +416,24 @@
       "source_name": "manual"
     },
     {
+      "id": 304,
+      "name": "Village Hotel Cheadle",
+      "slug": "village-hotel-cheadle",
+      "address_line1": "Cheadle Rd, Cheadle Hulme, Cheadle",
+      "address_line2": null,
+      "town": "Cheadle",
+      "postcode": "SK8 1HW",
+      "latitude": 53.3863803,
+      "longitude": -2.2110133,
+      "description": null,
+      "venue_type": null,
+      "capacity": null,
+      "website_url": null,
+      "phone": null,
+      "image_url": null,
+      "source_name": "skiddle"
+    },
+    {
       "id": 299,
       "name": "What If?",
       "slug": "what-if",
@@ -452,5 +470,5 @@
       "source_name": "manual"
     }
   ],
-  "total": 25
+  "total": 26
 }
