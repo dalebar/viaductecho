@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-12-03T13:52:58.652674",
+  "generated_at": "2025-12-03T14:25:23.071453",
   "events": [
     {
       "id": 932,
@@ -482,6 +482,26 @@
       "ticket_url": "https://www.skiddle.com/whats-on/Stockport/BRUK/10-Years-of-Microfunk-Music-with-Mystic-State/41585921/"
     },
     {
+      "id": 947,
+      "title": "White Rabbit",
+      "slug": "white-rabbit-2025-12-12",
+      "start_datetime": "2025-12-12T21:00:00+00:00",
+      "venue": {
+        "id": 289,
+        "name": "The Talleyrand",
+        "slug": "the-talleyrand",
+        "town": "Manchester",
+        "postcode": "M19 3WX",
+        "venue_type": null
+      },
+      "event_type": "music",
+      "image_url": "https://api.viaductecho.info/static/event_images/abe1856f-6f0f-492e-87c6-450a773554e9.png",
+      "price_min": null,
+      "price_max": 10.0,
+      "is_free": false,
+      "ticket_url": "https://ra.co/events/2306219"
+    },
+    {
       "id": 903,
       "title": "KISS Dressed to Kill",
       "slug": "kiss-dressed-to-kill-2025-12-13",
@@ -742,5 +762,5 @@
       "ticket_url": "https://www.skiddle.com/whats-on/Manchester/The-Talleyrand/Comedy-at-the-Talleyrand/41421338/"
     }
   ],
-  "total": 37
+  "total": 38
 }
