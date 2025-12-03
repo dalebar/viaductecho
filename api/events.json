@@ -1,26 +1,6 @@
 {
-  "generated_at": "2025-12-03T14:47:34.392172",
+  "generated_at": "2025-12-03T14:53:42.163170",
   "events": [
-    {
-      "id": 917,
-      "title": "Pandemonium Wines Wine Tasting",
-      "slug": "pandemonium-wines-wine-tasting",
-      "start_datetime": "2025-12-03T17:00:00+00:00",
-      "venue": {
-        "id": 285,
-        "name": "BRUK",
-        "slug": "bruk",
-        "town": "Stockport",
-        "postcode": "SK1 1JT",
-        "venue_type": null
-      },
-      "event_type": "other",
-      "image_url": "https://api.viaductecho.info/static/event_images/9fec03ea-5b4b-4a4e-9672-c728687c4edf.png",
-      "price_min": null,
-      "price_max": null,
-      "is_free": true,
-      "ticket_url": "https://www.instagram.com/brukunderbank/"
-    },
     {
       "id": 932,
       "title": "Youth Night Double Bill with Local Artist Kat Wood",
@@ -40,6 +20,26 @@
       "price_max": null,
       "is_free": true,
       "ticket_url": "https://www.stockrm.org/events/youth-night-double-bill?date=2025-12-03"
+    },
+    {
+      "id": 917,
+      "title": "Pandemonium Wines Wine Tasting",
+      "slug": "pandemonium-wines-wine-tasting",
+      "start_datetime": "2025-12-03T17:00:00+00:00",
+      "venue": {
+        "id": 285,
+        "name": "BRUK",
+        "slug": "bruk",
+        "town": "Stockport",
+        "postcode": "SK1 1JT",
+        "venue_type": null
+      },
+      "event_type": "other",
+      "image_url": "https://api.viaductecho.info/static/event_images/9fec03ea-5b4b-4a4e-9672-c728687c4edf.png",
+      "price_min": null,
+      "price_max": null,
+      "is_free": true,
+      "ticket_url": "https://www.instagram.com/brukunderbank/"
     },
     {
       "id": 933,
@@ -300,6 +300,26 @@
       "price_max": null,
       "is_free": false,
       "ticket_url": "https://www.skiddle.com/whats-on/Stockport/Holy-Diver/System-of-a-Down---BYOB/41498367/"
+    },
+    {
+      "id": 949,
+      "title": "Pinoy Kitchen Ta",
+      "slug": "pinoy-kitchen-ta-2025-12-07",
+      "start_datetime": "2025-12-07T14:00:00+00:00",
+      "venue": {
+        "id": 294,
+        "name": "Red Bull",
+        "slug": "red-bull",
+        "town": "Stockport",
+        "postcode": "SK1 3AY",
+        "venue_type": "pub"
+      },
+      "event_type": "other",
+      "image_url": "https://api.viaductecho.info/static/event_images/2c7bf4a0-1246-4aec-b916-3b055273a8ea.png",
+      "price_min": null,
+      "price_max": null,
+      "is_free": true,
+      "ticket_url": null
     },
     {
       "id": 897,
@@ -782,5 +802,5 @@
       "ticket_url": "https://www.skiddle.com/whats-on/Manchester/The-Talleyrand/Comedy-at-the-Talleyrand/41421338/"
     }
   ],
-  "total": 39
+  "total": 40
 }
