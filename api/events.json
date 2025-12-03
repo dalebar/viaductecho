@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-12-03T20:54:19.125242",
+  "generated_at": "2025-12-03T20:56:42.708321",
   "events": [
     {
       "id": 938,
@@ -635,7 +635,7 @@
         "venue_type": null
       },
       "event_type": "music",
-      "image_url": "https://d31fr2pwly4c4s.cloudfront.net/2/c/d/2149515_c620dc2f_the-1st-dance.jpg",
+      "image_url": "https://api.viaductecho.info/static/event_images/c6d1f03e-4b0d-4091-9720-dc9e60fa8dba.jpg",
       "price_min": 16.75,
       "price_max": null,
       "is_free": false,
