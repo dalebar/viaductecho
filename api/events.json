@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-12-03T20:56:42.708321",
+  "generated_at": "2025-12-03T20:58:10.135338",
   "events": [
     {
       "id": 938,
@@ -375,7 +375,7 @@
         "venue_type": null
       },
       "event_type": "comedy",
-      "image_url": "https://d31fr2pwly4c4s.cloudfront.net/f/9/1/2121783_0665f77f_comedy-at-the-talleyrand.jpg",
+      "image_url": "https://api.viaductecho.info/static/event_images/38cc076a-3509-4efe-bfb6-fcb68072d1db.png",
       "price_min": null,
       "price_max": null,
       "is_free": true,
