@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-12-03T12:04:46.668429",
+  "generated_at": "2025-12-03T13:52:58.652674",
   "events": [
     {
       "id": 932,
@@ -200,6 +200,26 @@
       "price_max": null,
       "is_free": true,
       "ticket_url": "https://www.stockrm.org/events/dungeon-crawlers?date=2025-12-05"
+    },
+    {
+      "id": 946,
+      "title": "Taking the MIChael",
+      "slug": "taking-the-michael-2025-12-05",
+      "start_datetime": "2025-12-05T17:00:00+00:00",
+      "venue": {
+        "id": 305,
+        "name": "Rockafellas",
+        "slug": "rockafellas",
+        "town": "Stockport",
+        "postcode": "SK1 1TA",
+        "venue_type": "bar"
+      },
+      "event_type": "music",
+      "image_url": "https://api.viaductecho.info/static/event_images/9b635c45-8fe6-42c7-8868-26b893c849c3.jpeg",
+      "price_min": null,
+      "price_max": null,
+      "is_free": true,
+      "ticket_url": "https://www.instagram.com/p/DRw-WFjCI5c/"
     },
     {
       "id": 895,
@@ -722,5 +742,5 @@
       "ticket_url": "https://www.skiddle.com/whats-on/Manchester/The-Talleyrand/Comedy-at-the-Talleyrand/41421338/"
     }
   ],
-  "total": 36
+  "total": 37
 }
