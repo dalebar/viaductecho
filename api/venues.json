@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-12-03T17:12:13.000904",
+  "generated_at": "2025-12-03T17:16:38.678691",
   "venues": [
     {
       "id": 285,
@@ -33,6 +33,24 @@
       "venue_type": null,
       "capacity": null,
       "website_url": "https://bohemian-bus-caf.square.site/",
+      "phone": null,
+      "image_url": null,
+      "source_name": "manual"
+    },
+    {
+      "id": 306,
+      "name": "Carlton Club",
+      "slug": "carlton-club",
+      "address_line1": "113 Carlton Road",
+      "address_line2": "Whalley Range",
+      "town": "Manchester",
+      "postcode": "M16 8BE",
+      "latitude": 53.45176,
+      "longitude": -2.2633,
+      "description": null,
+      "venue_type": "community space",
+      "capacity": null,
+      "website_url": "https://www.carltonclub.org.uk/",
       "phone": null,
       "image_url": null,
       "source_name": "manual"
@@ -488,5 +506,5 @@
       "source_name": "manual"
     }
   ],
-  "total": 27
+  "total": 28
 }
