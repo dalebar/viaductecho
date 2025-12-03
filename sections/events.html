@@ -7,9 +7,6 @@ permalink: /events/
 <div class="content-wrapper">
   <div class="row">
     <div class="col-12">
-      <h1 class="mb-4">Stockport Events</h1>
-      <p class="lead">Discover what's happening around Stockport - from community gatherings to cultural celebrations.</p>
-
       <!-- Loading Indicator -->
       <div id="loadingIndicator" class="text-center my-5">
         <div class="spinner-border text-primary" role="status">
@@ -100,9 +97,18 @@ permalink: /events/
       minute: '2-digit'
     });
 
+    const formatPrice = (price) => {
+      if (typeof price === 'number') {
+        const formatted = price.toFixed(2);
+        // Remove .00 for whole numbers
+        return formatted.endsWith('.00') ? formatted.slice(0, -3) : formatted;
+      }
+      return price;
+    };
+
     const priceText = event.is_free ? 'Free' :
-                      (event.price_min && event.price_max) ? `£${event.price_min} - £${event.price_max}` :
-                      event.price_min ? `From £${event.price_min}` : 'See website for prices';
+                      (event.price_min && event.price_max) ? `£${formatPrice(event.price_min)} - £${formatPrice(event.price_max)}` :
+                      event.price_min ? `£${formatPrice(event.price_min)}` : 'See website for prices';
 
     // Create Google Maps URL
     const mapsUrl = event.venue ?
@@ -110,29 +116,35 @@ permalink: /events/
       '';
 
     col.innerHTML = `
-      <div class="card h-100">
-        ${event.image_url && event.ticket_url ?
-          `<a href="${event.ticket_url}" target="_blank" rel="noopener">
-            <img src="${event.image_url}" class="card-img-top event-image" alt="${event.title}" style="height: 200px; object-fit: cover;">
-          </a>` :
-          event.image_url ?
-            `<img src="${event.image_url}" class="card-img-top" alt="${event.title}" style="height: 200px; object-fit: cover;">` :
-            ''
-        }
-        <div class="card-body d-flex flex-column">
+      <div class="card event-card">
+        <div class="event-image-container">
+          ${event.image_url && event.ticket_url ?
+            `<a href="${event.ticket_url}" target="_blank" rel="noopener">
+              <img src="${event.image_url}" class="card-img-top event-image" alt="${event.title}">
+            </a>` :
+            event.image_url ?
+              `<img src="${event.image_url}" class="card-img-top" alt="${event.title}">` :
+              ''
+          }
+        </div>
+        <div class="card-body">
           ${event.ticket_url ?
             `<h5 class="card-title"><a href="${event.ticket_url}" target="_blank" rel="noopener" class="event-title-link">${event.title}</a></h5>` :
             `<h5 class="card-title">${event.title}</h5>`
           }
-          <p class="card-text text-muted">
-            <i class="far fa-calendar"></i> ${dateStr}<br>
-            <i class="far fa-clock"></i> ${timeStr}<br>
+          <p class="card-text text-muted event-date">
+            <i class="far fa-calendar"></i> ${dateStr}
+          </p>
+          <p class="card-text text-muted event-time">
+            <i class="far fa-clock"></i> ${timeStr}
+          </p>
+          <p class="card-text text-muted event-venue">
             ${event.venue ?
               `<i class="fas fa-map-marker-alt"></i> <a href="${mapsUrl}" target="_blank" rel="noopener" class="venue-link">${event.venue.name}</a>` :
               ''
             }
           </p>
-          <p class="card-text">
+          <p class="card-text event-price">
             <span class="badge ${event.is_free ? 'bg-success' : 'bg-secondary'}">${priceText}</span>
           </p>
         </div>
@@ -147,8 +159,92 @@ permalink: /events/
 </script>
 
 <style>
+  /* Fix elastic scroll background */
+  html {
+    background: #333738;
+  }
+
+  body {
+    background: #333738;
+  }
+
+  /* Hide sidebar and make content full-width for events page */
+  body.layout-default .docs-sidebar {
+    display: none;
+  }
+
+  body.layout-default .docs-content {
+    margin-left: 0;
+    width: 100%;
+    max-width: 100%;
+    background: #333738;
+  }
+
+  body.layout-default .docs-layout {
+    background: #333738;
+  }
+
+  .content-wrapper {
+    background: #333738;
+  }
+
+  #eventsGrid {
+    background: #333738;
+  }
+
+  /* Use CSS Grid to align all cards in the row */
+  #eventsGrid {
+    display: grid !important;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 1.5rem;
+    align-items: start;
+  }
+
+  #eventsGrid > div {
+    display: contents;
+  }
+
+  .event-card {
+    display: grid;
+    grid-template-rows: auto auto auto auto auto auto;
+    align-items: start;
+    height: 100%;
+    background: #333738 !important;
+    border: none;
+  }
+
+  .event-card .card {
+    background: #333738 !important;
+    border: none;
+  }
+
+  /* Image container with fixed height for vertical centering */
+  .event-image-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 400px;
+    max-height: 600px;
+    overflow: hidden;
+    border: none;
+    background: #333738;
+  }
+
+  .event-image-container a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+  }
+
   .card-img-top {
-    border-bottom: 1px solid #dee2e6;
+    width: 100%;
+    height: auto;
+    max-height: 600px;
+    object-fit: contain;
+    display: block;
+    border: none;
   }
 
   .event-image {
@@ -159,10 +255,53 @@ permalink: /events/
     opacity: 0.85;
   }
 
+  .card-body {
+    padding: 0.5rem;
+    background: #333738 !important;
+  }
+
   .card-title {
-    font-size: 1.1rem;
+    font-size: 1.65rem;
     font-weight: 600;
-    line-height: 1.3;
+    line-height: 1.2;
+    min-height: 2.1rem;
+    margin-bottom: 0.375rem;
+    color: #f8f9fa;
+    background: transparent !important;
+  }
+
+  .event-date,
+  .event-time,
+  .event-venue,
+  .event-price {
+    margin-bottom: 0.25rem;
+    line-height: 0.65;
+    color: #CCCCCC;
+    background: transparent !important;
+  }
+
+  .card-text {
+    line-height: 0.65;
+    color: #CCCCCC;
+    background: transparent !important;
+  }
+
+  .text-muted {
+    color: #CCCCCC !important;
+    background: transparent !important;
+  }
+
+  p {
+    background: transparent !important;
+  }
+
+  /* Fix footer background */
+  footer {
+    background: #333738 !important;
+  }
+
+  .footer {
+    background: #333738 !important;
   }
 
   .event-title-link {
@@ -177,19 +316,21 @@ permalink: /events/
   }
 
   .venue-link {
-    color: #6c757d;
+    color: #CCCCCC;
     text-decoration: none;
     transition: color 0.2s;
   }
 
   .venue-link:hover {
-    color: #0d6efd;
+    color: #82d4e3;
     text-decoration: underline;
   }
 
   .badge {
-    font-size: 0.75rem;
+    font-size: 0.975rem;
     margin-right: 0.25rem;
     color: #f8f9fa !important;
+    padding: 0.45em 0.75em;
+    background-color: #29457A !important;
   }
 </style>
