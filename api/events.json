@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-12-03T21:01:41.661056",
+  "generated_at": "2025-12-03T21:13:33.496167",
   "events": [
     {
       "id": 938,
@@ -502,6 +502,26 @@
       "ticket_url": "https://www.instagram.com/p/DQukQQFjEzS/"
     },
     {
+      "id": 952,
+      "title": "The Leviathan Christmas Do",
+      "slug": "the-leviathan-christmas-do-2025-12-14",
+      "start_datetime": "2025-12-14T14:00:00+00:00",
+      "venue": {
+        "id": 294,
+        "name": "Red Bull",
+        "slug": "red-bull",
+        "town": "Stockport",
+        "postcode": "SK1 3AY",
+        "venue_type": "pub"
+      },
+      "event_type": "community",
+      "image_url": "https://api.viaductecho.info/static/event_images/16ff16a2-1614-4ec8-8213-202002a7b337.png",
+      "price_min": null,
+      "price_max": null,
+      "is_free": true,
+      "ticket_url": null
+    },
+    {
       "id": 928,
       "title": "Film Screening: The Night Of The Hunter",
       "slug": "film-screening-the-night-of-the-hunter",
@@ -722,5 +742,5 @@
       "ticket_url": "https://www.skiddle.com/whats-on/Manchester/The-Talleyrand/Comedy-at-the-Talleyrand/41421338/"
     }
   ],
-  "total": 36
+  "total": 37
 }
