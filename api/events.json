@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-12-03T21:13:33.496167",
+  "generated_at": "2025-12-03T21:22:02.346786",
   "events": [
     {
       "id": 938,
@@ -220,6 +220,26 @@
       "price_max": null,
       "is_free": false,
       "ticket_url": "https://www.skiddle.com/whats-on/Stockport/Holy-Diver/System-of-a-Down---BYOB/41498367/"
+    },
+    {
+      "id": 953,
+      "title": "Heaton Moor Christmas Market",
+      "slug": "heaton-moor-christmas-market-2025-12-07",
+      "start_datetime": "2025-12-07T10:30:00+00:00",
+      "venue": {
+        "id": 307,
+        "name": "Shaw Road",
+        "slug": "shaw-road",
+        "town": "Stockport",
+        "postcode": "SK4 4AG",
+        "venue_type": null
+      },
+      "event_type": "community",
+      "image_url": "https://api.viaductecho.info/static/event_images/3a3d3f2c-6b89-42fe-a39c-7db10ce96436.png",
+      "price_min": null,
+      "price_max": null,
+      "is_free": true,
+      "ticket_url": null
     },
     {
       "id": 949,
@@ -742,5 +762,5 @@
       "ticket_url": "https://www.skiddle.com/whats-on/Manchester/The-Talleyrand/Comedy-at-the-Talleyrand/41421338/"
     }
   ],
-  "total": 37
+  "total": 38
 }
