@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-12-03T12:04:46.668429",
+  "generated_at": "2025-12-03T13:52:58.652674",
   "venues": [
     {
       "id": 285,
@@ -195,6 +195,24 @@
       "venue_type": "pub",
       "capacity": null,
       "website_url": "www.robinsonsbrewery.com/redbullstockport",
+      "phone": null,
+      "image_url": null,
+      "source_name": "manual"
+    },
+    {
+      "id": 305,
+      "name": "Rockafellas",
+      "slug": "rockafellas",
+      "address_line1": "11 Tiviot Dale",
+      "address_line2": null,
+      "town": "Stockport",
+      "postcode": "SK1 1TA",
+      "latitude": 53.41315,
+      "longitude": -2.15913,
+      "description": null,
+      "venue_type": "bar",
+      "capacity": null,
+      "website_url": null,
       "phone": null,
       "image_url": null,
       "source_name": "manual"
@@ -470,5 +488,5 @@
       "source_name": "manual"
     }
   ],
-  "total": 26
+  "total": 27
 }
