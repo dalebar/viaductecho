@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-12-05T15:42:13.372679",
+  "generated_at": "2025-12-05T15:50:50.658824",
   "venues": [
     {
       "id": 285,
@@ -90,6 +90,24 @@
       "phone": null,
       "image_url": null,
       "source_name": "skiddle"
+    },
+    {
+      "id": 309,
+      "name": "Glossop Market Hall",
+      "slug": "glossop-market-hall",
+      "address_line1": "Market Street",
+      "address_line2": null,
+      "town": "Glossop",
+      "postcode": "SK13 8AP",
+      "latitude": 53.44288,
+      "longitude": -1.94976,
+      "description": "The Grade II listed Town Hall is the central hub of the town, featuring distinctive industrial and civic architecture.\n\nEnhancing the surrounding heritage buildings, the hall sits idyllically opposite Norfolk Square and, in line with the council\u2019s vision, it has been created as a mixed use complex that will bring the community together.\n\nWe are a dog friendly venue.",
+      "venue_type": "hall",
+      "capacity": null,
+      "website_url": "https://www.glossopmarkethall.co.uk/",
+      "phone": null,
+      "image_url": null,
+      "source_name": "manual"
     },
     {
       "id": 290,
@@ -542,5 +560,5 @@
       "source_name": "manual"
     }
   ],
-  "total": 30
+  "total": 31
 }
