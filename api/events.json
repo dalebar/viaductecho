@@ -1,105 +1,25 @@
 {
-  "generated_at": "2025-12-05T16:04:06.842194",
+  "generated_at": "2025-12-05T21:48:52.752416",
   "events": [
     {
-      "id": 946,
-      "title": "Taking the MIChael",
-      "slug": "taking-the-michael-2025-12-05",
-      "start_datetime": "2025-12-05T17:00:00+00:00",
-      "venue": {
-        "id": 305,
-        "name": "Rockafellas",
-        "slug": "rockafellas",
-        "town": "Stockport",
-        "postcode": "SK1 1TA",
-        "venue_type": "bar"
-      },
-      "event_type": "music",
-      "image_url": "https://api.viaductecho.info/static/event_images/9b635c45-8fe6-42c7-8868-26b893c849c3.jpeg",
-      "price_min": null,
-      "price_max": null,
-      "is_free": true,
-      "ticket_url": "https://www.instagram.com/p/DRw-WFjCI5c/"
-    },
-    {
-      "id": 950,
-      "title": "Thought Leadership / Ace Of Swords LP Launch",
-      "slug": "thought-leadership-ace-of-swords-lp-launch",
-      "start_datetime": "2025-12-05T19:00:00+00:00",
-      "venue": {
-        "id": 295,
-        "name": "Core international",
-        "slug": "core-international",
-        "town": "Stockport",
-        "postcode": "SK1 3AY",
-        "venue_type": "bar"
-      },
-      "event_type": "music",
-      "image_url": "https://api.viaductecho.info/static/event_images/b3669ee6-8c30-4b6b-bc44-c655741772ff.png",
-      "price_min": 10.0,
-      "price_max": null,
-      "is_free": false,
-      "ticket_url": "https://www.instagram.com/thecoreinternational/"
-    },
-    {
-      "id": 895,
-      "title": "Live Comedy - Friday 5th December",
-      "slug": "live-comedy-friday-5th-december",
-      "start_datetime": "2025-12-05T19:45:00+00:00",
-      "venue": {
-        "id": 279,
-        "name": "Stockport Garrick Theatre",
-        "slug": "stockport-garrick-theatre",
-        "town": "Stockport",
-        "postcode": "SK3 0EJ",
-        "venue_type": null
-      },
-      "event_type": "comedy",
-      "image_url": "https://api.viaductecho.info/static/event_images/8be5cf03-8078-4d54-9c62-4755edc1dcb4.jpg",
-      "price_min": 14.5,
-      "price_max": null,
-      "is_free": false,
-      "ticket_url": "https://www.skiddle.com/whats-on/Stockport/Stockport-Garrick-Theatre/Live-Comedy---Friday-5th-December/40867995/"
-    },
-    {
-      "id": 954,
-      "title": "Galactica Christmas Special",
-      "slug": "galactica-christmas-special-2025-12-05",
-      "start_datetime": "2025-12-05T20:00:00+00:00",
-      "venue": {
-        "id": 306,
-        "name": "Carlton Club",
-        "slug": "carlton-club",
-        "town": "Manchester",
-        "postcode": "M16 8BE",
-        "venue_type": "community space"
-      },
-      "event_type": "music",
-      "image_url": "https://api.viaductecho.info/static/event_images/1ccc17e2-1895-4f06-b9d9-3164c1de71a6.png",
-      "price_min": null,
-      "price_max": null,
-      "is_free": true,
-      "ticket_url": "https://www.instagram.com/p/DRmwM6wDlF-/"
-    },
-    {
-      "id": 958,
-      "title": "Rummage In The Range",
-      "slug": "rummage-in-the-range-2025-12-06",
+      "id": 941,
+      "title": "Christmas Bauble Workshop",
+      "slug": "christmas-bauble-workshop",
       "start_datetime": "2025-12-06T10:00:00+00:00",
       "venue": {
-        "id": 306,
-        "name": "Carlton Club",
-        "slug": "carlton-club",
-        "town": "Manchester",
-        "postcode": "M16 8BE",
-        "venue_type": "community space"
+        "id": 302,
+        "name": "SJS Smith Jewellery",
+        "slug": "sjs-smith-jewellery",
+        "town": "Stockport",
+        "postcode": "SK1 1JT",
+        "venue_type": "shop"
       },
-      "event_type": "other",
-      "image_url": "https://api.viaductecho.info/static/event_images/d3d46942-1e09-4412-9472-83852b6057aa.png",
-      "price_min": 2.0,
+      "event_type": "music",
+      "image_url": "https://api.viaductecho.info/static/event_images/dd6852c8-9aa2-44d4-b083-04042d190903.png",
+      "price_min": 65.0,
       "price_max": null,
       "is_free": false,
-      "ticket_url": "https://www.instagram.com/p/DRrmJlLAWmB/"
+      "ticket_url": "https://sjssmithjewellery.com/product-category/silver-jewellery-classes/christmas-bauble-making-workshop/"
     },
     {
       "id": 976,
@@ -122,24 +42,24 @@
       "ticket_url": "https://www.instagram.com/independent_street_/"
     },
     {
-      "id": 941,
-      "title": "Christmas Bauble Workshop",
-      "slug": "christmas-bauble-workshop",
+      "id": 958,
+      "title": "Rummage In The Range",
+      "slug": "rummage-in-the-range-2025-12-06",
       "start_datetime": "2025-12-06T10:00:00+00:00",
       "venue": {
-        "id": 302,
-        "name": "SJS Smith Jewellery",
-        "slug": "sjs-smith-jewellery",
-        "town": "Stockport",
-        "postcode": "SK1 1JT",
-        "venue_type": "shop"
+        "id": 306,
+        "name": "Carlton Club",
+        "slug": "carlton-club",
+        "town": "Manchester",
+        "postcode": "M16 8BE",
+        "venue_type": "community space"
       },
-      "event_type": "music",
-      "image_url": "https://api.viaductecho.info/static/event_images/dd6852c8-9aa2-44d4-b083-04042d190903.png",
-      "price_min": 65.0,
+      "event_type": "other",
+      "image_url": "https://api.viaductecho.info/static/event_images/d3d46942-1e09-4412-9472-83852b6057aa.png",
+      "price_min": 2.0,
       "price_max": null,
       "is_free": false,
-      "ticket_url": "https://sjssmithjewellery.com/product-category/silver-jewellery-classes/christmas-bauble-making-workshop/"
+      "ticket_url": "https://www.instagram.com/p/DRrmJlLAWmB/"
     },
     {
       "id": 929,
@@ -662,26 +582,6 @@
       "ticket_url": "https://byyonorange.com/products/tea-conversation-by-yon-orange?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMjU2MjgxMDQwNTU4AAGntzdA7CpV2oAIbGjBbMIWElCXfU7jeD2oohUC7RZ2bxizpWMPXsTjorykOeY_aem_6xyidt_8XCo1UQjO16ws-A"
     },
     {
-      "id": 971,
-      "title": "Pub Step w. Adam H",
-      "slug": "pub-step-w-adam-h-2025-12-12",
-      "start_datetime": "2025-12-12T19:00:00+00:00",
-      "venue": {
-        "id": 294,
-        "name": "Red Bull",
-        "slug": "red-bull",
-        "town": "Stockport",
-        "postcode": "SK1 3AY",
-        "venue_type": "pub"
-      },
-      "event_type": "music",
-      "image_url": "https://api.viaductecho.info/static/event_images/2cad8111-9e06-4dd0-9b2f-eeb8470f8084.png",
-      "price_min": null,
-      "price_max": null,
-      "is_free": true,
-      "ticket_url": "https://www.instagram.com/red_bull_hillgate/?img_index=6"
-    },
-    {
       "id": 902,
       "title": "10 Years of Microfunk Music with Mystic State",
       "slug": "10-years-of-microfunk-music-with-mystic-state",
@@ -700,6 +600,26 @@
       "price_max": null,
       "is_free": true,
       "ticket_url": "https://www.skiddle.com/whats-on/Stockport/BRUK/10-Years-of-Microfunk-Music-with-Mystic-State/41585921/"
+    },
+    {
+      "id": 971,
+      "title": "Pub Step w. Adam H",
+      "slug": "pub-step-w-adam-h-2025-12-12",
+      "start_datetime": "2025-12-12T19:00:00+00:00",
+      "venue": {
+        "id": 294,
+        "name": "Red Bull",
+        "slug": "red-bull",
+        "town": "Stockport",
+        "postcode": "SK1 3AY",
+        "venue_type": "pub"
+      },
+      "event_type": "music",
+      "image_url": "https://api.viaductecho.info/static/event_images/2cad8111-9e06-4dd0-9b2f-eeb8470f8084.png",
+      "price_min": null,
+      "price_max": null,
+      "is_free": true,
+      "ticket_url": "https://www.instagram.com/red_bull_hillgate/?img_index=6"
     },
     {
       "id": 947,
@@ -1002,6 +922,26 @@
       "ticket_url": "https://www.skiddle.com/whats-on/Stockport/Holy-Diver/Gothmas-With-Cassyette-DJ-Set/41614441/"
     },
     {
+      "id": 985,
+      "title": "The Snug Season 2 Closing Party",
+      "slug": "the-snug-season-2-closing-party-2025-12-21",
+      "start_datetime": "2025-12-21T18:00:00+00:00",
+      "venue": {
+        "id": 285,
+        "name": "BRUK",
+        "slug": "bruk",
+        "town": "Stockport",
+        "postcode": "SK1 1JT",
+        "venue_type": null
+      },
+      "event_type": "music",
+      "image_url": "https://api.viaductecho.info/static/event_images/879b563e-a716-4b0a-95e9-1e2308ef26ae.png",
+      "price_min": null,
+      "price_max": null,
+      "is_free": true,
+      "ticket_url": "https://www.instagram.com/p/DR5Bxa_iF3i/"
+    },
+    {
       "id": 945,
       "title": "Christmas Party Night",
       "slug": "christmas-party-night",
@@ -1042,26 +982,6 @@
       "ticket_url": "https://www.instagram.com/p/DRfg1wBDbin/?img_index=1"
     },
     {
-      "id": 968,
-      "title": "New Year Party",
-      "slug": "new-year-party-2025-12-31",
-      "start_datetime": "2025-12-31T21:00:00+00:00",
-      "venue": {
-        "id": 308,
-        "name": "Stockport Produce Hall",
-        "slug": "stockport-produce-hall",
-        "town": "Stockport",
-        "postcode": "SK1 1EU",
-        "venue_type": "hall"
-      },
-      "event_type": "music",
-      "image_url": "https://api.viaductecho.info/static/event_images/17aa571d-7f7a-45ff-806f-64404359fb60.png",
-      "price_min": null,
-      "price_max": null,
-      "is_free": true,
-      "ticket_url": "https://www.instagram.com/p/DRcmqueDP8f/"
-    },
-    {
       "id": 967,
       "title": "A NYE Celebration",
       "slug": "a-nye-celebration-2025-12-31",
@@ -1080,6 +1000,26 @@
       "price_max": 17.0,
       "is_free": false,
       "ticket_url": "https://www.instagram.com/p/DRfTiEGDcrs/"
+    },
+    {
+      "id": 968,
+      "title": "New Year Party",
+      "slug": "new-year-party-2025-12-31",
+      "start_datetime": "2025-12-31T21:00:00+00:00",
+      "venue": {
+        "id": 308,
+        "name": "Stockport Produce Hall",
+        "slug": "stockport-produce-hall",
+        "town": "Stockport",
+        "postcode": "SK1 1EU",
+        "venue_type": "hall"
+      },
+      "event_type": "music",
+      "image_url": "https://api.viaductecho.info/static/event_images/17aa571d-7f7a-45ff-806f-64404359fb60.png",
+      "price_min": null,
+      "price_max": null,
+      "is_free": true,
+      "ticket_url": "https://www.instagram.com/p/DRcmqueDP8f/"
     },
     {
       "id": 919,
@@ -1262,5 +1202,5 @@
       "ticket_url": "https://www.skiddle.com/whats-on/Manchester/The-Talleyrand/Comedy-at-the-Talleyrand/41421338/"
     }
   ],
-  "total": 63
+  "total": 60
 }
