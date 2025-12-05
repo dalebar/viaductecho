@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-12-05T21:53:01.724739",
+  "generated_at": "2025-12-05T22:58:20.351795",
   "venues": [
     {
       "id": 285,
@@ -126,6 +126,24 @@
       "phone": null,
       "image_url": null,
       "source_name": "skiddle"
+    },
+    {
+      "id": 310,
+      "name": "Hilton House",
+      "slug": "hilton-house",
+      "address_line1": "Lord Street",
+      "address_line2": "Flat D",
+      "town": "Stockport",
+      "postcode": "SK1 3NA",
+      "latitude": 53.40778,
+      "longitude": -2.15878,
+      "description": null,
+      "venue_type": "community space",
+      "capacity": null,
+      "website_url": null,
+      "phone": null,
+      "image_url": null,
+      "source_name": "manual"
     },
     {
       "id": 280,
@@ -560,5 +578,5 @@
       "source_name": "manual"
     }
   ],
-  "total": 31
+  "total": 32
 }
