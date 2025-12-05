@@ -1,66 +1,6 @@
 {
-  "generated_at": "2025-12-03T21:26:05.575463",
+  "generated_at": "2025-12-05T15:26:06.991443",
   "events": [
-    {
-      "id": 938,
-      "title": "Pages for the Heart",
-      "slug": "pages-for-the-heart",
-      "start_datetime": "2025-12-04T10:30:00+00:00",
-      "venue": {
-        "id": 301,
-        "name": "Stockroom",
-        "slug": "stockroom",
-        "town": "Stockport",
-        "postcode": "SK1 1PW1",
-        "venue_type": "community space"
-      },
-      "event_type": "arts",
-      "image_url": "https://api.viaductecho.info/static/event_images/1676aa14-1278-4f07-a097-e52d40abe071.png",
-      "price_min": null,
-      "price_max": null,
-      "is_free": true,
-      "ticket_url": "https://www.stockrm.org/events/Pages-for-the%20-Heart%20?date=2025-12-04"
-    },
-    {
-      "id": 939,
-      "title": "Stockroom Screening: Pride (2014)",
-      "slug": "stockroom-screening-pride-2014",
-      "start_datetime": "2025-12-04T17:00:00+00:00",
-      "venue": {
-        "id": 301,
-        "name": "Stockroom",
-        "slug": "stockroom",
-        "town": "Stockport",
-        "postcode": "SK1 1PW1",
-        "venue_type": "community space"
-      },
-      "event_type": "arts",
-      "image_url": "https://api.viaductecho.info/static/event_images/1c342896-b1ca-49a3-9d1a-603bb2337aef.png",
-      "price_min": 5.0,
-      "price_max": null,
-      "is_free": false,
-      "ticket_url": "https://www.stockrm.org/events/screening-pride?date=2025-12-04"
-    },
-    {
-      "id": 921,
-      "title": "Quiz Night",
-      "slug": "quiz-night",
-      "start_datetime": "2025-12-04T20:00:00+00:00",
-      "venue": {
-        "id": 296,
-        "name": "The Blossoms",
-        "slug": "the-blossoms",
-        "town": "Stockport",
-        "postcode": "SK2 6NU",
-        "venue_type": "pub"
-      },
-      "event_type": "other",
-      "image_url": "https://api.viaductecho.info/static/event_images/4f11a3e0-4a59-4dcb-a92f-3a9b35d885a5.png",
-      "price_min": null,
-      "price_max": null,
-      "is_free": true,
-      "ticket_url": "https://www.instagram.com/p/DMNntX9ivQJ/"
-    },
     {
       "id": 940,
       "title": "Dungeon Crawlers",
@@ -142,6 +82,46 @@
       "ticket_url": "https://www.skiddle.com/whats-on/Stockport/Stockport-Garrick-Theatre/Live-Comedy---Friday-5th-December/40867995/"
     },
     {
+      "id": 954,
+      "title": "Galactica Christmas Special",
+      "slug": "galactica-christmas-special-2025-12-05",
+      "start_datetime": "2025-12-05T20:00:00+00:00",
+      "venue": {
+        "id": 306,
+        "name": "Carlton Club",
+        "slug": "carlton-club",
+        "town": "Manchester",
+        "postcode": "M16 8BE",
+        "venue_type": "community space"
+      },
+      "event_type": "music",
+      "image_url": "https://api.viaductecho.info/static/event_images/1ccc17e2-1895-4f06-b9d9-3164c1de71a6.png",
+      "price_min": null,
+      "price_max": null,
+      "is_free": true,
+      "ticket_url": "https://www.instagram.com/p/DRmwM6wDlF-/"
+    },
+    {
+      "id": 958,
+      "title": "Rummage In The Range",
+      "slug": "rummage-in-the-range-2025-12-06",
+      "start_datetime": "2025-12-06T10:00:00+00:00",
+      "venue": {
+        "id": 306,
+        "name": "Carlton Club",
+        "slug": "carlton-club",
+        "town": "Manchester",
+        "postcode": "M16 8BE",
+        "venue_type": "community space"
+      },
+      "event_type": "other",
+      "image_url": "https://api.viaductecho.info/static/event_images/d3d46942-1e09-4412-9472-83852b6057aa.png",
+      "price_min": 2.0,
+      "price_max": null,
+      "is_free": false,
+      "ticket_url": "https://www.instagram.com/p/DRrmJlLAWmB/"
+    },
+    {
       "id": 941,
       "title": "Christmas Bauble Workshop",
       "slug": "christmas-bauble-workshop",
@@ -180,6 +160,26 @@
       "price_max": null,
       "is_free": true,
       "ticket_url": "https://www.stockrm.org/events/winter-zine-and-print?date=2025-12-06"
+    },
+    {
+      "id": 956,
+      "title": "Wreath Making Workshop",
+      "slug": "wreath-making-workshop-2025-12-06",
+      "start_datetime": "2025-12-06T11:00:00+00:00",
+      "venue": {
+        "id": 306,
+        "name": "Carlton Club",
+        "slug": "carlton-club",
+        "town": "Manchester",
+        "postcode": "M16 8BE",
+        "venue_type": "community space"
+      },
+      "event_type": "arts",
+      "image_url": "https://api.viaductecho.info/static/event_images/bc947a85-79f7-4eb8-8275-0d2dba8222fa.png",
+      "price_min": 35.0,
+      "price_max": null,
+      "is_free": false,
+      "ticket_url": null
     },
     {
       "id": 951,
@@ -222,6 +222,26 @@
       "ticket_url": "https://www.skiddle.com/whats-on/Stockport/Holy-Diver/System-of-a-Down---BYOB/41498367/"
     },
     {
+      "id": 955,
+      "title": "Club Solo's Christmas Cracker",
+      "slug": "club-solos-christmas-cracker-2025-12-06",
+      "start_datetime": "2025-12-06T20:00:00+00:00",
+      "venue": {
+        "id": 306,
+        "name": "Carlton Club",
+        "slug": "carlton-club",
+        "town": "Manchester",
+        "postcode": "M16 8BE",
+        "venue_type": "community space"
+      },
+      "event_type": "music",
+      "image_url": "https://api.viaductecho.info/static/event_images/b71338bd-6d98-418a-ab8e-2690de5d8fb0.png",
+      "price_min": 20.0,
+      "price_max": null,
+      "is_free": false,
+      "ticket_url": "https://www.skiddle.com/whats-on/Manchester/The-Carlton-Club-Manchester/Club-Solos-Christmas-Cracker-with-Jon-Dasilva/41363341/"
+    },
+    {
       "id": 953,
       "title": "Heaton Moor Christmas Market",
       "slug": "heaton-moor-christmas-market-2025-12-07",
@@ -239,6 +259,26 @@
       "price_min": null,
       "price_max": null,
       "is_free": true,
+      "ticket_url": null
+    },
+    {
+      "id": 957,
+      "title": "Wreath Making Workshop",
+      "slug": "wreath-making-workshop-2025-12-07",
+      "start_datetime": "2025-12-07T11:00:00+00:00",
+      "venue": {
+        "id": 306,
+        "name": "Carlton Club",
+        "slug": "carlton-club",
+        "town": "Manchester",
+        "postcode": "M16 8BE",
+        "venue_type": "community space"
+      },
+      "event_type": "arts",
+      "image_url": "https://api.viaductecho.info/static/event_images/5fbb78b2-a592-4d96-99c5-772c98e11f80.png",
+      "price_min": 35.0,
+      "price_max": null,
+      "is_free": false,
       "ticket_url": null
     },
     {
@@ -282,6 +322,26 @@
       "ticket_url": "https://www.skiddle.com/whats-on/Stockport/Stockport-Masonic-Guildhall/FutureShock-Wrestling-Stockport/41442414/"
     },
     {
+      "id": 961,
+      "title": "Brume",
+      "slug": "brume-2025-12-07",
+      "start_datetime": "2025-12-07T18:00:00+00:00",
+      "venue": {
+        "id": 306,
+        "name": "Carlton Club",
+        "slug": "carlton-club",
+        "town": "Manchester",
+        "postcode": "M16 8BE",
+        "venue_type": "community space"
+      },
+      "event_type": "music",
+      "image_url": "https://api.viaductecho.info/static/event_images/f1838865-df9d-4358-beba-057840a4ca59.png",
+      "price_min": null,
+      "price_max": null,
+      "is_free": true,
+      "ticket_url": "https://www.instagram.com/p/DRuz0GljY_8/"
+    },
+    {
       "id": 910,
       "title": "Sunday Skate 7th December 2025 with Manc Skating (Didsbury)",
       "slug": "sunday-skate-7th-december-2025-with-manc-skating-didsbury",
@@ -320,6 +380,66 @@
       "price_max": null,
       "is_free": false,
       "ticket_url": "https://www.skiddle.com/whats-on/Stockport/Plough-On-The-Moor/Live-at-the-Plough/41496201/"
+    },
+    {
+      "id": 960,
+      "title": "Christmas Craft Club",
+      "slug": "christmas-craft-club-2025-12-09",
+      "start_datetime": "2025-12-09T19:30:00+00:00",
+      "venue": {
+        "id": 306,
+        "name": "Carlton Club",
+        "slug": "carlton-club",
+        "town": "Manchester",
+        "postcode": "M16 8BE",
+        "venue_type": "community space"
+      },
+      "event_type": "arts",
+      "image_url": "https://api.viaductecho.info/static/event_images/38a81f55-9960-494c-aa43-78f79eb1e808.png",
+      "price_min": 8.0,
+      "price_max": 12.0,
+      "is_free": false,
+      "ticket_url": "https://www.eventbrite.co.uk/e/blether-presents-craft-club-020-christmas-cards-tickets-1976448277001?aff=ebdsoporgprofile"
+    },
+    {
+      "id": 963,
+      "title": "786AM",
+      "slug": "786am-2025-12-09",
+      "start_datetime": "2025-12-09T20:00:00+00:00",
+      "venue": {
+        "id": 306,
+        "name": "Carlton Club",
+        "slug": "carlton-club",
+        "town": "Manchester",
+        "postcode": "M16 8BE",
+        "venue_type": "community space"
+      },
+      "event_type": "music",
+      "image_url": "https://api.viaductecho.info/static/event_images/3b4307bb-bd4c-42a2-819f-2020ab458ece.png",
+      "price_min": null,
+      "price_max": null,
+      "is_free": true,
+      "ticket_url": "https://www.instagram.com/p/DRxT4YLjR7G/"
+    },
+    {
+      "id": 965,
+      "title": "Amanda Jane Heywood Band",
+      "slug": "amanda-jane-heywood-band-2025-12-10",
+      "start_datetime": "2025-12-10T20:00:00+00:00",
+      "venue": {
+        "id": 306,
+        "name": "Carlton Club",
+        "slug": "carlton-club",
+        "town": "Manchester",
+        "postcode": "M16 8BE",
+        "venue_type": "community space"
+      },
+      "event_type": "music",
+      "image_url": "https://api.viaductecho.info/static/event_images/5492bdfd-f883-47d3-b67d-fc956f18783c.png",
+      "price_min": null,
+      "price_max": null,
+      "is_free": true,
+      "ticket_url": "https://www.instagram.com/p/DR2MH6iDcCI/"
     },
     {
       "id": 918,
@@ -380,6 +500,26 @@
       "price_max": null,
       "is_free": true,
       "ticket_url": "https://www.instagram.com/brukunderbank/"
+    },
+    {
+      "id": 964,
+      "title": "All The Range 10",
+      "slug": "all-the-range-10-2025-12-11",
+      "start_datetime": "2025-12-11T19:30:00+00:00",
+      "venue": {
+        "id": 306,
+        "name": "Carlton Club",
+        "slug": "carlton-club",
+        "town": "Manchester",
+        "postcode": "M16 8BE",
+        "venue_type": "community space"
+      },
+      "event_type": "music",
+      "image_url": "https://api.viaductecho.info/static/event_images/644d8413-fe79-49c6-ba2a-cc040eab48b8.png",
+      "price_min": 3.0,
+      "price_max": null,
+      "is_free": false,
+      "ticket_url": "https://www.instagram.com/p/DRzWjmxjHv0/"
     },
     {
       "id": 911,
@@ -542,6 +682,26 @@
       "ticket_url": null
     },
     {
+      "id": 966,
+      "title": "Christmas Brume",
+      "slug": "christmas-brume-2025-12-16",
+      "start_datetime": "2025-12-16T20:00:00+00:00",
+      "venue": {
+        "id": 306,
+        "name": "Carlton Club",
+        "slug": "carlton-club",
+        "town": "Manchester",
+        "postcode": "M16 8BE",
+        "venue_type": "community space"
+      },
+      "event_type": "music",
+      "image_url": "https://api.viaductecho.info/static/event_images/5b855e7d-ed13-4162-81ed-7fef5ed3e68d.png",
+      "price_min": 13.45,
+      "price_max": null,
+      "is_free": false,
+      "ticket_url": "https://www.skiddle.com/whats-on/Manchester/The-Carlton-Club-Manchester/Brume-Beats-n-Pieces-TOOLSHED/41643740/"
+    },
+    {
       "id": 928,
       "title": "Film Screening: The Night Of The Hunter",
       "slug": "film-screening-the-night-of-the-hunter",
@@ -642,6 +802,26 @@
       "ticket_url": "https://www.skiddle.com/whats-on/Stockport/Village-Hotel-Cheadle/Christmas-Party-Night/41639406/"
     },
     {
+      "id": 967,
+      "title": "A NYE Celebration",
+      "slug": "a-nye-celebration-2025-12-31",
+      "start_datetime": "2025-12-31T21:00:00+00:00",
+      "venue": {
+        "id": 306,
+        "name": "Carlton Club",
+        "slug": "carlton-club",
+        "town": "Manchester",
+        "postcode": "M16 8BE",
+        "venue_type": "community space"
+      },
+      "event_type": "music",
+      "image_url": "https://api.viaductecho.info/static/event_images/cb5be5cc-b0ef-4694-ba50-1cbd5c43d5ac.png",
+      "price_min": 14.0,
+      "price_max": 17.0,
+      "is_free": false,
+      "ticket_url": "https://www.instagram.com/p/DRfTiEGDcrs/"
+    },
+    {
       "id": 919,
       "title": "NYE & NYD Fiesta",
       "slug": "nye-nyd-fiesta",
@@ -702,6 +882,46 @@
       "ticket_url": "https://www.skiddle.com/whats-on/Stockport/Stockport-Garrick-Theatre/Live-Comedy---Friday-2nd-January/41181646/"
     },
     {
+      "id": 959,
+      "title": "Rummage In The Range",
+      "slug": "rummage-in-the-range-2026-01-03",
+      "start_datetime": "2026-01-03T10:00:00+00:00",
+      "venue": {
+        "id": 306,
+        "name": "Carlton Club",
+        "slug": "carlton-club",
+        "town": "Manchester",
+        "postcode": "M16 8BE",
+        "venue_type": "community space"
+      },
+      "event_type": "other",
+      "image_url": "https://api.viaductecho.info/static/event_images/75d14243-32ee-4dad-bd48-aa5262e18d55.png",
+      "price_min": 2.0,
+      "price_max": null,
+      "is_free": false,
+      "ticket_url": "https://www.instagram.com/p/DRrmJlLAWmB/"
+    },
+    {
+      "id": 962,
+      "title": "Brume",
+      "slug": "brume-2026-01-04",
+      "start_datetime": "2026-01-04T18:00:00+00:00",
+      "venue": {
+        "id": 306,
+        "name": "Carlton Club",
+        "slug": "carlton-club",
+        "town": "Manchester",
+        "postcode": "M16 8BE",
+        "venue_type": "community space"
+      },
+      "event_type": "music",
+      "image_url": null,
+      "price_min": null,
+      "price_max": null,
+      "is_free": true,
+      "ticket_url": "https://www.instagram.com/p/DRuz0GljY_8/"
+    },
+    {
       "id": 914,
       "title": "Barefoot Beats",
       "slug": "barefoot-beats",
@@ -715,7 +935,7 @@
         "venue_type": null
       },
       "event_type": "music",
-      "image_url": "https://api.viaductecho.info/static/event_images/db441212-28d4-4c03-8f7b-d4ef4b231d2a.jpg",
+      "image_url": "https://d31fr2pwly4c4s.cloudfront.net/1/b/4/2134079_11789628_Barefoot-Beats.jpg",
       "price_min": 10.0,
       "price_max": null,
       "is_free": false,
@@ -762,5 +982,5 @@
       "ticket_url": "https://www.skiddle.com/whats-on/Manchester/The-Talleyrand/Comedy-at-the-Talleyrand/41421338/"
     }
   ],
-  "total": 38
+  "total": 49
 }
