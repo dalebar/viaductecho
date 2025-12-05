@@ -1,6 +1,26 @@
 {
-  "generated_at": "2025-12-05T21:48:52.752416",
+  "generated_at": "2025-12-05T21:49:33.622598",
   "events": [
+    {
+      "id": 976,
+      "title": "Artisan Market",
+      "slug": "artisan-market",
+      "start_datetime": "2025-12-06T10:00:00+00:00",
+      "venue": {
+        "id": 309,
+        "name": "Glossop Market Hall",
+        "slug": "glossop-market-hall",
+        "town": "Glossop",
+        "postcode": "SK13 8AP",
+        "venue_type": "hall"
+      },
+      "event_type": "music",
+      "image_url": "https://api.viaductecho.info/static/event_images/7d557074-7932-4653-ae2c-db83b3036d10.png",
+      "price_min": null,
+      "price_max": null,
+      "is_free": true,
+      "ticket_url": "https://www.instagram.com/independent_street_/"
+    },
     {
       "id": 941,
       "title": "Christmas Bauble Workshop",
@@ -20,26 +40,6 @@
       "price_max": null,
       "is_free": false,
       "ticket_url": "https://sjssmithjewellery.com/product-category/silver-jewellery-classes/christmas-bauble-making-workshop/"
-    },
-    {
-      "id": 976,
-      "title": "",
-      "slug": "-2025-12-06",
-      "start_datetime": "2025-12-06T10:00:00+00:00",
-      "venue": {
-        "id": 309,
-        "name": "Glossop Market Hall",
-        "slug": "glossop-market-hall",
-        "town": "Glossop",
-        "postcode": "SK13 8AP",
-        "venue_type": "hall"
-      },
-      "event_type": "music",
-      "image_url": "https://api.viaductecho.info/static/event_images/7d557074-7932-4653-ae2c-db83b3036d10.png",
-      "price_min": null,
-      "price_max": null,
-      "is_free": true,
-      "ticket_url": "https://www.instagram.com/independent_street_/"
     },
     {
       "id": 958,
@@ -982,26 +982,6 @@
       "ticket_url": "https://www.instagram.com/p/DRfg1wBDbin/?img_index=1"
     },
     {
-      "id": 967,
-      "title": "A NYE Celebration",
-      "slug": "a-nye-celebration-2025-12-31",
-      "start_datetime": "2025-12-31T21:00:00+00:00",
-      "venue": {
-        "id": 306,
-        "name": "Carlton Club",
-        "slug": "carlton-club",
-        "town": "Manchester",
-        "postcode": "M16 8BE",
-        "venue_type": "community space"
-      },
-      "event_type": "music",
-      "image_url": "https://api.viaductecho.info/static/event_images/cb5be5cc-b0ef-4694-ba50-1cbd5c43d5ac.png",
-      "price_min": 14.0,
-      "price_max": 17.0,
-      "is_free": false,
-      "ticket_url": "https://www.instagram.com/p/DRfTiEGDcrs/"
-    },
-    {
       "id": 968,
       "title": "New Year Party",
       "slug": "new-year-party-2025-12-31",
@@ -1020,6 +1000,26 @@
       "price_max": null,
       "is_free": true,
       "ticket_url": "https://www.instagram.com/p/DRcmqueDP8f/"
+    },
+    {
+      "id": 967,
+      "title": "A NYE Celebration",
+      "slug": "a-nye-celebration-2025-12-31",
+      "start_datetime": "2025-12-31T21:00:00+00:00",
+      "venue": {
+        "id": 306,
+        "name": "Carlton Club",
+        "slug": "carlton-club",
+        "town": "Manchester",
+        "postcode": "M16 8BE",
+        "venue_type": "community space"
+      },
+      "event_type": "music",
+      "image_url": "https://api.viaductecho.info/static/event_images/cb5be5cc-b0ef-4694-ba50-1cbd5c43d5ac.png",
+      "price_min": 14.0,
+      "price_max": 17.0,
+      "is_free": false,
+      "ticket_url": "https://www.instagram.com/p/DRfTiEGDcrs/"
     },
     {
       "id": 919,
