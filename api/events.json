@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-12-05T15:42:13.372679",
+  "generated_at": "2025-12-05T15:50:50.658824",
   "events": [
     {
       "id": 940,
@@ -120,6 +120,26 @@
       "price_max": null,
       "is_free": false,
       "ticket_url": "https://www.instagram.com/p/DRrmJlLAWmB/"
+    },
+    {
+      "id": 976,
+      "title": "",
+      "slug": "-2025-12-06",
+      "start_datetime": "2025-12-06T10:00:00+00:00",
+      "venue": {
+        "id": 309,
+        "name": "Glossop Market Hall",
+        "slug": "glossop-market-hall",
+        "town": "Glossop",
+        "postcode": "SK13 8AP",
+        "venue_type": "hall"
+      },
+      "event_type": "music",
+      "image_url": "https://api.viaductecho.info/static/event_images/7d557074-7932-4653-ae2c-db83b3036d10.png",
+      "price_min": null,
+      "price_max": null,
+      "is_free": true,
+      "ticket_url": "https://www.instagram.com/independent_street_/"
     },
     {
       "id": 941,
@@ -482,26 +502,6 @@
       "ticket_url": "https://www.instagram.com/red_bull_hillgate/?img_index=6"
     },
     {
-      "id": 965,
-      "title": "Amanda Jane Heywood Band",
-      "slug": "amanda-jane-heywood-band-2025-12-10",
-      "start_datetime": "2025-12-10T20:00:00+00:00",
-      "venue": {
-        "id": 306,
-        "name": "Carlton Club",
-        "slug": "carlton-club",
-        "town": "Manchester",
-        "postcode": "M16 8BE",
-        "venue_type": "community space"
-      },
-      "event_type": "music",
-      "image_url": "https://api.viaductecho.info/static/event_images/5492bdfd-f883-47d3-b67d-fc956f18783c.png",
-      "price_min": null,
-      "price_max": null,
-      "is_free": true,
-      "ticket_url": "https://www.instagram.com/p/DR2MH6iDcCI/"
-    },
-    {
       "id": 918,
       "title": "Murder Inc. Presents Toys Were Us",
       "slug": "murder-inc-presents-toys-were-us",
@@ -520,6 +520,26 @@
       "price_max": null,
       "is_free": true,
       "ticket_url": "https://www.instagram.com/alaughinstockport/"
+    },
+    {
+      "id": 965,
+      "title": "Amanda Jane Heywood Band",
+      "slug": "amanda-jane-heywood-band-2025-12-10",
+      "start_datetime": "2025-12-10T20:00:00+00:00",
+      "venue": {
+        "id": 306,
+        "name": "Carlton Club",
+        "slug": "carlton-club",
+        "town": "Manchester",
+        "postcode": "M16 8BE",
+        "venue_type": "community space"
+      },
+      "event_type": "music",
+      "image_url": "https://api.viaductecho.info/static/event_images/5492bdfd-f883-47d3-b67d-fc956f18783c.png",
+      "price_min": null,
+      "price_max": null,
+      "is_free": true,
+      "ticket_url": "https://www.instagram.com/p/DR2MH6iDcCI/"
     },
     {
       "id": 925,
@@ -602,6 +622,26 @@
       "ticket_url": "https://www.skiddle.com/whats-on/Manchester/The-Talleyrand/Comedy-at-the-Talleyrand/41421337/"
     },
     {
+      "id": 977,
+      "title": "Artisan Market",
+      "slug": "artisan-market-2025-12-12",
+      "start_datetime": "2025-12-12T12:00:00+00:00",
+      "venue": {
+        "id": 309,
+        "name": "Glossop Market Hall",
+        "slug": "glossop-market-hall",
+        "town": "Glossop",
+        "postcode": "SK13 8AP",
+        "venue_type": "hall"
+      },
+      "event_type": "other",
+      "image_url": "https://api.viaductecho.info/static/event_images/e30c2898-a979-4594-a5cc-f165cf3db47d.png",
+      "price_min": null,
+      "price_max": null,
+      "is_free": true,
+      "ticket_url": "https://www.instagram.com/p/DR1g1Gaj_6n/"
+    },
+    {
       "id": 901,
       "title": "The Underbank Weekender : Friday 12th December",
       "slug": "the-underbank-weekender-friday-12th-december",
@@ -642,26 +682,6 @@
       "ticket_url": "https://byyonorange.com/products/tea-conversation-by-yon-orange?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMjU2MjgxMDQwNTU4AAGntzdA7CpV2oAIbGjBbMIWElCXfU7jeD2oohUC7RZ2bxizpWMPXsTjorykOeY_aem_6xyidt_8XCo1UQjO16ws-A"
     },
     {
-      "id": 971,
-      "title": "Pub Step w. Adam H",
-      "slug": "pub-step-w-adam-h-2025-12-12",
-      "start_datetime": "2025-12-12T19:00:00+00:00",
-      "venue": {
-        "id": 294,
-        "name": "Red Bull",
-        "slug": "red-bull",
-        "town": "Stockport",
-        "postcode": "SK1 3AY",
-        "venue_type": "pub"
-      },
-      "event_type": "music",
-      "image_url": "https://api.viaductecho.info/static/event_images/2cad8111-9e06-4dd0-9b2f-eeb8470f8084.png",
-      "price_min": null,
-      "price_max": null,
-      "is_free": true,
-      "ticket_url": "https://www.instagram.com/red_bull_hillgate/?img_index=6"
-    },
-    {
       "id": 902,
       "title": "10 Years of Microfunk Music with Mystic State",
       "slug": "10-years-of-microfunk-music-with-mystic-state",
@@ -682,6 +702,26 @@
       "ticket_url": "https://www.skiddle.com/whats-on/Stockport/BRUK/10-Years-of-Microfunk-Music-with-Mystic-State/41585921/"
     },
     {
+      "id": 971,
+      "title": "Pub Step w. Adam H",
+      "slug": "pub-step-w-adam-h-2025-12-12",
+      "start_datetime": "2025-12-12T19:00:00+00:00",
+      "venue": {
+        "id": 294,
+        "name": "Red Bull",
+        "slug": "red-bull",
+        "town": "Stockport",
+        "postcode": "SK1 3AY",
+        "venue_type": "pub"
+      },
+      "event_type": "music",
+      "image_url": "https://api.viaductecho.info/static/event_images/2cad8111-9e06-4dd0-9b2f-eeb8470f8084.png",
+      "price_min": null,
+      "price_max": null,
+      "is_free": true,
+      "ticket_url": "https://www.instagram.com/red_bull_hillgate/?img_index=6"
+    },
+    {
       "id": 947,
       "title": "White Rabbit",
       "slug": "white-rabbit",
@@ -700,6 +740,26 @@
       "price_max": null,
       "is_free": false,
       "ticket_url": "https://ra.co/events/2306219"
+    },
+    {
+      "id": 978,
+      "title": "Artisan Market",
+      "slug": "artisan-market-2025-12-13",
+      "start_datetime": "2025-12-13T10:00:00+00:00",
+      "venue": {
+        "id": 309,
+        "name": "Glossop Market Hall",
+        "slug": "glossop-market-hall",
+        "town": "Glossop",
+        "postcode": "SK13 8AP",
+        "venue_type": "hall"
+      },
+      "event_type": "other",
+      "image_url": "https://api.viaductecho.info/static/event_images/bf28a444-b94b-443e-97d0-392030aaaf72.png",
+      "price_min": null,
+      "price_max": null,
+      "is_free": true,
+      "ticket_url": "https://www.instagram.com/p/DR1g1Gaj_6n/"
     },
     {
       "id": 972,
@@ -842,6 +902,26 @@
       "ticket_url": "https://raremags.co.uk/collections/featured/products/night-of-the-hunter-1955-18-12-film-night"
     },
     {
+      "id": 979,
+      "title": "Artisan Market",
+      "slug": "artisan-market-2025-12-19",
+      "start_datetime": "2025-12-19T12:00:00+00:00",
+      "venue": {
+        "id": 309,
+        "name": "Glossop Market Hall",
+        "slug": "glossop-market-hall",
+        "town": "Glossop",
+        "postcode": "SK13 8AP",
+        "venue_type": "hall"
+      },
+      "event_type": "other",
+      "image_url": "https://api.viaductecho.info/static/event_images/a5d91fe2-433d-4ec3-9177-c825e4eb7758.png",
+      "price_min": null,
+      "price_max": null,
+      "is_free": true,
+      "ticket_url": "https://www.instagram.com/p/DR1g1Gaj_6n/"
+    },
+    {
       "id": 924,
       "title": "Christmas Foodie Friday",
       "slug": "christmas-foodie-friday",
@@ -922,26 +1002,6 @@
       "ticket_url": "https://www.skiddle.com/whats-on/Stockport/Village-Hotel-Cheadle/Christmas-Party-Night/41639406/"
     },
     {
-      "id": 968,
-      "title": "New Year Party",
-      "slug": "new-year-party-2025-12-31",
-      "start_datetime": "2025-12-31T21:00:00+00:00",
-      "venue": {
-        "id": 308,
-        "name": "Stockport Produce Hall",
-        "slug": "stockport-produce-hall",
-        "town": "Stockport",
-        "postcode": "SK1 1EU",
-        "venue_type": "hall"
-      },
-      "event_type": "music",
-      "image_url": "https://api.viaductecho.info/static/event_images/17aa571d-7f7a-45ff-806f-64404359fb60.png",
-      "price_min": null,
-      "price_max": null,
-      "is_free": true,
-      "ticket_url": "https://www.instagram.com/p/DRcmqueDP8f/"
-    },
-    {
       "id": 967,
       "title": "A NYE Celebration",
       "slug": "a-nye-celebration-2025-12-31",
@@ -960,6 +1020,26 @@
       "price_max": 17.0,
       "is_free": false,
       "ticket_url": "https://www.instagram.com/p/DRfTiEGDcrs/"
+    },
+    {
+      "id": 968,
+      "title": "New Year Party",
+      "slug": "new-year-party-2025-12-31",
+      "start_datetime": "2025-12-31T21:00:00+00:00",
+      "venue": {
+        "id": 308,
+        "name": "Stockport Produce Hall",
+        "slug": "stockport-produce-hall",
+        "town": "Stockport",
+        "postcode": "SK1 1EU",
+        "venue_type": "hall"
+      },
+      "event_type": "music",
+      "image_url": "https://api.viaductecho.info/static/event_images/17aa571d-7f7a-45ff-806f-64404359fb60.png",
+      "price_min": null,
+      "price_max": null,
+      "is_free": true,
+      "ticket_url": "https://www.instagram.com/p/DRcmqueDP8f/"
     },
     {
       "id": 919,
@@ -1122,5 +1202,5 @@
       "ticket_url": "https://www.skiddle.com/whats-on/Manchester/The-Talleyrand/Comedy-at-the-Talleyrand/41421338/"
     }
   ],
-  "total": 56
+  "total": 60
 }
