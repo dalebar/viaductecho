@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-12-05T15:26:06.991443",
+  "generated_at": "2025-12-05T15:42:13.372679",
   "venues": [
     {
       "id": 285,
@@ -362,6 +362,24 @@
       "source_name": "skiddle"
     },
     {
+      "id": 308,
+      "name": "Stockport Produce Hall",
+      "slug": "stockport-produce-hall",
+      "address_line1": "24A Market Place",
+      "address_line2": null,
+      "town": "Stockport",
+      "postcode": "SK1 1EU",
+      "latitude": 53.41177,
+      "longitude": -2.15732,
+      "description": "Through its 160+ year life, the Produce Hall has hosted fish and meat markets, cheese stalls, sweet shops and even a public library.\n\nSince the beginning our main focus has been to preserve Stockport\u2019s history of a community market town for the people.\n\nOur wrap around kitchens serve up fresh, delicious food from light bites to entr\u00e9es, from British classics to Spanish delicacies. Featuring independent powerhouses: Thief Street, Kambuja and Mamma G\u2019s Soul Food.\n\nThe Produce Hall is a showcase of great food, drink and entertainment, whether you are coming with family, friends or to host a work meeting, our social space is where the people and community are quite literally at the centre of what we do.",
+      "venue_type": "hall",
+      "capacity": null,
+      "website_url": "https://theproducehall.com/",
+      "phone": null,
+      "image_url": null,
+      "source_name": "manual"
+    },
+    {
       "id": 301,
       "name": "Stockroom",
       "slug": "stockroom",
@@ -524,5 +542,5 @@
       "source_name": "manual"
     }
   ],
-  "total": 29
+  "total": 30
 }
