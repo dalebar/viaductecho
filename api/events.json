@@ -1,26 +1,6 @@
 {
-  "generated_at": "2025-12-05T15:50:50.658824",
+  "generated_at": "2025-12-05T16:04:06.842194",
   "events": [
-    {
-      "id": 940,
-      "title": "Dungeon Crawlers",
-      "slug": "dungeon-crawlers",
-      "start_datetime": "2025-12-05T16:00:00+00:00",
-      "venue": {
-        "id": 301,
-        "name": "Stockroom",
-        "slug": "stockroom",
-        "town": "Stockport",
-        "postcode": "SK1 1PW1",
-        "venue_type": "community space"
-      },
-      "event_type": "community",
-      "image_url": "https://api.viaductecho.info/static/event_images/b8a1487e-2bb3-4071-b068-ebd97508d811.png",
-      "price_min": null,
-      "price_max": null,
-      "is_free": true,
-      "ticket_url": "https://www.stockrm.org/events/dungeon-crawlers?date=2025-12-05"
-    },
     {
       "id": 946,
       "title": "Taking the MIChael",
@@ -462,26 +442,6 @@
       "ticket_url": "https://www.instagram.com/p/DRxT4YLjR7G/"
     },
     {
-      "id": 974,
-      "title": "Red Bull Christmas Party",
-      "slug": "red-bull-christmas-party-2025-12-10",
-      "start_datetime": "2025-12-10T19:00:00+00:00",
-      "venue": {
-        "id": 294,
-        "name": "Red Bull",
-        "slug": "red-bull",
-        "town": "Stockport",
-        "postcode": "SK1 3AY",
-        "venue_type": "pub"
-      },
-      "event_type": "community",
-      "image_url": "https://api.viaductecho.info/static/event_images/1c30a213-f6b7-4016-ae61-06c03a6e1158.png",
-      "price_min": null,
-      "price_max": null,
-      "is_free": true,
-      "ticket_url": "https://www.instagram.com/p/DR1XOhrCNQ_/?img_index=8"
-    },
-    {
       "id": 970,
       "title": "Quiz Night",
       "slug": "quiz-night-2025-12-10",
@@ -500,6 +460,26 @@
       "price_max": null,
       "is_free": true,
       "ticket_url": "https://www.instagram.com/red_bull_hillgate/?img_index=6"
+    },
+    {
+      "id": 974,
+      "title": "Red Bull Christmas Party",
+      "slug": "red-bull-christmas-party-2025-12-10",
+      "start_datetime": "2025-12-10T19:00:00+00:00",
+      "venue": {
+        "id": 294,
+        "name": "Red Bull",
+        "slug": "red-bull",
+        "town": "Stockport",
+        "postcode": "SK1 3AY",
+        "venue_type": "pub"
+      },
+      "event_type": "community",
+      "image_url": "https://api.viaductecho.info/static/event_images/1c30a213-f6b7-4016-ae61-06c03a6e1158.png",
+      "price_min": null,
+      "price_max": null,
+      "is_free": true,
+      "ticket_url": "https://www.instagram.com/p/DR1XOhrCNQ_/?img_index=8"
     },
     {
       "id": 918,
@@ -682,26 +662,6 @@
       "ticket_url": "https://byyonorange.com/products/tea-conversation-by-yon-orange?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMjU2MjgxMDQwNTU4AAGntzdA7CpV2oAIbGjBbMIWElCXfU7jeD2oohUC7RZ2bxizpWMPXsTjorykOeY_aem_6xyidt_8XCo1UQjO16ws-A"
     },
     {
-      "id": 902,
-      "title": "10 Years of Microfunk Music with Mystic State",
-      "slug": "10-years-of-microfunk-music-with-mystic-state",
-      "start_datetime": "2025-12-12T19:00:00+00:00",
-      "venue": {
-        "id": 285,
-        "name": "BRUK",
-        "slug": "bruk",
-        "town": "Stockport",
-        "postcode": "SK1 1JT",
-        "venue_type": null
-      },
-      "event_type": "music",
-      "image_url": "https://d31fr2pwly4c4s.cloudfront.net/0/2/6/2147558_a78c72ae_10-years-of-microfunk-music-with-mystic-state.jpg",
-      "price_min": null,
-      "price_max": null,
-      "is_free": true,
-      "ticket_url": "https://www.skiddle.com/whats-on/Stockport/BRUK/10-Years-of-Microfunk-Music-with-Mystic-State/41585921/"
-    },
-    {
       "id": 971,
       "title": "Pub Step w. Adam H",
       "slug": "pub-step-w-adam-h-2025-12-12",
@@ -720,6 +680,26 @@
       "price_max": null,
       "is_free": true,
       "ticket_url": "https://www.instagram.com/red_bull_hillgate/?img_index=6"
+    },
+    {
+      "id": 902,
+      "title": "10 Years of Microfunk Music with Mystic State",
+      "slug": "10-years-of-microfunk-music-with-mystic-state",
+      "start_datetime": "2025-12-12T19:00:00+00:00",
+      "venue": {
+        "id": 285,
+        "name": "BRUK",
+        "slug": "bruk",
+        "town": "Stockport",
+        "postcode": "SK1 1JT",
+        "venue_type": null
+      },
+      "event_type": "music",
+      "image_url": "https://d31fr2pwly4c4s.cloudfront.net/0/2/6/2147558_a78c72ae_10-years-of-microfunk-music-with-mystic-state.jpg",
+      "price_min": null,
+      "price_max": null,
+      "is_free": true,
+      "ticket_url": "https://www.skiddle.com/whats-on/Stockport/BRUK/10-Years-of-Microfunk-Music-with-Mystic-State/41585921/"
     },
     {
       "id": 947,
@@ -842,6 +822,26 @@
       "ticket_url": null
     },
     {
+      "id": 984,
+      "title": "CATALOG",
+      "slug": "catalog-2025-12-14",
+      "start_datetime": "2025-12-14T19:00:00+00:00",
+      "venue": {
+        "id": 306,
+        "name": "Carlton Club",
+        "slug": "carlton-club",
+        "town": "Manchester",
+        "postcode": "M16 8BE",
+        "venue_type": "community space"
+      },
+      "event_type": "music",
+      "image_url": "https://api.viaductecho.info/static/event_images/7adf79f0-108e-4aad-9dc4-9d4ad1c03080.png",
+      "price_min": 6.0,
+      "price_max": null,
+      "is_free": false,
+      "ticket_url": "https://www.skiddle.com/whats-on/Manchester/The-Carlton-Club-Manchester/CATALOG-Twin-Flames-Xmas-Special/41495642/"
+    },
+    {
       "id": 966,
       "title": "Christmas Brume",
       "slug": "christmas-brume-2025-12-16",
@@ -900,6 +900,26 @@
       "price_max": null,
       "is_free": false,
       "ticket_url": "https://raremags.co.uk/collections/featured/products/night-of-the-hunter-1955-18-12-film-night"
+    },
+    {
+      "id": 983,
+      "title": "Christmas Cabaret Night",
+      "slug": "christmas-cabaret-night-2025-12-18",
+      "start_datetime": "2025-12-18T19:00:00+00:00",
+      "venue": {
+        "id": 284,
+        "name": "The Underbank",
+        "slug": "the-underbank",
+        "town": "Stockport",
+        "postcode": "SK1 1LN",
+        "venue_type": null
+      },
+      "event_type": "theatre",
+      "image_url": "https://api.viaductecho.info/static/event_images/7b0ca9ab-86c7-4e6c-9f25-f2c7077f291c.png",
+      "price_min": null,
+      "price_max": null,
+      "is_free": true,
+      "ticket_url": "https://www.instagram.com/p/DR13d6ijFSG/"
     },
     {
       "id": 979,
@@ -1002,24 +1022,24 @@
       "ticket_url": "https://www.skiddle.com/whats-on/Stockport/Village-Hotel-Cheadle/Christmas-Party-Night/41639406/"
     },
     {
-      "id": 967,
-      "title": "A NYE Celebration",
-      "slug": "a-nye-celebration-2025-12-31",
-      "start_datetime": "2025-12-31T21:00:00+00:00",
+      "id": 980,
+      "title": "Club Biscuit",
+      "slug": "club-biscuit-2025-12-27",
+      "start_datetime": "2025-12-27T20:00:00+00:00",
       "venue": {
-        "id": 306,
-        "name": "Carlton Club",
-        "slug": "carlton-club",
+        "id": 289,
+        "name": "The Talleyrand",
+        "slug": "the-talleyrand",
         "town": "Manchester",
-        "postcode": "M16 8BE",
-        "venue_type": "community space"
+        "postcode": "M19 3WX",
+        "venue_type": null
       },
       "event_type": "music",
-      "image_url": "https://api.viaductecho.info/static/event_images/cb5be5cc-b0ef-4694-ba50-1cbd5c43d5ac.png",
-      "price_min": 14.0,
-      "price_max": 17.0,
-      "is_free": false,
-      "ticket_url": "https://www.instagram.com/p/DRfTiEGDcrs/"
+      "image_url": "https://api.viaductecho.info/static/event_images/38c464bd-f78f-4e7a-9375-28f91b5398d9.png",
+      "price_min": null,
+      "price_max": null,
+      "is_free": true,
+      "ticket_url": "https://www.instagram.com/p/DRfg1wBDbin/?img_index=1"
     },
     {
       "id": 968,
@@ -1040,6 +1060,26 @@
       "price_max": null,
       "is_free": true,
       "ticket_url": "https://www.instagram.com/p/DRcmqueDP8f/"
+    },
+    {
+      "id": 967,
+      "title": "A NYE Celebration",
+      "slug": "a-nye-celebration-2025-12-31",
+      "start_datetime": "2025-12-31T21:00:00+00:00",
+      "venue": {
+        "id": 306,
+        "name": "Carlton Club",
+        "slug": "carlton-club",
+        "town": "Manchester",
+        "postcode": "M16 8BE",
+        "venue_type": "community space"
+      },
+      "event_type": "music",
+      "image_url": "https://api.viaductecho.info/static/event_images/cb5be5cc-b0ef-4694-ba50-1cbd5c43d5ac.png",
+      "price_min": 14.0,
+      "price_max": 17.0,
+      "is_free": false,
+      "ticket_url": "https://www.instagram.com/p/DRfTiEGDcrs/"
     },
     {
       "id": 919,
@@ -1142,6 +1182,26 @@
       "ticket_url": "https://www.instagram.com/p/DRuz0GljY_8/"
     },
     {
+      "id": 981,
+      "title": "TALLEYDUB",
+      "slug": "talleydub-2026-01-10",
+      "start_datetime": "2026-01-10T18:00:00+00:00",
+      "venue": {
+        "id": 289,
+        "name": "The Talleyrand",
+        "slug": "the-talleyrand",
+        "town": "Manchester",
+        "postcode": "M19 3WX",
+        "venue_type": null
+      },
+      "event_type": "music",
+      "image_url": "https://api.viaductecho.info/static/event_images/e6b0666b-cfd0-47d2-8c14-45a64d32eda2.png",
+      "price_min": null,
+      "price_max": null,
+      "is_free": true,
+      "ticket_url": "https://www.instagram.com/p/DRufGdzDA4s/"
+    },
+    {
       "id": 914,
       "title": "Barefoot Beats",
       "slug": "barefoot-beats",
@@ -1202,5 +1262,5 @@
       "ticket_url": "https://www.skiddle.com/whats-on/Manchester/The-Talleyrand/Comedy-at-the-Talleyrand/41421338/"
     }
   ],
-  "total": 60
+  "total": 63
 }
