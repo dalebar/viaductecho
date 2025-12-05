@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-12-05T15:26:06.991443",
+  "generated_at": "2025-12-05T15:42:13.372679",
   "events": [
     {
       "id": 940,
@@ -302,6 +302,26 @@
       "ticket_url": null
     },
     {
+      "id": 969,
+      "title": "Hillgate Jazz",
+      "slug": "hillgate-jazz-2025-12-07",
+      "start_datetime": "2025-12-07T15:00:00+00:00",
+      "venue": {
+        "id": 294,
+        "name": "Red Bull",
+        "slug": "red-bull",
+        "town": "Stockport",
+        "postcode": "SK1 3AY",
+        "venue_type": "pub"
+      },
+      "event_type": "music",
+      "image_url": "https://api.viaductecho.info/static/event_images/d231440c-fe18-47ed-96e5-17a1d298c215.png",
+      "price_min": null,
+      "price_max": null,
+      "is_free": true,
+      "ticket_url": "https://www.instagram.com/red_bull_hillgate/"
+    },
+    {
       "id": 897,
       "title": "FutureShock Wrestling: Stockport",
       "slug": "futureshock-wrestling-stockport",
@@ -420,6 +440,46 @@
       "price_max": null,
       "is_free": true,
       "ticket_url": "https://www.instagram.com/p/DRxT4YLjR7G/"
+    },
+    {
+      "id": 974,
+      "title": "Red Bull Christmas Party",
+      "slug": "red-bull-christmas-party-2025-12-10",
+      "start_datetime": "2025-12-10T19:00:00+00:00",
+      "venue": {
+        "id": 294,
+        "name": "Red Bull",
+        "slug": "red-bull",
+        "town": "Stockport",
+        "postcode": "SK1 3AY",
+        "venue_type": "pub"
+      },
+      "event_type": "community",
+      "image_url": "https://api.viaductecho.info/static/event_images/1c30a213-f6b7-4016-ae61-06c03a6e1158.png",
+      "price_min": null,
+      "price_max": null,
+      "is_free": true,
+      "ticket_url": "https://www.instagram.com/p/DR1XOhrCNQ_/?img_index=8"
+    },
+    {
+      "id": 970,
+      "title": "Quiz Night",
+      "slug": "quiz-night-2025-12-10",
+      "start_datetime": "2025-12-10T19:00:00+00:00",
+      "venue": {
+        "id": 294,
+        "name": "Red Bull",
+        "slug": "red-bull",
+        "town": "Stockport",
+        "postcode": "SK1 3AY",
+        "venue_type": "pub"
+      },
+      "event_type": "community",
+      "image_url": "https://api.viaductecho.info/static/event_images/8ad321ed-1b3e-438a-9725-a204cafd8c50.png",
+      "price_min": null,
+      "price_max": null,
+      "is_free": true,
+      "ticket_url": "https://www.instagram.com/red_bull_hillgate/?img_index=6"
     },
     {
       "id": 965,
@@ -582,6 +642,26 @@
       "ticket_url": "https://byyonorange.com/products/tea-conversation-by-yon-orange?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMjU2MjgxMDQwNTU4AAGntzdA7CpV2oAIbGjBbMIWElCXfU7jeD2oohUC7RZ2bxizpWMPXsTjorykOeY_aem_6xyidt_8XCo1UQjO16ws-A"
     },
     {
+      "id": 971,
+      "title": "Pub Step w. Adam H",
+      "slug": "pub-step-w-adam-h-2025-12-12",
+      "start_datetime": "2025-12-12T19:00:00+00:00",
+      "venue": {
+        "id": 294,
+        "name": "Red Bull",
+        "slug": "red-bull",
+        "town": "Stockport",
+        "postcode": "SK1 3AY",
+        "venue_type": "pub"
+      },
+      "event_type": "music",
+      "image_url": "https://api.viaductecho.info/static/event_images/2cad8111-9e06-4dd0-9b2f-eeb8470f8084.png",
+      "price_min": null,
+      "price_max": null,
+      "is_free": true,
+      "ticket_url": "https://www.instagram.com/red_bull_hillgate/?img_index=6"
+    },
+    {
       "id": 902,
       "title": "10 Years of Microfunk Music with Mystic State",
       "slug": "10-years-of-microfunk-music-with-mystic-state",
@@ -620,6 +700,26 @@
       "price_max": null,
       "is_free": false,
       "ticket_url": "https://ra.co/events/2306219"
+    },
+    {
+      "id": 972,
+      "title": "Jonny Normal and Royalmale",
+      "slug": "jonny-normal-and-royalmale-2025-12-13",
+      "start_datetime": "2025-12-13T18:00:00+00:00",
+      "venue": {
+        "id": 294,
+        "name": "Red Bull",
+        "slug": "red-bull",
+        "town": "Stockport",
+        "postcode": "SK1 3AY",
+        "venue_type": "pub"
+      },
+      "event_type": "music",
+      "image_url": "https://api.viaductecho.info/static/event_images/9011d84f-39c1-49b0-9558-302d418d9a65.png",
+      "price_min": null,
+      "price_max": null,
+      "is_free": true,
+      "ticket_url": "https://www.instagram.com/red_bull_hillgate/?img_index=6"
     },
     {
       "id": 903,
@@ -700,6 +800,26 @@
       "price_max": null,
       "is_free": false,
       "ticket_url": "https://www.skiddle.com/whats-on/Manchester/The-Carlton-Club-Manchester/Brume-Beats-n-Pieces-TOOLSHED/41643740/"
+    },
+    {
+      "id": 973,
+      "title": "Christmas Quiz w. Simon Diamond",
+      "slug": "christmas-quiz-w-simon-diamond-2025-12-17",
+      "start_datetime": "2025-12-17T18:00:00+00:00",
+      "venue": {
+        "id": 294,
+        "name": "Red Bull",
+        "slug": "red-bull",
+        "town": "Stockport",
+        "postcode": "SK1 3AY",
+        "venue_type": "pub"
+      },
+      "event_type": "community",
+      "image_url": "https://api.viaductecho.info/static/event_images/3ea8963b-35a2-4f1d-b75e-d76991aca671.png",
+      "price_min": null,
+      "price_max": null,
+      "is_free": true,
+      "ticket_url": "https://www.instagram.com/p/DR1XOhrCNQ_/?img_index=8"
     },
     {
       "id": 928,
@@ -800,6 +920,26 @@
       "price_max": null,
       "is_free": false,
       "ticket_url": "https://www.skiddle.com/whats-on/Stockport/Village-Hotel-Cheadle/Christmas-Party-Night/41639406/"
+    },
+    {
+      "id": 968,
+      "title": "New Year Party",
+      "slug": "new-year-party-2025-12-31",
+      "start_datetime": "2025-12-31T21:00:00+00:00",
+      "venue": {
+        "id": 308,
+        "name": "Stockport Produce Hall",
+        "slug": "stockport-produce-hall",
+        "town": "Stockport",
+        "postcode": "SK1 1EU",
+        "venue_type": "hall"
+      },
+      "event_type": "music",
+      "image_url": "https://api.viaductecho.info/static/event_images/17aa571d-7f7a-45ff-806f-64404359fb60.png",
+      "price_min": null,
+      "price_max": null,
+      "is_free": true,
+      "ticket_url": "https://www.instagram.com/p/DRcmqueDP8f/"
     },
     {
       "id": 967,
@@ -982,5 +1122,5 @@
       "ticket_url": "https://www.skiddle.com/whats-on/Manchester/The-Talleyrand/Comedy-at-the-Talleyrand/41421338/"
     }
   ],
-  "total": 49
+  "total": 56
 }
