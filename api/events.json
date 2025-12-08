@@ -1,306 +1,6 @@
 {
-  "generated_at": "2025-12-05T22:58:20.351795",
+  "generated_at": "2025-12-08T14:45:45.322357",
   "events": [
-    {
-      "id": 976,
-      "title": "Artisan Market",
-      "slug": "artisan-market",
-      "start_datetime": "2025-12-06T10:00:00+00:00",
-      "venue": {
-        "id": 309,
-        "name": "Glossop Market Hall",
-        "slug": "glossop-market-hall",
-        "town": "Glossop",
-        "postcode": "SK13 8AP",
-        "venue_type": "hall"
-      },
-      "event_type": "music",
-      "image_url": "https://api.viaductecho.info/static/event_images/7d557074-7932-4653-ae2c-db83b3036d10.png",
-      "price_min": null,
-      "price_max": null,
-      "is_free": true,
-      "ticket_url": "https://www.instagram.com/independent_street_/"
-    },
-    {
-      "id": 941,
-      "title": "Christmas Bauble Workshop",
-      "slug": "christmas-bauble-workshop",
-      "start_datetime": "2025-12-06T10:00:00+00:00",
-      "venue": {
-        "id": 302,
-        "name": "SJS Smith Jewellery",
-        "slug": "sjs-smith-jewellery",
-        "town": "Stockport",
-        "postcode": "SK1 1JT",
-        "venue_type": "shop"
-      },
-      "event_type": "music",
-      "image_url": "https://api.viaductecho.info/static/event_images/dd6852c8-9aa2-44d4-b083-04042d190903.png",
-      "price_min": 65.0,
-      "price_max": null,
-      "is_free": false,
-      "ticket_url": "https://sjssmithjewellery.com/product-category/silver-jewellery-classes/christmas-bauble-making-workshop/"
-    },
-    {
-      "id": 958,
-      "title": "Rummage In The Range",
-      "slug": "rummage-in-the-range-2025-12-06",
-      "start_datetime": "2025-12-06T10:00:00+00:00",
-      "venue": {
-        "id": 306,
-        "name": "Carlton Club",
-        "slug": "carlton-club",
-        "town": "Manchester",
-        "postcode": "M16 8BE",
-        "venue_type": "community space"
-      },
-      "event_type": "other",
-      "image_url": "https://api.viaductecho.info/static/event_images/d3d46942-1e09-4412-9472-83852b6057aa.png",
-      "price_min": 2.0,
-      "price_max": null,
-      "is_free": false,
-      "ticket_url": "https://www.instagram.com/p/DRrmJlLAWmB/"
-    },
-    {
-      "id": 929,
-      "title": "Stockport Zine & Print Fair",
-      "slug": "stockport-zine-print-fair",
-      "start_datetime": "2025-12-06T11:00:00+00:00",
-      "venue": {
-        "id": 301,
-        "name": "Stockroom",
-        "slug": "stockroom",
-        "town": "Stockport",
-        "postcode": "SK1 1PW1",
-        "venue_type": "community space"
-      },
-      "event_type": "arts",
-      "image_url": "https://api.viaductecho.info/static/event_images/9e5af9ff-cff9-497e-9e73-9756c86c01de.png",
-      "price_min": null,
-      "price_max": null,
-      "is_free": true,
-      "ticket_url": "https://www.stockrm.org/events/winter-zine-and-print?date=2025-12-06"
-    },
-    {
-      "id": 956,
-      "title": "Wreath Making Workshop",
-      "slug": "wreath-making-workshop-2025-12-06",
-      "start_datetime": "2025-12-06T11:00:00+00:00",
-      "venue": {
-        "id": 306,
-        "name": "Carlton Club",
-        "slug": "carlton-club",
-        "town": "Manchester",
-        "postcode": "M16 8BE",
-        "venue_type": "community space"
-      },
-      "event_type": "arts",
-      "image_url": "https://api.viaductecho.info/static/event_images/bc947a85-79f7-4eb8-8275-0d2dba8222fa.png",
-      "price_min": 35.0,
-      "price_max": null,
-      "is_free": false,
-      "ticket_url": null
-    },
-    {
-      "id": 951,
-      "title": "Before Store Record Sale",
-      "slug": "before-store-record-sale-2025-12-06",
-      "start_datetime": "2025-12-06T16:00:00+00:00",
-      "venue": {
-        "id": 295,
-        "name": "Core international",
-        "slug": "core-international",
-        "town": "Stockport",
-        "postcode": "SK1 3AY",
-        "venue_type": "bar"
-      },
-      "event_type": "arts",
-      "image_url": "https://api.viaductecho.info/static/event_images/5019ef64-1ce2-43d0-a43d-3eeffbff501e.png",
-      "price_min": null,
-      "price_max": null,
-      "is_free": true,
-      "ticket_url": "https://www.instagram.com/thecoreinternational/"
-    },
-    {
-      "id": 896,
-      "title": "System of a Down - B.Y.O.B",
-      "slug": "system-of-a-down-byob",
-      "start_datetime": "2025-12-06T19:00:00+00:00",
-      "venue": {
-        "id": 280,
-        "name": "Holy Diver",
-        "slug": "holy-diver",
-        "town": "Stockport",
-        "postcode": "SK1 1SL",
-        "venue_type": null
-      },
-      "event_type": "music",
-      "image_url": "https://d31fr2pwly4c4s.cloudfront.net/2/c/a/2141945_97615355_system-of-a-down-b-y-o-b.jpg",
-      "price_min": 6.0,
-      "price_max": null,
-      "is_free": false,
-      "ticket_url": "https://www.skiddle.com/whats-on/Stockport/Holy-Diver/System-of-a-Down---BYOB/41498367/"
-    },
-    {
-      "id": 955,
-      "title": "Club Solo's Christmas Cracker",
-      "slug": "club-solos-christmas-cracker-2025-12-06",
-      "start_datetime": "2025-12-06T20:00:00+00:00",
-      "venue": {
-        "id": 306,
-        "name": "Carlton Club",
-        "slug": "carlton-club",
-        "town": "Manchester",
-        "postcode": "M16 8BE",
-        "venue_type": "community space"
-      },
-      "event_type": "music",
-      "image_url": "https://api.viaductecho.info/static/event_images/b71338bd-6d98-418a-ab8e-2690de5d8fb0.png",
-      "price_min": 20.0,
-      "price_max": null,
-      "is_free": false,
-      "ticket_url": "https://www.skiddle.com/whats-on/Manchester/The-Carlton-Club-Manchester/Club-Solos-Christmas-Cracker-with-Jon-Dasilva/41363341/"
-    },
-    {
-      "id": 953,
-      "title": "Heaton Moor Christmas Market",
-      "slug": "heaton-moor-christmas-market-2025-12-07",
-      "start_datetime": "2025-12-07T10:30:00+00:00",
-      "venue": {
-        "id": 307,
-        "name": "Shaw Road",
-        "slug": "shaw-road",
-        "town": "Stockport",
-        "postcode": "SK4 4AG",
-        "venue_type": null
-      },
-      "event_type": "community",
-      "image_url": "https://api.viaductecho.info/static/event_images/3a3d3f2c-6b89-42fe-a39c-7db10ce96436.png",
-      "price_min": null,
-      "price_max": null,
-      "is_free": true,
-      "ticket_url": null
-    },
-    {
-      "id": 957,
-      "title": "Wreath Making Workshop",
-      "slug": "wreath-making-workshop-2025-12-07",
-      "start_datetime": "2025-12-07T11:00:00+00:00",
-      "venue": {
-        "id": 306,
-        "name": "Carlton Club",
-        "slug": "carlton-club",
-        "town": "Manchester",
-        "postcode": "M16 8BE",
-        "venue_type": "community space"
-      },
-      "event_type": "arts",
-      "image_url": "https://api.viaductecho.info/static/event_images/5fbb78b2-a592-4d96-99c5-772c98e11f80.png",
-      "price_min": 35.0,
-      "price_max": null,
-      "is_free": false,
-      "ticket_url": null
-    },
-    {
-      "id": 949,
-      "title": "Pinoy Kitchen Take-Over",
-      "slug": "pinoy-kitchen-take-over",
-      "start_datetime": "2025-12-07T14:00:00+00:00",
-      "venue": {
-        "id": 294,
-        "name": "Red Bull",
-        "slug": "red-bull",
-        "town": "Stockport",
-        "postcode": "SK1 3AY",
-        "venue_type": "pub"
-      },
-      "event_type": "other",
-      "image_url": "https://api.viaductecho.info/static/event_images/2c7bf4a0-1246-4aec-b916-3b055273a8ea.png",
-      "price_min": null,
-      "price_max": null,
-      "is_free": true,
-      "ticket_url": null
-    },
-    {
-      "id": 969,
-      "title": "Hillgate Jazz",
-      "slug": "hillgate-jazz-2025-12-07",
-      "start_datetime": "2025-12-07T15:00:00+00:00",
-      "venue": {
-        "id": 294,
-        "name": "Red Bull",
-        "slug": "red-bull",
-        "town": "Stockport",
-        "postcode": "SK1 3AY",
-        "venue_type": "pub"
-      },
-      "event_type": "music",
-      "image_url": "https://api.viaductecho.info/static/event_images/d231440c-fe18-47ed-96e5-17a1d298c215.png",
-      "price_min": null,
-      "price_max": null,
-      "is_free": true,
-      "ticket_url": "https://www.instagram.com/red_bull_hillgate/"
-    },
-    {
-      "id": 897,
-      "title": "FutureShock Wrestling: Stockport",
-      "slug": "futureshock-wrestling-stockport",
-      "start_datetime": "2025-12-07T17:30:00+00:00",
-      "venue": {
-        "id": 281,
-        "name": "Stockport Masonic Guildhall",
-        "slug": "stockport-masonic-guildhall",
-        "town": "Stockport",
-        "postcode": "SK1 3UA",
-        "venue_type": null
-      },
-      "event_type": "other",
-      "image_url": "https://d31fr2pwly4c4s.cloudfront.net/4/3/e/2126778_13096493_FutureShock-Wrestling--Stockport.jpg",
-      "price_min": 17.85,
-      "price_max": null,
-      "is_free": false,
-      "ticket_url": "https://www.skiddle.com/whats-on/Stockport/Stockport-Masonic-Guildhall/FutureShock-Wrestling-Stockport/41442414/"
-    },
-    {
-      "id": 961,
-      "title": "Brume",
-      "slug": "brume-2025-12-07",
-      "start_datetime": "2025-12-07T18:00:00+00:00",
-      "venue": {
-        "id": 306,
-        "name": "Carlton Club",
-        "slug": "carlton-club",
-        "town": "Manchester",
-        "postcode": "M16 8BE",
-        "venue_type": "community space"
-      },
-      "event_type": "music",
-      "image_url": "https://api.viaductecho.info/static/event_images/f1838865-df9d-4358-beba-057840a4ca59.png",
-      "price_min": null,
-      "price_max": null,
-      "is_free": true,
-      "ticket_url": "https://www.instagram.com/p/DRuz0GljY_8/"
-    },
-    {
-      "id": 910,
-      "title": "Sunday Skate 7th December 2025 with Manc Skating (Didsbury)",
-      "slug": "sunday-skate-7th-december-2025-with-manc-skating-didsbury",
-      "start_datetime": "2025-12-07T19:00:00+00:00",
-      "venue": {
-        "id": 288,
-        "name": "The Barlow RC High School ",
-        "slug": "the-barlow-rc-high-school",
-        "town": "Manchester",
-        "postcode": "M20 6BX",
-        "venue_type": null
-      },
-      "event_type": "other",
-      "image_url": "https://d31fr2pwly4c4s.cloudfront.net/2/b/5/2141528_28614218_Sunday-Skate-7th-December-2025-with-Manc-Skating--Didsbury-.jpg",
-      "price_min": 8.0,
-      "price_max": null,
-      "is_free": false,
-      "ticket_url": "https://www.skiddle.com/whats-on/Manchester/The-Barlow-RC-High-School-/Sunday-Skate-7th-December-2025-with-Manc-Skating-Didsbury/41496394/"
-    },
     {
       "id": 900,
       "title": "Live at the Plough",
@@ -362,26 +62,6 @@
       "ticket_url": "https://www.instagram.com/p/DRxT4YLjR7G/"
     },
     {
-      "id": 970,
-      "title": "Quiz Night",
-      "slug": "quiz-night-2025-12-10",
-      "start_datetime": "2025-12-10T19:00:00+00:00",
-      "venue": {
-        "id": 294,
-        "name": "Red Bull",
-        "slug": "red-bull",
-        "town": "Stockport",
-        "postcode": "SK1 3AY",
-        "venue_type": "pub"
-      },
-      "event_type": "community",
-      "image_url": "https://api.viaductecho.info/static/event_images/8ad321ed-1b3e-438a-9725-a204cafd8c50.png",
-      "price_min": null,
-      "price_max": null,
-      "is_free": true,
-      "ticket_url": "https://www.instagram.com/red_bull_hillgate/?img_index=6"
-    },
-    {
       "id": 974,
       "title": "Red Bull Christmas Party",
       "slug": "red-bull-christmas-party-2025-12-10",
@@ -402,24 +82,24 @@
       "ticket_url": "https://www.instagram.com/p/DR1XOhrCNQ_/?img_index=8"
     },
     {
-      "id": 965,
-      "title": "Amanda Jane Heywood Band",
-      "slug": "amanda-jane-heywood-band-2025-12-10",
-      "start_datetime": "2025-12-10T20:00:00+00:00",
+      "id": 970,
+      "title": "Quiz Night",
+      "slug": "quiz-night-2025-12-10",
+      "start_datetime": "2025-12-10T19:00:00+00:00",
       "venue": {
-        "id": 306,
-        "name": "Carlton Club",
-        "slug": "carlton-club",
-        "town": "Manchester",
-        "postcode": "M16 8BE",
-        "venue_type": "community space"
+        "id": 294,
+        "name": "Red Bull",
+        "slug": "red-bull",
+        "town": "Stockport",
+        "postcode": "SK1 3AY",
+        "venue_type": "pub"
       },
-      "event_type": "music",
-      "image_url": "https://api.viaductecho.info/static/event_images/5492bdfd-f883-47d3-b67d-fc956f18783c.png",
+      "event_type": "community",
+      "image_url": "https://api.viaductecho.info/static/event_images/8ad321ed-1b3e-438a-9725-a204cafd8c50.png",
       "price_min": null,
       "price_max": null,
       "is_free": true,
-      "ticket_url": "https://www.instagram.com/p/DR2MH6iDcCI/"
+      "ticket_url": "https://www.instagram.com/red_bull_hillgate/?img_index=6"
     },
     {
       "id": 918,
@@ -440,6 +120,26 @@
       "price_max": null,
       "is_free": true,
       "ticket_url": "https://www.instagram.com/alaughinstockport/"
+    },
+    {
+      "id": 965,
+      "title": "Amanda Jane Heywood Band",
+      "slug": "amanda-jane-heywood-band-2025-12-10",
+      "start_datetime": "2025-12-10T20:00:00+00:00",
+      "venue": {
+        "id": 306,
+        "name": "Carlton Club",
+        "slug": "carlton-club",
+        "town": "Manchester",
+        "postcode": "M16 8BE",
+        "venue_type": "community space"
+      },
+      "event_type": "music",
+      "image_url": "https://api.viaductecho.info/static/event_images/5492bdfd-f883-47d3-b67d-fc956f18783c.png",
+      "price_min": null,
+      "price_max": null,
+      "is_free": true,
+      "ticket_url": "https://www.instagram.com/p/DR2MH6iDcCI/"
     },
     {
       "id": 925,
@@ -582,26 +282,6 @@
       "ticket_url": "https://byyonorange.com/products/tea-conversation-by-yon-orange?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMjU2MjgxMDQwNTU4AAGntzdA7CpV2oAIbGjBbMIWElCXfU7jeD2oohUC7RZ2bxizpWMPXsTjorykOeY_aem_6xyidt_8XCo1UQjO16ws-A"
     },
     {
-      "id": 971,
-      "title": "Pub Step w. Adam H",
-      "slug": "pub-step-w-adam-h-2025-12-12",
-      "start_datetime": "2025-12-12T19:00:00+00:00",
-      "venue": {
-        "id": 294,
-        "name": "Red Bull",
-        "slug": "red-bull",
-        "town": "Stockport",
-        "postcode": "SK1 3AY",
-        "venue_type": "pub"
-      },
-      "event_type": "music",
-      "image_url": "https://api.viaductecho.info/static/event_images/2cad8111-9e06-4dd0-9b2f-eeb8470f8084.png",
-      "price_min": null,
-      "price_max": null,
-      "is_free": true,
-      "ticket_url": "https://www.instagram.com/red_bull_hillgate/?img_index=6"
-    },
-    {
       "id": 902,
       "title": "10 Years of Microfunk Music with Mystic State",
       "slug": "10-years-of-microfunk-music-with-mystic-state",
@@ -620,6 +300,26 @@
       "price_max": null,
       "is_free": true,
       "ticket_url": "https://www.skiddle.com/whats-on/Stockport/BRUK/10-Years-of-Microfunk-Music-with-Mystic-State/41585921/"
+    },
+    {
+      "id": 971,
+      "title": "Pub Step w. Adam H",
+      "slug": "pub-step-w-adam-h-2025-12-12",
+      "start_datetime": "2025-12-12T19:00:00+00:00",
+      "venue": {
+        "id": 294,
+        "name": "Red Bull",
+        "slug": "red-bull",
+        "town": "Stockport",
+        "postcode": "SK1 3AY",
+        "venue_type": "pub"
+      },
+      "event_type": "music",
+      "image_url": "https://api.viaductecho.info/static/event_images/2cad8111-9e06-4dd0-9b2f-eeb8470f8084.png",
+      "price_min": null,
+      "price_max": null,
+      "is_free": true,
+      "ticket_url": "https://www.instagram.com/red_bull_hillgate/?img_index=6"
     },
     {
       "id": 947,
@@ -720,6 +420,26 @@
       "price_max": null,
       "is_free": true,
       "ticket_url": "https://www.instagram.com/p/DQukQQFjEzS/"
+    },
+    {
+      "id": 987,
+      "title": "Carlton Club Record Fair",
+      "slug": "carlton-club-record-fair-2025-12-14",
+      "start_datetime": "2025-12-14T13:00:00+00:00",
+      "venue": {
+        "id": 306,
+        "name": "Carlton Club",
+        "slug": "carlton-club",
+        "town": "Manchester",
+        "postcode": "M16 8BE",
+        "venue_type": "community space"
+      },
+      "event_type": "community",
+      "image_url": "https://api.viaductecho.info/static/event_images/d2d50de1-4059-4500-b164-3b23c0b50edf.png",
+      "price_min": null,
+      "price_max": null,
+      "is_free": true,
+      "ticket_url": "https://www.instagram.com/carltonclubmcr/"
     },
     {
       "id": 952,
@@ -1162,6 +882,26 @@
       "ticket_url": "https://www.instagram.com/p/DRufGdzDA4s/"
     },
     {
+      "id": 988,
+      "title": "Carlton Club Record Fair",
+      "slug": "carlton-club-record-fair-2026-01-11",
+      "start_datetime": "2026-01-11T13:00:00+00:00",
+      "venue": {
+        "id": 306,
+        "name": "Carlton Club",
+        "slug": "carlton-club",
+        "town": "Manchester",
+        "postcode": "M16 8BE",
+        "venue_type": "community space"
+      },
+      "event_type": "community",
+      "image_url": "https://api.viaductecho.info/static/event_images/d17aad45-9158-446e-a66d-33fbf5eab0eb.png",
+      "price_min": null,
+      "price_max": null,
+      "is_free": true,
+      "ticket_url": "https://www.instagram.com/p/DR9qkzyinIC/"
+    },
+    {
       "id": 914,
       "title": "Barefoot Beats",
       "slug": "barefoot-beats",
@@ -1222,5 +962,5 @@
       "ticket_url": "https://www.skiddle.com/whats-on/Manchester/The-Talleyrand/Comedy-at-the-Talleyrand/41421338/"
     }
   ],
-  "total": 61
+  "total": 48
 }
