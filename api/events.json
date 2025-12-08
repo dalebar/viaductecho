@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-12-08T14:45:45.322357",
+  "generated_at": "2025-12-08T15:13:40.433623",
   "events": [
     {
       "id": 900,
@@ -62,26 +62,6 @@
       "ticket_url": "https://www.instagram.com/p/DRxT4YLjR7G/"
     },
     {
-      "id": 974,
-      "title": "Red Bull Christmas Party",
-      "slug": "red-bull-christmas-party-2025-12-10",
-      "start_datetime": "2025-12-10T19:00:00+00:00",
-      "venue": {
-        "id": 294,
-        "name": "Red Bull",
-        "slug": "red-bull",
-        "town": "Stockport",
-        "postcode": "SK1 3AY",
-        "venue_type": "pub"
-      },
-      "event_type": "community",
-      "image_url": "https://api.viaductecho.info/static/event_images/1c30a213-f6b7-4016-ae61-06c03a6e1158.png",
-      "price_min": null,
-      "price_max": null,
-      "is_free": true,
-      "ticket_url": "https://www.instagram.com/p/DR1XOhrCNQ_/?img_index=8"
-    },
-    {
       "id": 970,
       "title": "Quiz Night",
       "slug": "quiz-night-2025-12-10",
@@ -102,24 +82,24 @@
       "ticket_url": "https://www.instagram.com/red_bull_hillgate/?img_index=6"
     },
     {
-      "id": 918,
-      "title": "Murder Inc. Presents Toys Were Us",
-      "slug": "murder-inc-presents-toys-were-us",
-      "start_datetime": "2025-12-10T20:00:00+00:00",
+      "id": 974,
+      "title": "Red Bull Christmas Party",
+      "slug": "red-bull-christmas-party-2025-12-10",
+      "start_datetime": "2025-12-10T19:00:00+00:00",
       "venue": {
-        "id": 293,
-        "name": "Thread",
-        "slug": "thread",
+        "id": 294,
+        "name": "Red Bull",
+        "slug": "red-bull",
         "town": "Stockport",
-        "postcode": "SK1 1EU",
-        "venue_type": "bar"
+        "postcode": "SK1 3AY",
+        "venue_type": "pub"
       },
-      "event_type": "comedy",
-      "image_url": "https://api.viaductecho.info/static/event_images/63bbe03e-fba7-4411-89a9-6a7099781ee3.png",
+      "event_type": "community",
+      "image_url": "https://api.viaductecho.info/static/event_images/1c30a213-f6b7-4016-ae61-06c03a6e1158.png",
       "price_min": null,
       "price_max": null,
       "is_free": true,
-      "ticket_url": "https://www.instagram.com/alaughinstockport/"
+      "ticket_url": "https://www.instagram.com/p/DR1XOhrCNQ_/?img_index=8"
     },
     {
       "id": 965,
@@ -140,6 +120,26 @@
       "price_max": null,
       "is_free": true,
       "ticket_url": "https://www.instagram.com/p/DR2MH6iDcCI/"
+    },
+    {
+      "id": 918,
+      "title": "Murder Inc. Presents Toys Were Us",
+      "slug": "murder-inc-presents-toys-were-us",
+      "start_datetime": "2025-12-10T20:00:00+00:00",
+      "venue": {
+        "id": 293,
+        "name": "Thread",
+        "slug": "thread",
+        "town": "Stockport",
+        "postcode": "SK1 1EU",
+        "venue_type": "bar"
+      },
+      "event_type": "comedy",
+      "image_url": "https://api.viaductecho.info/static/event_images/63bbe03e-fba7-4411-89a9-6a7099781ee3.png",
+      "price_min": null,
+      "price_max": null,
+      "is_free": true,
+      "ticket_url": "https://www.instagram.com/alaughinstockport/"
     },
     {
       "id": 925,
@@ -282,26 +282,6 @@
       "ticket_url": "https://byyonorange.com/products/tea-conversation-by-yon-orange?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMjU2MjgxMDQwNTU4AAGntzdA7CpV2oAIbGjBbMIWElCXfU7jeD2oohUC7RZ2bxizpWMPXsTjorykOeY_aem_6xyidt_8XCo1UQjO16ws-A"
     },
     {
-      "id": 902,
-      "title": "10 Years of Microfunk Music with Mystic State",
-      "slug": "10-years-of-microfunk-music-with-mystic-state",
-      "start_datetime": "2025-12-12T19:00:00+00:00",
-      "venue": {
-        "id": 285,
-        "name": "BRUK",
-        "slug": "bruk",
-        "town": "Stockport",
-        "postcode": "SK1 1JT",
-        "venue_type": null
-      },
-      "event_type": "music",
-      "image_url": "https://d31fr2pwly4c4s.cloudfront.net/0/2/6/2147558_a78c72ae_10-years-of-microfunk-music-with-mystic-state.jpg",
-      "price_min": null,
-      "price_max": null,
-      "is_free": true,
-      "ticket_url": "https://www.skiddle.com/whats-on/Stockport/BRUK/10-Years-of-Microfunk-Music-with-Mystic-State/41585921/"
-    },
-    {
       "id": 971,
       "title": "Pub Step w. Adam H",
       "slug": "pub-step-w-adam-h-2025-12-12",
@@ -322,6 +302,26 @@
       "ticket_url": "https://www.instagram.com/red_bull_hillgate/?img_index=6"
     },
     {
+      "id": 902,
+      "title": "10 Years of Microfunk Music with Mystic State",
+      "slug": "10-years-of-microfunk-music-with-mystic-state",
+      "start_datetime": "2025-12-12T19:00:00+00:00",
+      "venue": {
+        "id": 285,
+        "name": "BRUK",
+        "slug": "bruk",
+        "town": "Stockport",
+        "postcode": "SK1 1JT",
+        "venue_type": null
+      },
+      "event_type": "music",
+      "image_url": "https://d31fr2pwly4c4s.cloudfront.net/0/2/6/2147558_a78c72ae_10-years-of-microfunk-music-with-mystic-state.jpg",
+      "price_min": null,
+      "price_max": null,
+      "is_free": true,
+      "ticket_url": "https://www.skiddle.com/whats-on/Stockport/BRUK/10-Years-of-Microfunk-Music-with-Mystic-State/41585921/"
+    },
+    {
       "id": 947,
       "title": "White Rabbit",
       "slug": "white-rabbit",
@@ -340,6 +340,26 @@
       "price_max": null,
       "is_free": false,
       "ticket_url": "https://ra.co/events/2306219"
+    },
+    {
+      "id": 990,
+      "title": "Stockport Ceramics Fair",
+      "slug": "stockport-ceramics-fair-2025-12-13",
+      "start_datetime": "2025-12-13T10:00:00+00:00",
+      "venue": {
+        "id": 301,
+        "name": "Stockroom",
+        "slug": "stockroom",
+        "town": "Stockport",
+        "postcode": "SK1 1PW1",
+        "venue_type": "community space"
+      },
+      "event_type": "arts",
+      "image_url": "https://api.viaductecho.info/static/event_images/f9a31362-1ff3-4755-a10a-d73a54a6e0f7.png",
+      "price_min": null,
+      "price_max": null,
+      "is_free": true,
+      "ticket_url": "https://www.instagram.com/p/DOnVRsGDcFY/"
     },
     {
       "id": 978,
@@ -400,6 +420,46 @@
       "price_max": null,
       "is_free": false,
       "ticket_url": "https://www.skiddle.com/whats-on/Stockport/Holy-Diver/KISS-Dressed-to-Kill/41600332/"
+    },
+    {
+      "id": 989,
+      "title": "Blether Community Christmas Party",
+      "slug": "blether-community-christmas-party-2025-12-13",
+      "start_datetime": "2025-12-13T19:30:00+00:00",
+      "venue": {
+        "id": 311,
+        "name": "Levenshulme Old Library",
+        "slug": "levenshulme-old-library-1",
+        "town": "Manchester",
+        "postcode": "M19 3QE",
+        "venue_type": "art centre"
+      },
+      "event_type": "community",
+      "image_url": "https://api.viaductecho.info/static/event_images/918f1495-4fcb-4923-9bce-5a065ce80fef.png",
+      "price_min": 10.0,
+      "price_max": null,
+      "is_free": false,
+      "ticket_url": "https://www.eventbrite.co.uk/e/blether-community-christmas-party-tickets-1974259869415"
+    },
+    {
+      "id": 991,
+      "title": "One Tree Island Yuletide Ying Yang",
+      "slug": "one-tree-island-yuletide-ying-yang-2025-12-13",
+      "start_datetime": "2025-12-13T19:30:00+00:00",
+      "venue": {
+        "id": 306,
+        "name": "Carlton Club",
+        "slug": "carlton-club",
+        "town": "Manchester",
+        "postcode": "M16 8BE",
+        "venue_type": "community space"
+      },
+      "event_type": "music",
+      "image_url": "https://api.viaductecho.info/static/event_images/fdc64188-d2df-45c1-9e5a-ba6c43658da7.png",
+      "price_min": 9.05,
+      "price_max": null,
+      "is_free": false,
+      "ticket_url": null
     },
     {
       "id": 926,
@@ -642,26 +702,6 @@
       "ticket_url": "https://www.skiddle.com/whats-on/Stockport/Holy-Diver/Gothmas-With-Cassyette-DJ-Set/41614441/"
     },
     {
-      "id": 986,
-      "title": "Yalda Night",
-      "slug": "yalda-night-2025-12-21",
-      "start_datetime": "2025-12-21T18:00:00+00:00",
-      "venue": {
-        "id": 310,
-        "name": "Hilton House",
-        "slug": "hilton-house",
-        "town": "Stockport",
-        "postcode": "SK1 3NA",
-        "venue_type": "community space"
-      },
-      "event_type": "community",
-      "image_url": "https://api.viaductecho.info/static/event_images/ce0ce8fd-a441-4975-946b-f5595a0554be.png",
-      "price_min": 30.0,
-      "price_max": 35.0,
-      "is_free": false,
-      "ticket_url": "https://www.eventbrite.co.uk/e/yalda-night-tickets-1976669160670"
-    },
-    {
       "id": 985,
       "title": "The Snug Season 2 Closing Party",
       "slug": "the-snug-season-2-closing-party-2025-12-21",
@@ -680,6 +720,26 @@
       "price_max": null,
       "is_free": true,
       "ticket_url": "https://www.instagram.com/p/DR5Bxa_iF3i/"
+    },
+    {
+      "id": 986,
+      "title": "Yalda Night",
+      "slug": "yalda-night-2025-12-21",
+      "start_datetime": "2025-12-21T18:00:00+00:00",
+      "venue": {
+        "id": 310,
+        "name": "Hilton House",
+        "slug": "hilton-house",
+        "town": "Stockport",
+        "postcode": "SK1 3NA",
+        "venue_type": "community space"
+      },
+      "event_type": "community",
+      "image_url": "https://api.viaductecho.info/static/event_images/ce0ce8fd-a441-4975-946b-f5595a0554be.png",
+      "price_min": 30.0,
+      "price_max": 35.0,
+      "is_free": false,
+      "ticket_url": "https://www.eventbrite.co.uk/e/yalda-night-tickets-1976669160670"
     },
     {
       "id": 945,
@@ -962,5 +1022,5 @@
       "ticket_url": "https://www.skiddle.com/whats-on/Manchester/The-Talleyrand/Comedy-at-the-Talleyrand/41421338/"
     }
   ],
-  "total": 48
+  "total": 51
 }
