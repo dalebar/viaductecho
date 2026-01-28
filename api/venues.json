@@ -1,6 +1,24 @@
 {
-  "generated_at": "2026-01-28T13:34:40.824123",
+  "generated_at": "2026-01-28T17:08:55.389700",
   "venues": [
+    {
+      "id": 313,
+      "name": "Alfredo's",
+      "slug": "alfredos",
+      "address_line1": "23-27 Little Underbank",
+      "address_line2": null,
+      "town": "Stockport",
+      "postcode": "SK1 1LA",
+      "latitude": null,
+      "longitude": null,
+      "description": null,
+      "venue_type": "bar",
+      "capacity": null,
+      "website_url": "https://alfredos.social",
+      "phone": "0161 625 4866",
+      "image_url": null,
+      "source_name": "manual"
+    },
     {
       "id": 285,
       "name": "BRUK",
@@ -69,6 +87,24 @@
       "venue_type": "bar",
       "capacity": null,
       "website_url": "https://www.instagram.com/thecoreinternational/",
+      "phone": null,
+      "image_url": null,
+      "source_name": "manual"
+    },
+    {
+      "id": 312,
+      "name": "Fell Stockport",
+      "slug": "fell-stockport",
+      "address_line1": "10 St Petersgate",
+      "address_line2": null,
+      "town": "Stockport",
+      "postcode": "SK1 1EN",
+      "latitude": null,
+      "longitude": null,
+      "description": "Craft beer bar and brewery tap room in the heart of Stockport",
+      "venue_type": "bar",
+      "capacity": null,
+      "website_url": "https://www.instagram.com/fellstockport/",
       "phone": null,
       "image_url": null,
       "source_name": "manual"
@@ -200,6 +236,24 @@
       "source_name": "manual"
     },
     {
+      "id": 316,
+      "name": "Market Hall",
+      "slug": "market-hall",
+      "address_line1": "Market Place",
+      "address_line2": null,
+      "town": "Stockport",
+      "postcode": "SK1 1UN",
+      "latitude": null,
+      "longitude": null,
+      "description": "Stockport Indoor Market - historic market hall with food traders and events",
+      "venue_type": "other",
+      "capacity": null,
+      "website_url": "https://thestockportmarket.co.uk",
+      "phone": "0161 474 2500",
+      "image_url": null,
+      "source_name": "manual"
+    },
+    {
       "id": 287,
       "name": "OverDraught",
       "slug": "overdraught",
@@ -267,6 +321,24 @@
       "venue_type": "pub",
       "capacity": null,
       "website_url": "www.robinsonsbrewery.com/redbullstockport",
+      "phone": null,
+      "image_url": null,
+      "source_name": "manual"
+    },
+    {
+      "id": 314,
+      "name": "Reddish Ale",
+      "slug": "reddish-ale",
+      "address_line1": "14 Broadstone Rd",
+      "address_line2": null,
+      "town": "Reddish, Stockport",
+      "postcode": "SK5 7AE",
+      "latitude": null,
+      "longitude": null,
+      "description": "Craft beer pub in Reddish",
+      "venue_type": "pub",
+      "capacity": null,
+      "website_url": "https://reddishale.com",
       "phone": null,
       "image_url": null,
       "source_name": "manual"
@@ -488,6 +560,24 @@
       "source_name": "manual"
     },
     {
+      "id": 315,
+      "name": "The Produce Hall",
+      "slug": "the-produce-hall",
+      "address_line1": "24A Market Place",
+      "address_line2": null,
+      "town": "Stockport",
+      "postcode": "SK1 1EU",
+      "latitude": null,
+      "longitude": null,
+      "description": "Food hall and event space in Stockport Market",
+      "venue_type": "other",
+      "capacity": null,
+      "website_url": null,
+      "phone": null,
+      "image_url": null,
+      "source_name": "manual"
+    },
+    {
       "id": 289,
       "name": "The Talleyrand",
       "slug": "the-talleyrand",
@@ -596,5 +686,5 @@
       "source_name": "manual"
     }
   ],
-  "total": 33
+  "total": 38
 }
