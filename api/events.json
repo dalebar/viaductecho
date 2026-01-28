@@ -1,5 +1,566 @@
 {
-  "generated_at": "2026-01-28T13:34:40.824123",
-  "events": [],
-  "total": 0
+  "generated_at": "2026-01-28T17:08:55.389700",
+  "events": [
+    {
+      "id": 993,
+      "title": "Alfredo's Happy Hour",
+      "slug": "alfredos-happy-hour-2026-01-29",
+      "start_datetime": "2026-01-29T17:00:00+00:00",
+      "venue": {
+        "id": 313,
+        "name": "Alfredo's",
+        "slug": "alfredos",
+        "town": "Stockport",
+        "postcode": "SK1 1LA",
+        "venue_type": "bar"
+      },
+      "event_type": "other",
+      "image_url": "https://api.viaductecho.info/static/event_images/e992da84-00c3-4161-a3a1-ce20316d72bc.png",
+      "price_min": null,
+      "price_max": null,
+      "is_free": false,
+      "ticket_url": "https://www.instagram.com/p/DTu1IunimCW/"
+    },
+    {
+      "id": 1012,
+      "title": "Foodie Friday - Joyful January",
+      "slug": "foodie-friday-joyful-january",
+      "start_datetime": "2026-01-30T11:00:00+00:00",
+      "venue": {
+        "id": 316,
+        "name": "Market Hall",
+        "slug": "market-hall",
+        "town": "Stockport",
+        "postcode": "SK1 1UN",
+        "venue_type": "other"
+      },
+      "event_type": "",
+      "image_url": null,
+      "price_min": null,
+      "price_max": null,
+      "is_free": true,
+      "ticket_url": "https://www.instagram.com/p/DT8BkdziL9K/"
+    },
+    {
+      "id": 1011,
+      "title": "Payday Party",
+      "slug": "payday-party",
+      "start_datetime": "2026-01-30T19:00:00+00:00",
+      "venue": {
+        "id": 315,
+        "name": "The Produce Hall",
+        "slug": "the-produce-hall",
+        "town": "Stockport",
+        "postcode": "SK1 1EU",
+        "venue_type": "other"
+      },
+      "event_type": "music",
+      "image_url": null,
+      "price_min": null,
+      "price_max": null,
+      "is_free": true,
+      "ticket_url": "https://www.instagram.com/p/DT-2x8oDBIV/"
+    },
+    {
+      "id": 994,
+      "title": "Alfredo's Happy Hour",
+      "slug": "alfredos-happy-hour-2026-02-02",
+      "start_datetime": "2026-02-02T17:00:00+00:00",
+      "venue": {
+        "id": 313,
+        "name": "Alfredo's",
+        "slug": "alfredos",
+        "town": "Stockport",
+        "postcode": "SK1 1LA",
+        "venue_type": "bar"
+      },
+      "event_type": "other",
+      "image_url": "https://api.viaductecho.info/static/event_images/e992da84-00c3-4161-a3a1-ce20316d72bc.png",
+      "price_min": null,
+      "price_max": null,
+      "is_free": false,
+      "ticket_url": "https://www.instagram.com/p/DTu1IunimCW/"
+    },
+    {
+      "id": 995,
+      "title": "Alfredo's Happy Hour",
+      "slug": "alfredos-happy-hour-2026-02-03",
+      "start_datetime": "2026-02-03T17:00:00+00:00",
+      "venue": {
+        "id": 313,
+        "name": "Alfredo's",
+        "slug": "alfredos",
+        "town": "Stockport",
+        "postcode": "SK1 1LA",
+        "venue_type": "bar"
+      },
+      "event_type": "other",
+      "image_url": "https://api.viaductecho.info/static/event_images/e992da84-00c3-4161-a3a1-ce20316d72bc.png",
+      "price_min": null,
+      "price_max": null,
+      "is_free": false,
+      "ticket_url": "https://www.instagram.com/p/DTu1IunimCW/"
+    },
+    {
+      "id": 1010,
+      "title": "Cheese 4 Change",
+      "slug": "cheese-4-change",
+      "start_datetime": "2026-02-04T17:00:00+00:00",
+      "venue": {
+        "id": 314,
+        "name": "Reddish Ale",
+        "slug": "reddish-ale",
+        "town": "Reddish, Stockport",
+        "postcode": "SK5 7AE",
+        "venue_type": "pub"
+      },
+      "event_type": "community",
+      "image_url": null,
+      "price_min": null,
+      "price_max": null,
+      "is_free": true,
+      "ticket_url": "https://www.instagram.com/p/DUDzTWzjMTe/"
+    },
+    {
+      "id": 996,
+      "title": "Alfredo's Happy Hour",
+      "slug": "alfredos-happy-hour-2026-02-04",
+      "start_datetime": "2026-02-04T17:00:00+00:00",
+      "venue": {
+        "id": 313,
+        "name": "Alfredo's",
+        "slug": "alfredos",
+        "town": "Stockport",
+        "postcode": "SK1 1LA",
+        "venue_type": "bar"
+      },
+      "event_type": "other",
+      "image_url": "https://api.viaductecho.info/static/event_images/e992da84-00c3-4161-a3a1-ce20316d72bc.png",
+      "price_min": null,
+      "price_max": null,
+      "is_free": false,
+      "ticket_url": "https://www.instagram.com/p/DTu1IunimCW/"
+    },
+    {
+      "id": 997,
+      "title": "Alfredo's Happy Hour",
+      "slug": "alfredos-happy-hour-2026-02-05",
+      "start_datetime": "2026-02-05T17:00:00+00:00",
+      "venue": {
+        "id": 313,
+        "name": "Alfredo's",
+        "slug": "alfredos",
+        "town": "Stockport",
+        "postcode": "SK1 1LA",
+        "venue_type": "bar"
+      },
+      "event_type": "other",
+      "image_url": "https://api.viaductecho.info/static/event_images/e992da84-00c3-4161-a3a1-ce20316d72bc.png",
+      "price_min": null,
+      "price_max": null,
+      "is_free": false,
+      "ticket_url": "https://www.instagram.com/p/DTu1IunimCW/"
+    },
+    {
+      "id": 1013,
+      "title": "LGBT+ History Month - Delve",
+      "slug": "lgbt-history-month-delve-2026-02-09",
+      "start_datetime": "2026-02-09T10:00:00+00:00",
+      "venue": {
+        "id": 301,
+        "name": "Stockroom",
+        "slug": "stockroom",
+        "town": "Stockport",
+        "postcode": "SK1 1PW1",
+        "venue_type": "community space"
+      },
+      "event_type": "community",
+      "image_url": null,
+      "price_min": null,
+      "price_max": null,
+      "is_free": true,
+      "ticket_url": "https://www.instagram.com/p/DUD8jTZDT4l/"
+    },
+    {
+      "id": 998,
+      "title": "Alfredo's Happy Hour",
+      "slug": "alfredos-happy-hour-2026-02-09",
+      "start_datetime": "2026-02-09T17:00:00+00:00",
+      "venue": {
+        "id": 313,
+        "name": "Alfredo's",
+        "slug": "alfredos",
+        "town": "Stockport",
+        "postcode": "SK1 1LA",
+        "venue_type": "bar"
+      },
+      "event_type": "other",
+      "image_url": "https://api.viaductecho.info/static/event_images/e992da84-00c3-4161-a3a1-ce20316d72bc.png",
+      "price_min": null,
+      "price_max": null,
+      "is_free": false,
+      "ticket_url": "https://www.instagram.com/p/DTu1IunimCW/"
+    },
+    {
+      "id": 1014,
+      "title": "LGBT+ History Month - Delve",
+      "slug": "lgbt-history-month-delve-2026-02-10",
+      "start_datetime": "2026-02-10T10:00:00+00:00",
+      "venue": {
+        "id": 301,
+        "name": "Stockroom",
+        "slug": "stockroom",
+        "town": "Stockport",
+        "postcode": "SK1 1PW1",
+        "venue_type": "community space"
+      },
+      "event_type": "community",
+      "image_url": null,
+      "price_min": null,
+      "price_max": null,
+      "is_free": true,
+      "ticket_url": "https://www.instagram.com/p/DUD8jTZDT4l/"
+    },
+    {
+      "id": 999,
+      "title": "Alfredo's Happy Hour",
+      "slug": "alfredos-happy-hour-2026-02-10",
+      "start_datetime": "2026-02-10T17:00:00+00:00",
+      "venue": {
+        "id": 313,
+        "name": "Alfredo's",
+        "slug": "alfredos",
+        "town": "Stockport",
+        "postcode": "SK1 1LA",
+        "venue_type": "bar"
+      },
+      "event_type": "other",
+      "image_url": "https://api.viaductecho.info/static/event_images/e992da84-00c3-4161-a3a1-ce20316d72bc.png",
+      "price_min": null,
+      "price_max": null,
+      "is_free": false,
+      "ticket_url": "https://www.instagram.com/p/DTu1IunimCW/"
+    },
+    {
+      "id": 1015,
+      "title": "LGBT+ History Month - Delve",
+      "slug": "lgbt-history-month-delve",
+      "start_datetime": "2026-02-11T10:00:00+00:00",
+      "venue": {
+        "id": 301,
+        "name": "Stockroom",
+        "slug": "stockroom",
+        "town": "Stockport",
+        "postcode": "SK1 1PW1",
+        "venue_type": "community space"
+      },
+      "event_type": "community",
+      "image_url": "https://api.viaductecho.info/static/event_images/5f5e9be2-c8cb-44bd-8519-d35cc1f645e8.png",
+      "price_min": null,
+      "price_max": null,
+      "is_free": true,
+      "ticket_url": "https://www.instagram.com/p/DUD8jTZDT4l/"
+    },
+    {
+      "id": 1000,
+      "title": "Alfredo's Happy Hour",
+      "slug": "alfredos-happy-hour-2026-02-11",
+      "start_datetime": "2026-02-11T17:00:00+00:00",
+      "venue": {
+        "id": 313,
+        "name": "Alfredo's",
+        "slug": "alfredos",
+        "town": "Stockport",
+        "postcode": "SK1 1LA",
+        "venue_type": "bar"
+      },
+      "event_type": "other",
+      "image_url": "https://api.viaductecho.info/static/event_images/e992da84-00c3-4161-a3a1-ce20316d72bc.png",
+      "price_min": null,
+      "price_max": null,
+      "is_free": false,
+      "ticket_url": "https://www.instagram.com/p/DTu1IunimCW/"
+    },
+    {
+      "id": 1016,
+      "title": "LGBT+ History Month - Delve",
+      "slug": "lgbt-history-month-delve-2026-02-12",
+      "start_datetime": "2026-02-12T10:00:00+00:00",
+      "venue": {
+        "id": 301,
+        "name": "Stockroom",
+        "slug": "stockroom",
+        "town": "Stockport",
+        "postcode": "SK1 1PW1",
+        "venue_type": "community space"
+      },
+      "event_type": "community",
+      "image_url": null,
+      "price_min": null,
+      "price_max": null,
+      "is_free": true,
+      "ticket_url": "https://www.instagram.com/p/DUD8jTZDT4l/"
+    },
+    {
+      "id": 1001,
+      "title": "Alfredo's Happy Hour",
+      "slug": "alfredos-happy-hour-2026-02-12",
+      "start_datetime": "2026-02-12T17:00:00+00:00",
+      "venue": {
+        "id": 313,
+        "name": "Alfredo's",
+        "slug": "alfredos",
+        "town": "Stockport",
+        "postcode": "SK1 1LA",
+        "venue_type": "bar"
+      },
+      "event_type": "other",
+      "image_url": "https://api.viaductecho.info/static/event_images/e992da84-00c3-4161-a3a1-ce20316d72bc.png",
+      "price_min": null,
+      "price_max": null,
+      "is_free": false,
+      "ticket_url": "https://www.instagram.com/p/DTu1IunimCW/"
+    },
+    {
+      "id": 1017,
+      "title": "LGBT+ History Month - Delve",
+      "slug": "lgbt-history-month-delve-2026-02-13",
+      "start_datetime": "2026-02-13T10:00:00+00:00",
+      "venue": {
+        "id": 301,
+        "name": "Stockroom",
+        "slug": "stockroom",
+        "town": "Stockport",
+        "postcode": "SK1 1PW1",
+        "venue_type": "community space"
+      },
+      "event_type": "community",
+      "image_url": null,
+      "price_min": null,
+      "price_max": null,
+      "is_free": true,
+      "ticket_url": "https://www.instagram.com/p/DUD8jTZDT4l/"
+    },
+    {
+      "id": 1018,
+      "title": "LGBT+ History Month - Delve",
+      "slug": "lgbt-history-month-delve-2026-02-14",
+      "start_datetime": "2026-02-14T10:00:00+00:00",
+      "venue": {
+        "id": 301,
+        "name": "Stockroom",
+        "slug": "stockroom",
+        "town": "Stockport",
+        "postcode": "SK1 1PW1",
+        "venue_type": "community space"
+      },
+      "event_type": "community",
+      "image_url": null,
+      "price_min": null,
+      "price_max": null,
+      "is_free": true,
+      "ticket_url": "https://www.instagram.com/p/DUD8jTZDT4l/"
+    },
+    {
+      "id": 1019,
+      "title": "LGBT+ History Month - Delve",
+      "slug": "lgbt-history-month-delve-2026-02-15",
+      "start_datetime": "2026-02-15T10:00:00+00:00",
+      "venue": {
+        "id": 301,
+        "name": "Stockroom",
+        "slug": "stockroom",
+        "town": "Stockport",
+        "postcode": "SK1 1PW1",
+        "venue_type": "community space"
+      },
+      "event_type": "community",
+      "image_url": null,
+      "price_min": null,
+      "price_max": null,
+      "is_free": true,
+      "ticket_url": "https://www.instagram.com/p/DUD8jTZDT4l/"
+    },
+    {
+      "id": 1002,
+      "title": "Alfredo's Happy Hour",
+      "slug": "alfredos-happy-hour-2026-02-16",
+      "start_datetime": "2026-02-16T17:00:00+00:00",
+      "venue": {
+        "id": 313,
+        "name": "Alfredo's",
+        "slug": "alfredos",
+        "town": "Stockport",
+        "postcode": "SK1 1LA",
+        "venue_type": "bar"
+      },
+      "event_type": "other",
+      "image_url": "https://api.viaductecho.info/static/event_images/e992da84-00c3-4161-a3a1-ce20316d72bc.png",
+      "price_min": null,
+      "price_max": null,
+      "is_free": false,
+      "ticket_url": "https://www.instagram.com/p/DTu1IunimCW/"
+    },
+    {
+      "id": 1003,
+      "title": "Alfredo's Happy Hour",
+      "slug": "alfredos-happy-hour-2026-02-17",
+      "start_datetime": "2026-02-17T17:00:00+00:00",
+      "venue": {
+        "id": 313,
+        "name": "Alfredo's",
+        "slug": "alfredos",
+        "town": "Stockport",
+        "postcode": "SK1 1LA",
+        "venue_type": "bar"
+      },
+      "event_type": "other",
+      "image_url": "https://api.viaductecho.info/static/event_images/e992da84-00c3-4161-a3a1-ce20316d72bc.png",
+      "price_min": null,
+      "price_max": null,
+      "is_free": false,
+      "ticket_url": "https://www.instagram.com/p/DTu1IunimCW/"
+    },
+    {
+      "id": 1004,
+      "title": "Alfredo's Happy Hour",
+      "slug": "alfredos-happy-hour-2026-02-18",
+      "start_datetime": "2026-02-18T17:00:00+00:00",
+      "venue": {
+        "id": 313,
+        "name": "Alfredo's",
+        "slug": "alfredos",
+        "town": "Stockport",
+        "postcode": "SK1 1LA",
+        "venue_type": "bar"
+      },
+      "event_type": "other",
+      "image_url": "https://api.viaductecho.info/static/event_images/e992da84-00c3-4161-a3a1-ce20316d72bc.png",
+      "price_min": null,
+      "price_max": null,
+      "is_free": false,
+      "ticket_url": "https://www.instagram.com/p/DTu1IunimCW/"
+    },
+    {
+      "id": 1005,
+      "title": "Alfredo's Happy Hour",
+      "slug": "alfredos-happy-hour-2026-02-19",
+      "start_datetime": "2026-02-19T17:00:00+00:00",
+      "venue": {
+        "id": 313,
+        "name": "Alfredo's",
+        "slug": "alfredos",
+        "town": "Stockport",
+        "postcode": "SK1 1LA",
+        "venue_type": "bar"
+      },
+      "event_type": "other",
+      "image_url": "https://api.viaductecho.info/static/event_images/e992da84-00c3-4161-a3a1-ce20316d72bc.png",
+      "price_min": null,
+      "price_max": null,
+      "is_free": false,
+      "ticket_url": "https://www.instagram.com/p/DTu1IunimCW/"
+    },
+    {
+      "id": 1006,
+      "title": "Alfredo's Happy Hour",
+      "slug": "alfredos-happy-hour-2026-02-23",
+      "start_datetime": "2026-02-23T17:00:00+00:00",
+      "venue": {
+        "id": 313,
+        "name": "Alfredo's",
+        "slug": "alfredos",
+        "town": "Stockport",
+        "postcode": "SK1 1LA",
+        "venue_type": "bar"
+      },
+      "event_type": "other",
+      "image_url": "https://api.viaductecho.info/static/event_images/e992da84-00c3-4161-a3a1-ce20316d72bc.png",
+      "price_min": null,
+      "price_max": null,
+      "is_free": false,
+      "ticket_url": "https://www.instagram.com/p/DTu1IunimCW/"
+    },
+    {
+      "id": 1007,
+      "title": "Alfredo's Happy Hour",
+      "slug": "alfredos-happy-hour-2026-02-24",
+      "start_datetime": "2026-02-24T17:00:00+00:00",
+      "venue": {
+        "id": 313,
+        "name": "Alfredo's",
+        "slug": "alfredos",
+        "town": "Stockport",
+        "postcode": "SK1 1LA",
+        "venue_type": "bar"
+      },
+      "event_type": "other",
+      "image_url": "https://api.viaductecho.info/static/event_images/e992da84-00c3-4161-a3a1-ce20316d72bc.png",
+      "price_min": null,
+      "price_max": null,
+      "is_free": false,
+      "ticket_url": "https://www.instagram.com/p/DTu1IunimCW/"
+    },
+    {
+      "id": 1008,
+      "title": "Alfredo's Happy Hour",
+      "slug": "alfredos-happy-hour-2026-02-25",
+      "start_datetime": "2026-02-25T17:00:00+00:00",
+      "venue": {
+        "id": 313,
+        "name": "Alfredo's",
+        "slug": "alfredos",
+        "town": "Stockport",
+        "postcode": "SK1 1LA",
+        "venue_type": "bar"
+      },
+      "event_type": "other",
+      "image_url": "https://api.viaductecho.info/static/event_images/e992da84-00c3-4161-a3a1-ce20316d72bc.png",
+      "price_min": null,
+      "price_max": null,
+      "is_free": false,
+      "ticket_url": "https://www.instagram.com/p/DTu1IunimCW/"
+    },
+    {
+      "id": 1009,
+      "title": "Alfredo's Happy Hour",
+      "slug": "alfredos-happy-hour-2026-02-26",
+      "start_datetime": "2026-02-26T17:00:00+00:00",
+      "venue": {
+        "id": 313,
+        "name": "Alfredo's",
+        "slug": "alfredos",
+        "town": "Stockport",
+        "postcode": "SK1 1LA",
+        "venue_type": "bar"
+      },
+      "event_type": "other",
+      "image_url": "https://api.viaductecho.info/static/event_images/e992da84-00c3-4161-a3a1-ce20316d72bc.png",
+      "price_min": null,
+      "price_max": null,
+      "is_free": false,
+      "ticket_url": "https://www.instagram.com/p/DTu1IunimCW/"
+    },
+    {
+      "id": 992,
+      "title": "Fell Stockport Jazz Jam",
+      "slug": "fell-stockport-jazz-jam-2025-03-04",
+      "start_datetime": "2026-03-04T19:00:00+00:00",
+      "venue": {
+        "id": 312,
+        "name": "Fell Stockport",
+        "slug": "fell-stockport",
+        "town": "Stockport",
+        "postcode": "SK1 1EN",
+        "venue_type": "bar"
+      },
+      "event_type": "music",
+      "image_url": "https://api.viaductecho.info/static/event_images/520e431d-237b-4afc-911b-7a78d0515f0e.png",
+      "price_min": null,
+      "price_max": null,
+      "is_free": true,
+      "ticket_url": "https://www.instagram.com/p/DT8ETudDTk_/"
+    }
+  ],
+  "total": 28
 }
