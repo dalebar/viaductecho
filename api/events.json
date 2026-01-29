@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-01-29T11:22:23.602613",
+  "generated_at": "2026-01-29T11:35:17.582760",
   "events": [
     {
       "id": 1012,
@@ -142,6 +142,26 @@
       "ticket_url": "https://www.instagram.com/p/DTxCzPaCJ5A/"
     },
     {
+      "id": 1029,
+      "title": "CATALOG: Live DJ & Visual Mashings",
+      "slug": "catalog-live-dj-visual-mashings",
+      "start_datetime": "2026-02-08T19:00:00+00:00",
+      "venue": {
+        "id": 306,
+        "name": "Carlton Club",
+        "slug": "carlton-club",
+        "town": "Manchester",
+        "postcode": "M16 8BE",
+        "venue_type": "community space"
+      },
+      "event_type": "music",
+      "image_url": "https://api.viaductecho.info/static/event_images/6a945c2f-4b4f-4896-a60a-98a21bd365a4.png",
+      "price_min": null,
+      "price_max": null,
+      "is_free": true,
+      "ticket_url": "https://www.instagram.com/p/DUEDFY8Dafp/"
+    },
+    {
       "id": 1013,
       "title": "LGBT+ History Month - Delve",
       "slug": "lgbt-history-month-delve-1",
@@ -200,6 +220,26 @@
       "price_max": null,
       "is_free": false,
       "ticket_url": "https://www.instagram.com/p/DUEa7_fAkPr/"
+    },
+    {
+      "id": 1028,
+      "title": "Breakfast Brew: Spotlight Q&A",
+      "slug": "breakfast-brew-spotlight-qa",
+      "start_datetime": "2026-02-19T08:30:00+00:00",
+      "venue": {
+        "id": 294,
+        "name": "Red Bull",
+        "slug": "red-bull",
+        "town": "Stockport",
+        "postcode": "SK1 3AY",
+        "venue_type": "pub"
+      },
+      "event_type": "community",
+      "image_url": "https://api.viaductecho.info/static/event_images/a0e235e8-f5bd-4e97-a35f-be5aeaed624a.png",
+      "price_min": 7.4,
+      "price_max": 7.4,
+      "is_free": false,
+      "ticket_url": "https://www.universe.com/breakfast-brew"
     },
     {
       "id": 1022,
@@ -282,5 +322,5 @@
       "ticket_url": "https://www.instagram.com/p/DUBvaM1jSAy/"
     }
   ],
-  "total": 14
+  "total": 16
 }
