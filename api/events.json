@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-01-29T12:53:32.120049",
+  "generated_at": "2026-01-29T13:19:11.274186",
   "events": [
     {
       "id": 1030,
@@ -202,6 +202,26 @@
       "ticket_url": "https://www.instagram.com/p/DTu1IunimCW/"
     },
     {
+      "id": 1070,
+      "title": "Galentines Bracelet Making",
+      "slug": "galentines-bracelet-making",
+      "start_datetime": "2026-02-05T18:30:00+00:00",
+      "venue": {
+        "id": 325,
+        "name": "Berretto Lounge",
+        "slug": "berretto-lounge",
+        "town": "Stockport",
+        "postcode": "SK1 1SA",
+        "venue_type": "bar"
+      },
+      "event_type": "",
+      "image_url": "https://api.viaductecho.info/static/event_images/d4365c02-9e52-4e60-962a-e91fd80abb38.png",
+      "price_min": 12.0,
+      "price_max": 12.0,
+      "is_free": false,
+      "ticket_url": "https://www.instagram.com/p/DT0yQWriHm5/"
+    },
+    {
       "id": 1032,
       "title": "Live Comedy - Friday 6th February",
       "slug": "live-comedy-friday-6th-february-2026-02-06",
@@ -262,6 +282,66 @@
       "ticket_url": "https://www.skiddle.com/whats-on/Stockport/Holy-Diver/Paramore-Vs-Avril-lavigne-Double-header/41955628/"
     },
     {
+      "id": 1073,
+      "title": "Side Lines: Odioba",
+      "slug": "side-lines-odioba",
+      "start_datetime": "2026-02-07T19:30:00+00:00",
+      "venue": {
+        "id": 324,
+        "name": "Odioba",
+        "slug": "odioba",
+        "town": "Stockport",
+        "postcode": "SK1 1JE",
+        "venue_type": null
+      },
+      "event_type": "music",
+      "image_url": "https://api.viaductecho.info/static/event_images/80a46607-3fc8-4f76-ad71-73b483510add.png",
+      "price_min": null,
+      "price_max": null,
+      "is_free": true,
+      "ticket_url": "https://www.instagram.com/p/DTvPKsyDAu2/"
+    },
+    {
+      "id": 1071,
+      "title": "Side Lines: Stockroom",
+      "slug": "side-lines-stockroom",
+      "start_datetime": "2026-02-07T19:30:00+00:00",
+      "venue": {
+        "id": 301,
+        "name": "Stockroom",
+        "slug": "stockroom",
+        "town": "Stockport",
+        "postcode": "SK1 1PW1",
+        "venue_type": "community space"
+      },
+      "event_type": "music",
+      "image_url": "https://api.viaductecho.info/static/event_images/3e33af3b-76d1-48c7-af5b-63a77c7aa511.png",
+      "price_min": null,
+      "price_max": null,
+      "is_free": true,
+      "ticket_url": "https://www.instagram.com/p/DTvPKsyDAu2/"
+    },
+    {
+      "id": 1072,
+      "title": "Side Lines: BRUK",
+      "slug": "side-lines-bruk",
+      "start_datetime": "2026-02-07T19:30:00+00:00",
+      "venue": {
+        "id": 285,
+        "name": "BRUK",
+        "slug": "bruk",
+        "town": "Stockport",
+        "postcode": "SK1 1JT",
+        "venue_type": null
+      },
+      "event_type": "music",
+      "image_url": "https://api.viaductecho.info/static/event_images/678d602f-5d65-4d0e-bcdb-5525a3ed1bee.png",
+      "price_min": null,
+      "price_max": null,
+      "is_free": true,
+      "ticket_url": "https://www.instagram.com/p/DTvPKsyDAu2/"
+    },
+    {
       "id": 1027,
       "title": "Side Lines: Red Bull",
       "slug": "side-lines-red-bull",
@@ -282,26 +362,6 @@
       "ticket_url": "https://www.instagram.com/p/DTxCzPaCJ5A/"
     },
     {
-      "id": 1035,
-      "title": "Muslim Marriage Events Manchester - Divorcee/Widow Event",
-      "slug": "muslim-marriage-events-manchester-divorceewidow-event-2026-02-08",
-      "start_datetime": "2026-02-08T11:30:00+00:00",
-      "venue": {
-        "id": 282,
-        "name": "Royal Nawaab Pyramid",
-        "slug": "royal-nawaab-pyramid",
-        "town": "Stockport",
-        "postcode": "SK2 2JU",
-        "venue_type": null
-      },
-      "event_type": "other",
-      "image_url": "https://d31fr2pwly4c4s.cloudfront.net/9/9/9/2186697_c35f9e8c_muslim-marriage-events-manchester-divorcee-widow-event.jpg",
-      "price_min": null,
-      "price_max": null,
-      "is_free": false,
-      "ticket_url": "https://www.skiddle.com/whats-on/Stockport/Royal-Nawaab-Pyramid/Muslim-Marriage-Events-Manchester---DivorceeWidow-Event/41946697/"
-    },
-    {
       "id": 1036,
       "title": "Muslim Marriage Events Manchester - 2 Age Groups",
       "slug": "muslim-marriage-events-manchester-2-age-groups-2026-02-08",
@@ -320,6 +380,26 @@
       "price_max": null,
       "is_free": false,
       "ticket_url": "https://www.skiddle.com/whats-on/Stockport/Royal-Nawaab-Pyramid/Muslim-Marriage-Events-Manchester---2-Age-Groups/41667090/"
+    },
+    {
+      "id": 1035,
+      "title": "Muslim Marriage Events Manchester - Divorcee/Widow Event",
+      "slug": "muslim-marriage-events-manchester-divorceewidow-event-2026-02-08",
+      "start_datetime": "2026-02-08T11:30:00+00:00",
+      "venue": {
+        "id": 282,
+        "name": "Royal Nawaab Pyramid",
+        "slug": "royal-nawaab-pyramid",
+        "town": "Stockport",
+        "postcode": "SK2 2JU",
+        "venue_type": null
+      },
+      "event_type": "other",
+      "image_url": "https://d31fr2pwly4c4s.cloudfront.net/9/9/9/2186697_c35f9e8c_muslim-marriage-events-manchester-divorcee-widow-event.jpg",
+      "price_min": null,
+      "price_max": null,
+      "is_free": false,
+      "ticket_url": "https://www.skiddle.com/whats-on/Stockport/Royal-Nawaab-Pyramid/Muslim-Marriage-Events-Manchester---DivorceeWidow-Event/41946697/"
     },
     {
       "id": 1067,
@@ -422,26 +502,6 @@
       "ticket_url": "https://www.instagram.com/p/DUD8jTZDT4l/"
     },
     {
-      "id": 1023,
-      "title": "Brut Life - Drawing From Sound",
-      "slug": "brut-life-drawing-from-sound",
-      "start_datetime": "2026-02-11T19:00:00+00:00",
-      "venue": {
-        "id": 285,
-        "name": "BRUK",
-        "slug": "bruk",
-        "town": "Stockport",
-        "postcode": "SK1 1JT",
-        "venue_type": null
-      },
-      "event_type": "",
-      "image_url": "https://api.viaductecho.info/static/event_images/1c75bc36-a072-4925-aab9-4437633cb19d.png",
-      "price_min": 15.0,
-      "price_max": 15.0,
-      "is_free": false,
-      "ticket_url": "https://www.instagram.com/p/DUFovNfgjXG/"
-    },
-    {
       "id": 1068,
       "title": "\u014cdiob\u0101 Open Deck",
       "slug": "\u014ddiob\u0101-open-deck",
@@ -460,6 +520,26 @@
       "price_max": null,
       "is_free": true,
       "ticket_url": "https://odioba.com/djs"
+    },
+    {
+      "id": 1023,
+      "title": "Brut Life - Drawing From Sound",
+      "slug": "brut-life-drawing-from-sound",
+      "start_datetime": "2026-02-11T19:00:00+00:00",
+      "venue": {
+        "id": 285,
+        "name": "BRUK",
+        "slug": "bruk",
+        "town": "Stockport",
+        "postcode": "SK1 1JT",
+        "venue_type": null
+      },
+      "event_type": "",
+      "image_url": "https://api.viaductecho.info/static/event_images/1c75bc36-a072-4925-aab9-4437633cb19d.png",
+      "price_min": 15.0,
+      "price_max": 15.0,
+      "is_free": false,
+      "ticket_url": "https://www.instagram.com/p/DUFovNfgjXG/"
     },
     {
       "id": 1038,
@@ -622,9 +702,9 @@
       "ticket_url": "https://www.universe.com/breakfast-brew"
     },
     {
-      "id": 1059,
-      "title": "Speed Dating Singles Event - Didsbury - Ages 35-55",
-      "slug": "speed-dating-singles-event-didsbury-ages-35-55-2026-02-19",
+      "id": 1060,
+      "title": "Speed Dating Singles Event - Didsbury - Ages 50-65",
+      "slug": "speed-dating-singles-event-didsbury-ages-50-65-2026-02-19",
       "start_datetime": "2026-02-19T19:30:00+00:00",
       "venue": {
         "id": 290,
@@ -635,11 +715,11 @@
         "venue_type": null
       },
       "event_type": "other",
-      "image_url": "https://d31fr2pwly4c4s.cloudfront.net/b/1/3/2176985_94100135_Speed-Dating-Singles-Event---Didsbury---Ages-35-55.jpg",
+      "image_url": "https://d31fr2pwly4c4s.cloudfront.net/2/0/f/2176986_16861487_Speed-Dating-Singles-Event---Didsbury---Ages-50-65.jpg",
       "price_min": 17.0,
       "price_max": 17.0,
       "is_free": false,
-      "ticket_url": "https://www.skiddle.com/whats-on/Manchester/Grosvenor-G-Casino-Didsbury/Speed-Dating-Singles-Event---Didsbury---Ages-35-55/41791922/"
+      "ticket_url": "https://www.skiddle.com/whats-on/Manchester/Grosvenor-G-Casino-Didsbury/Speed-Dating-Singles-Event---Didsbury---Ages-50-65/41791923/"
     },
     {
       "id": 1061,
@@ -662,9 +742,9 @@
       "ticket_url": "https://www.skiddle.com/whats-on/Manchester/Grosvenor-G-Casino-Didsbury/Speed-Dating-Singles-Event---Didsbury---Ages-21-40/41791920/"
     },
     {
-      "id": 1060,
-      "title": "Speed Dating Singles Event - Didsbury - Ages 50-65",
-      "slug": "speed-dating-singles-event-didsbury-ages-50-65-2026-02-19",
+      "id": 1059,
+      "title": "Speed Dating Singles Event - Didsbury - Ages 35-55",
+      "slug": "speed-dating-singles-event-didsbury-ages-35-55-2026-02-19",
       "start_datetime": "2026-02-19T19:30:00+00:00",
       "venue": {
         "id": 290,
@@ -675,11 +755,11 @@
         "venue_type": null
       },
       "event_type": "other",
-      "image_url": "https://d31fr2pwly4c4s.cloudfront.net/2/0/f/2176986_16861487_Speed-Dating-Singles-Event---Didsbury---Ages-50-65.jpg",
+      "image_url": "https://d31fr2pwly4c4s.cloudfront.net/b/1/3/2176985_94100135_Speed-Dating-Singles-Event---Didsbury---Ages-35-55.jpg",
       "price_min": 17.0,
       "price_max": 17.0,
       "is_free": false,
-      "ticket_url": "https://www.skiddle.com/whats-on/Manchester/Grosvenor-G-Casino-Didsbury/Speed-Dating-Singles-Event---Didsbury---Ages-50-65/41791923/"
+      "ticket_url": "https://www.skiddle.com/whats-on/Manchester/Grosvenor-G-Casino-Didsbury/Speed-Dating-Singles-Event---Didsbury---Ages-35-55/41791922/"
     },
     {
       "id": 1022,
@@ -1122,5 +1202,5 @@
       "ticket_url": "https://www.instagram.com/p/DUBvaM1jSAy/"
     }
   ],
-  "total": 56
+  "total": 60
 }
