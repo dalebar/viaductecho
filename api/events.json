@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-01-29T12:20:46.271681",
+  "generated_at": "2026-01-29T12:27:32.071860",
   "events": [
     {
       "id": 1030,
@@ -64,7 +64,7 @@
     {
       "id": 1065,
       "title": "FreakOut Collective",
-      "slug": "freakout-collective-2026-01-31",
+      "slug": "freakout-collective",
       "start_datetime": "2026-01-31T19:00:00+00:00",
       "venue": {
         "id": 324,
@@ -78,7 +78,7 @@
       "image_url": "https://api.viaductecho.info/static/event_images/odioba-default.png",
       "price_min": null,
       "price_max": null,
-      "is_free": false,
+      "is_free": true,
       "ticket_url": "https://odioba.com/djs"
     },
     {
@@ -164,7 +164,7 @@
     {
       "id": 1066,
       "title": "Jazz & Chess",
-      "slug": "jazz-chess-2026-02-04",
+      "slug": "jazz-chess",
       "start_datetime": "2026-02-04T19:00:00+00:00",
       "venue": {
         "id": 324,
@@ -444,7 +444,7 @@
     {
       "id": 1068,
       "title": "\u014cdiob\u0101 Open Deck",
-      "slug": "\u014ddiob\u0101-open-deck-2026-02-11",
+      "slug": "\u014ddiob\u0101-open-deck",
       "start_datetime": "2026-02-11T19:00:00+00:00",
       "venue": {
         "id": 324,
@@ -458,7 +458,7 @@
       "image_url": "https://api.viaductecho.info/static/event_images/odioba-default.png",
       "price_min": null,
       "price_max": null,
-      "is_free": false,
+      "is_free": true,
       "ticket_url": "https://odioba.com/djs"
     },
     {
