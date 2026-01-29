@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-01-29T12:53:32.120049",
+  "generated_at": "2026-01-29T13:19:11.274186",
   "venues": [
     {
       "id": 313,
@@ -36,6 +36,24 @@
       "phone": null,
       "image_url": null,
       "source_name": "skiddle"
+    },
+    {
+      "id": 325,
+      "name": "Berretto Lounge",
+      "slug": "berretto-lounge",
+      "address_line1": "REDROCK, Bridgefield Street",
+      "address_line2": null,
+      "town": "Stockport",
+      "postcode": "SK1 1SA",
+      "latitude": null,
+      "longitude": null,
+      "description": "Restaurant and lounge bar in Redrock Stockport",
+      "venue_type": "bar",
+      "capacity": null,
+      "website_url": "https://thelounges.co.uk",
+      "phone": "0161 477 7244",
+      "image_url": null,
+      "source_name": "manual"
     },
     {
       "id": 303,
@@ -830,5 +848,5 @@
       "source_name": "skiddle"
     }
   ],
-  "total": 46
+  "total": 47
 }
