@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-01-29T11:36:54.245587",
+  "generated_at": "2026-01-29T11:46:54.579928",
   "events": [
     {
       "id": 1030,
@@ -55,7 +55,7 @@
         "venue_type": "other"
       },
       "event_type": "music",
-      "image_url": null,
+      "image_url": "https://api.viaductecho.info/static/event_images/d0c72ca1-6ead-4711-b05f-f016162f76e1.png",
       "price_min": null,
       "price_max": null,
       "is_free": true,
@@ -115,7 +115,7 @@
         "venue_type": "community space"
       },
       "event_type": "community",
-      "image_url": null,
+      "image_url": "https://api.viaductecho.info/static/event_images/55ad49d5-0c8b-49fc-acd9-feb503533e61.png",
       "price_min": null,
       "price_max": null,
       "is_free": true,
@@ -135,7 +135,7 @@
         "venue_type": "pub"
       },
       "event_type": "community",
-      "image_url": null,
+      "image_url": "https://api.viaductecho.info/static/event_images/53137ece-a202-4c21-849e-817e454a179f.png",
       "price_min": null,
       "price_max": null,
       "is_free": true,
@@ -282,26 +282,6 @@
       "ticket_url": "https://www.skiddle.com/whats-on/Stockport/Royal-Nawaab-Pyramid/Muslim-Marriage-Events-Manchester---DivorceeWidow-Event/41946697/"
     },
     {
-      "id": 1058,
-      "title": "Sunday Skate 8th February 2026 with Manc Skating (Didsbury)",
-      "slug": "sunday-skate-8th-february-2026-with-manc-skating-didsbury-2026-02-08",
-      "start_datetime": "2026-02-08T19:00:00+00:00",
-      "venue": {
-        "id": 288,
-        "name": "The Barlow RC High School ",
-        "slug": "the-barlow-rc-high-school",
-        "town": "Manchester",
-        "postcode": "M20 6BX",
-        "venue_type": null
-      },
-      "event_type": "other",
-      "image_url": "https://d31fr2pwly4c4s.cloudfront.net/0/6/b/2195056_92779448_Sunday-Skate-5th-February-2026-with-Manc-Skating--Didsbury-.jpg",
-      "price_min": null,
-      "price_max": null,
-      "is_free": false,
-      "ticket_url": "https://www.skiddle.com/whats-on/Manchester/The-Barlow-RC-High-School-/Sunday-Skate-8th-February-2026-with-Manc-Skating-Didsbury/41981627/"
-    },
-    {
       "id": 1029,
       "title": "CATALOG: Live DJ & Visual Mashings",
       "slug": "catalog-live-dj-visual-mashings",
@@ -320,6 +300,26 @@
       "price_max": null,
       "is_free": true,
       "ticket_url": "https://www.instagram.com/p/DUEDFY8Dafp/"
+    },
+    {
+      "id": 1058,
+      "title": "Sunday Skate 8th February 2026 with Manc Skating (Didsbury)",
+      "slug": "sunday-skate-8th-february-2026-with-manc-skating-didsbury-2026-02-08",
+      "start_datetime": "2026-02-08T19:00:00+00:00",
+      "venue": {
+        "id": 288,
+        "name": "The Barlow RC High School ",
+        "slug": "the-barlow-rc-high-school",
+        "town": "Manchester",
+        "postcode": "M20 6BX",
+        "venue_type": null
+      },
+      "event_type": "other",
+      "image_url": "https://d31fr2pwly4c4s.cloudfront.net/0/6/b/2195056_92779448_Sunday-Skate-5th-February-2026-with-Manc-Skating--Didsbury-.jpg",
+      "price_min": null,
+      "price_max": null,
+      "is_free": false,
+      "ticket_url": "https://www.skiddle.com/whats-on/Manchester/The-Barlow-RC-High-School-/Sunday-Skate-8th-February-2026-with-Manc-Skating-Didsbury/41981627/"
     },
     {
       "id": 1034,
@@ -522,26 +522,6 @@
       "ticket_url": "https://www.universe.com/breakfast-brew"
     },
     {
-      "id": 1059,
-      "title": "Speed Dating Singles Event - Didsbury - Ages 35-55",
-      "slug": "speed-dating-singles-event-didsbury-ages-35-55-2026-02-19",
-      "start_datetime": "2026-02-19T19:30:00+00:00",
-      "venue": {
-        "id": 290,
-        "name": "Grosvenor G Casino Didsbury",
-        "slug": "grosvenor-g-casino-didsbury",
-        "town": "Didsbury",
-        "postcode": "M20 5PG",
-        "venue_type": null
-      },
-      "event_type": "other",
-      "image_url": "https://d31fr2pwly4c4s.cloudfront.net/b/1/3/2176985_94100135_Speed-Dating-Singles-Event---Didsbury---Ages-35-55.jpg",
-      "price_min": 17.0,
-      "price_max": 17.0,
-      "is_free": false,
-      "ticket_url": "https://www.skiddle.com/whats-on/Manchester/Grosvenor-G-Casino-Didsbury/Speed-Dating-Singles-Event---Didsbury---Ages-35-55/41791922/"
-    },
-    {
       "id": 1061,
       "title": "Speed Dating Singles Event - Didsbury - Ages 21-40",
       "slug": "speed-dating-singles-event-didsbury-ages-21-40-2026-02-19",
@@ -560,6 +540,26 @@
       "price_max": 17.0,
       "is_free": false,
       "ticket_url": "https://www.skiddle.com/whats-on/Manchester/Grosvenor-G-Casino-Didsbury/Speed-Dating-Singles-Event---Didsbury---Ages-21-40/41791920/"
+    },
+    {
+      "id": 1059,
+      "title": "Speed Dating Singles Event - Didsbury - Ages 35-55",
+      "slug": "speed-dating-singles-event-didsbury-ages-35-55-2026-02-19",
+      "start_datetime": "2026-02-19T19:30:00+00:00",
+      "venue": {
+        "id": 290,
+        "name": "Grosvenor G Casino Didsbury",
+        "slug": "grosvenor-g-casino-didsbury",
+        "town": "Didsbury",
+        "postcode": "M20 5PG",
+        "venue_type": null
+      },
+      "event_type": "other",
+      "image_url": "https://d31fr2pwly4c4s.cloudfront.net/b/1/3/2176985_94100135_Speed-Dating-Singles-Event---Didsbury---Ages-35-55.jpg",
+      "price_min": 17.0,
+      "price_max": 17.0,
+      "is_free": false,
+      "ticket_url": "https://www.skiddle.com/whats-on/Manchester/Grosvenor-G-Casino-Didsbury/Speed-Dating-Singles-Event---Didsbury---Ages-35-55/41791922/"
     },
     {
       "id": 1060,
@@ -804,7 +804,7 @@
     {
       "id": 1025,
       "title": "Good Grief",
-      "slug": "good-grief-2026-03-03",
+      "slug": "good-grief-1",
       "start_datetime": "2026-03-03T19:00:00+00:00",
       "venue": {
         "id": 306,
@@ -815,7 +815,7 @@
         "venue_type": "community space"
       },
       "event_type": "community",
-      "image_url": null,
+      "image_url": "https://api.viaductecho.info/static/event_images/55ad49d5-0c8b-49fc-acd9-feb503533e61.png",
       "price_min": null,
       "price_max": null,
       "is_free": true,
@@ -1004,7 +1004,7 @@
     {
       "id": 1026,
       "title": "Good Grief",
-      "slug": "good-grief-2026-04-07",
+      "slug": "good-grief-2",
       "start_datetime": "2026-04-07T19:00:00+00:00",
       "venue": {
         "id": 306,
@@ -1015,7 +1015,7 @@
         "venue_type": "community space"
       },
       "event_type": "community",
-      "image_url": null,
+      "image_url": "https://api.viaductecho.info/static/event_images/55ad49d5-0c8b-49fc-acd9-feb503533e61.png",
       "price_min": null,
       "price_max": null,
       "is_free": true,
