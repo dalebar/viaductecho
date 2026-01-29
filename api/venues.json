@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-01-29T11:35:17.582760",
+  "generated_at": "2026-01-29T11:36:54.245587",
   "venues": [
     {
       "id": 313,
@@ -54,6 +54,24 @@
       "phone": null,
       "image_url": null,
       "source_name": "manual"
+    },
+    {
+      "id": 320,
+      "name": "Buzz Bingo Stockport",
+      "slug": "buzz-bingo-stockport",
+      "address_line1": "30 Newbridge Lane, Stockport, Cheshire, SK1 2NA",
+      "address_line2": null,
+      "town": "Stockport",
+      "postcode": "SK1 2NA",
+      "latitude": 53.4114525,
+      "longitude": -2.1505267,
+      "description": null,
+      "venue_type": null,
+      "capacity": null,
+      "website_url": null,
+      "phone": null,
+      "image_url": null,
+      "source_name": "skiddle"
     },
     {
       "id": 306,
@@ -114,6 +132,24 @@
       "name": "Fitzpatricks",
       "slug": "fitzpatricks",
       "address_line1": "20 Railway Road",
+      "address_line2": null,
+      "town": "Stockport",
+      "postcode": "SK1 3SW",
+      "latitude": 53.4059418,
+      "longitude": -2.1618416,
+      "description": null,
+      "venue_type": null,
+      "capacity": null,
+      "website_url": null,
+      "phone": null,
+      "image_url": null,
+      "source_name": "skiddle"
+    },
+    {
+      "id": 318,
+      "name": "Fitzpatricks Bar",
+      "slug": "fitzpatricks-bar",
+      "address_line1": "20 railway rd",
       "address_line2": null,
       "town": "Stockport",
       "postcode": "SK1 3SW",
@@ -524,6 +560,24 @@
       "source_name": "manual"
     },
     {
+      "id": 319,
+      "name": "Stockport Town Hall",
+      "slug": "stockport-town-hall",
+      "address_line1": "Edward Street",
+      "address_line2": null,
+      "town": "Stockport",
+      "postcode": "SK1 3XE",
+      "latitude": 53.4059744,
+      "longitude": -2.1584871,
+      "description": null,
+      "venue_type": null,
+      "capacity": null,
+      "website_url": null,
+      "phone": null,
+      "image_url": null,
+      "source_name": "skiddle"
+    },
+    {
       "id": 301,
       "name": "Stockroom",
       "slug": "stockroom",
@@ -594,6 +648,42 @@
       "phone": null,
       "image_url": null,
       "source_name": "manual"
+    },
+    {
+      "id": 323,
+      "name": "The Royal Oak Stockport",
+      "slug": "the-royal-oak-stockport",
+      "address_line1": "124 Castle Street",
+      "address_line2": null,
+      "town": "Stockport",
+      "postcode": "SK3 9AL",
+      "latitude": 53.4014035,
+      "longitude": -2.1693712,
+      "description": null,
+      "venue_type": null,
+      "capacity": null,
+      "website_url": null,
+      "phone": null,
+      "image_url": null,
+      "source_name": "skiddle"
+    },
+    {
+      "id": 321,
+      "name": "The Spinning Top",
+      "slug": "the-spinning-top",
+      "address_line1": "20 Wellington Road South",
+      "address_line2": null,
+      "town": "Stockport",
+      "postcode": "SK4 1AA",
+      "latitude": 53.408213,
+      "longitude": -2.161355,
+      "description": null,
+      "venue_type": null,
+      "capacity": null,
+      "website_url": null,
+      "phone": null,
+      "image_url": null,
+      "source_name": "skiddle"
     },
     {
       "id": 289,
@@ -702,7 +792,25 @@
       "phone": null,
       "image_url": null,
       "source_name": "manual"
+    },
+    {
+      "id": 322,
+      "name": "Zero Gravity Pole Studio",
+      "slug": "zero-gravity-pole-studio",
+      "address_line1": "Unit B2",
+      "address_line2": null,
+      "town": "Stockport",
+      "postcode": "SK6 2BP",
+      "latitude": 53.4137268,
+      "longitude": -2.1336705,
+      "description": null,
+      "venue_type": null,
+      "capacity": null,
+      "website_url": null,
+      "phone": null,
+      "image_url": null,
+      "source_name": "skiddle"
     }
   ],
-  "total": 39
+  "total": 45
 }
