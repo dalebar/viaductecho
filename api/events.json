@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-01-29T11:46:54.579928",
+  "generated_at": "2026-01-29T12:20:46.271681",
   "events": [
     {
       "id": 1030,
@@ -60,6 +60,26 @@
       "price_max": null,
       "is_free": true,
       "ticket_url": "https://www.instagram.com/p/DT-2x8oDBIV/"
+    },
+    {
+      "id": 1065,
+      "title": "FreakOut Collective",
+      "slug": "freakout-collective-2026-01-31",
+      "start_datetime": "2026-01-31T19:00:00+00:00",
+      "venue": {
+        "id": 324,
+        "name": "Odioba",
+        "slug": "odioba",
+        "town": "Stockport",
+        "postcode": "SK1 1JE",
+        "venue_type": null
+      },
+      "event_type": "music",
+      "image_url": "https://api.viaductecho.info/static/event_images/odioba-default.png",
+      "price_min": null,
+      "price_max": null,
+      "is_free": false,
+      "ticket_url": "https://odioba.com/djs"
     },
     {
       "id": 1031,
@@ -140,6 +160,26 @@
       "price_max": null,
       "is_free": true,
       "ticket_url": "https://www.instagram.com/p/DUDzTWzjMTe/"
+    },
+    {
+      "id": 1066,
+      "title": "Jazz & Chess",
+      "slug": "jazz-chess-2026-02-04",
+      "start_datetime": "2026-02-04T19:00:00+00:00",
+      "venue": {
+        "id": 324,
+        "name": "Odioba",
+        "slug": "odioba",
+        "town": "Stockport",
+        "postcode": "SK1 1JE",
+        "venue_type": null
+      },
+      "event_type": "music",
+      "image_url": "https://api.viaductecho.info/static/event_images/odioba-default.png",
+      "price_min": null,
+      "price_max": null,
+      "is_free": true,
+      "ticket_url": "https://odioba.com/djs"
     },
     {
       "id": 997,
@@ -242,6 +282,26 @@
       "ticket_url": "https://www.instagram.com/p/DTxCzPaCJ5A/"
     },
     {
+      "id": 1035,
+      "title": "Muslim Marriage Events Manchester - Divorcee/Widow Event",
+      "slug": "muslim-marriage-events-manchester-divorceewidow-event-2026-02-08",
+      "start_datetime": "2026-02-08T11:30:00+00:00",
+      "venue": {
+        "id": 282,
+        "name": "Royal Nawaab Pyramid",
+        "slug": "royal-nawaab-pyramid",
+        "town": "Stockport",
+        "postcode": "SK2 2JU",
+        "venue_type": null
+      },
+      "event_type": "other",
+      "image_url": "https://d31fr2pwly4c4s.cloudfront.net/9/9/9/2186697_c35f9e8c_muslim-marriage-events-manchester-divorcee-widow-event.jpg",
+      "price_min": null,
+      "price_max": null,
+      "is_free": false,
+      "ticket_url": "https://www.skiddle.com/whats-on/Stockport/Royal-Nawaab-Pyramid/Muslim-Marriage-Events-Manchester---DivorceeWidow-Event/41946697/"
+    },
+    {
       "id": 1036,
       "title": "Muslim Marriage Events Manchester - 2 Age Groups",
       "slug": "muslim-marriage-events-manchester-2-age-groups-2026-02-08",
@@ -262,24 +322,24 @@
       "ticket_url": "https://www.skiddle.com/whats-on/Stockport/Royal-Nawaab-Pyramid/Muslim-Marriage-Events-Manchester---2-Age-Groups/41667090/"
     },
     {
-      "id": 1035,
-      "title": "Muslim Marriage Events Manchester - Divorcee/Widow Event",
-      "slug": "muslim-marriage-events-manchester-divorceewidow-event-2026-02-08",
-      "start_datetime": "2026-02-08T11:30:00+00:00",
+      "id": 1067,
+      "title": "Black Bee Soul Club presents Runaway People",
+      "slug": "black-bee-soul-club-presents-runaway-people-2026-02-08",
+      "start_datetime": "2026-02-08T14:00:00+00:00",
       "venue": {
-        "id": 282,
-        "name": "Royal Nawaab Pyramid",
-        "slug": "royal-nawaab-pyramid",
+        "id": 324,
+        "name": "Odioba",
+        "slug": "odioba",
         "town": "Stockport",
-        "postcode": "SK2 2JU",
+        "postcode": "SK1 1JE",
         "venue_type": null
       },
-      "event_type": "other",
-      "image_url": "https://d31fr2pwly4c4s.cloudfront.net/9/9/9/2186697_c35f9e8c_muslim-marriage-events-manchester-divorcee-widow-event.jpg",
+      "event_type": "music",
+      "image_url": "https://api.viaductecho.info/static/event_images/odioba-default.png",
       "price_min": null,
       "price_max": null,
       "is_free": false,
-      "ticket_url": "https://www.skiddle.com/whats-on/Stockport/Royal-Nawaab-Pyramid/Muslim-Marriage-Events-Manchester---DivorceeWidow-Event/41946697/"
+      "ticket_url": "https://odioba.com/djs"
     },
     {
       "id": 1029,
@@ -380,6 +440,26 @@
       "price_max": 15.0,
       "is_free": false,
       "ticket_url": "https://www.instagram.com/p/DUFovNfgjXG/"
+    },
+    {
+      "id": 1068,
+      "title": "\u014cdiob\u0101 Open Deck",
+      "slug": "\u014ddiob\u0101-open-deck-2026-02-11",
+      "start_datetime": "2026-02-11T19:00:00+00:00",
+      "venue": {
+        "id": 324,
+        "name": "Odioba",
+        "slug": "odioba",
+        "town": "Stockport",
+        "postcode": "SK1 1JE",
+        "venue_type": null
+      },
+      "event_type": "music",
+      "image_url": "https://api.viaductecho.info/static/event_images/odioba-default.png",
+      "price_min": null,
+      "price_max": null,
+      "is_free": false,
+      "ticket_url": "https://odioba.com/djs"
     },
     {
       "id": 1038,
@@ -502,6 +582,26 @@
       "ticket_url": "https://www.skiddle.com/whats-on/Stockport/Holy-Diver/John-Corabi---European-Shuffle-Tour/41495071/"
     },
     {
+      "id": 1069,
+      "title": "Al Scott Trio live jazz night",
+      "slug": "al-scott-trio-live-jazz-night-2026-02-18",
+      "start_datetime": "2026-02-18T20:00:00+00:00",
+      "venue": {
+        "id": 324,
+        "name": "Odioba",
+        "slug": "odioba",
+        "town": "Stockport",
+        "postcode": "SK1 1JE",
+        "venue_type": null
+      },
+      "event_type": "music",
+      "image_url": "https://api.viaductecho.info/static/event_images/odioba-default.png",
+      "price_min": null,
+      "price_max": null,
+      "is_free": false,
+      "ticket_url": "https://odioba.com/djs"
+    },
+    {
       "id": 1028,
       "title": "Breakfast Brew: Spotlight Q&A",
       "slug": "breakfast-brew-spotlight-qa",
@@ -522,26 +622,6 @@
       "ticket_url": "https://www.universe.com/breakfast-brew"
     },
     {
-      "id": 1061,
-      "title": "Speed Dating Singles Event - Didsbury - Ages 21-40",
-      "slug": "speed-dating-singles-event-didsbury-ages-21-40-2026-02-19",
-      "start_datetime": "2026-02-19T19:30:00+00:00",
-      "venue": {
-        "id": 290,
-        "name": "Grosvenor G Casino Didsbury",
-        "slug": "grosvenor-g-casino-didsbury",
-        "town": "Didsbury",
-        "postcode": "M20 5PG",
-        "venue_type": null
-      },
-      "event_type": "other",
-      "image_url": "https://d31fr2pwly4c4s.cloudfront.net/9/0/0/2176983_93575731_Speed-Dating-Singles-Event---Didsbury---Ages-21-40.jpg",
-      "price_min": 17.0,
-      "price_max": 17.0,
-      "is_free": false,
-      "ticket_url": "https://www.skiddle.com/whats-on/Manchester/Grosvenor-G-Casino-Didsbury/Speed-Dating-Singles-Event---Didsbury---Ages-21-40/41791920/"
-    },
-    {
       "id": 1059,
       "title": "Speed Dating Singles Event - Didsbury - Ages 35-55",
       "slug": "speed-dating-singles-event-didsbury-ages-35-55-2026-02-19",
@@ -560,6 +640,26 @@
       "price_max": 17.0,
       "is_free": false,
       "ticket_url": "https://www.skiddle.com/whats-on/Manchester/Grosvenor-G-Casino-Didsbury/Speed-Dating-Singles-Event---Didsbury---Ages-35-55/41791922/"
+    },
+    {
+      "id": 1061,
+      "title": "Speed Dating Singles Event - Didsbury - Ages 21-40",
+      "slug": "speed-dating-singles-event-didsbury-ages-21-40-2026-02-19",
+      "start_datetime": "2026-02-19T19:30:00+00:00",
+      "venue": {
+        "id": 290,
+        "name": "Grosvenor G Casino Didsbury",
+        "slug": "grosvenor-g-casino-didsbury",
+        "town": "Didsbury",
+        "postcode": "M20 5PG",
+        "venue_type": null
+      },
+      "event_type": "other",
+      "image_url": "https://d31fr2pwly4c4s.cloudfront.net/9/0/0/2176983_93575731_Speed-Dating-Singles-Event---Didsbury---Ages-21-40.jpg",
+      "price_min": 17.0,
+      "price_max": 17.0,
+      "is_free": false,
+      "ticket_url": "https://www.skiddle.com/whats-on/Manchester/Grosvenor-G-Casino-Didsbury/Speed-Dating-Singles-Event---Didsbury---Ages-21-40/41791920/"
     },
     {
       "id": 1060,
@@ -1022,5 +1122,5 @@
       "ticket_url": "https://www.instagram.com/p/DUBvaM1jSAy/"
     }
   ],
-  "total": 51
+  "total": 56
 }
