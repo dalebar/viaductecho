@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-01-29T10:09:55.275184",
+  "generated_at": "2026-01-29T10:50:42.402943",
   "events": [
     {
       "id": 1012,
@@ -82,6 +82,26 @@
       "ticket_url": "https://www.instagram.com/p/DTu1IunimCW/"
     },
     {
+      "id": 1020,
+      "title": "Silver Stack Ring Workshop",
+      "slug": "silver-stack-ring-workshop-2026-02-07",
+      "start_datetime": "2026-02-07T10:00:00+00:00",
+      "venue": {
+        "id": 317,
+        "name": "Stockport Jewellery School",
+        "slug": "stockport-jewellery-school",
+        "town": "Stockport",
+        "postcode": "SK1 1JT",
+        "venue_type": "other"
+      },
+      "event_type": "art",
+      "image_url": "https://api.viaductecho.info/static/event_images/43b249c5-dbe5-4e68-bf45-6f97cf0ed686.png",
+      "price_min": null,
+      "price_max": null,
+      "is_free": false,
+      "ticket_url": "https://www.instagram.com/p/DUEa7_fAkPr/"
+    },
+    {
       "id": 1013,
       "title": "LGBT+ History Month - Delve",
       "slug": "lgbt-history-month-delve-1",
@@ -100,6 +120,46 @@
       "price_max": null,
       "is_free": true,
       "ticket_url": "https://www.instagram.com/p/DUD8jTZDT4l/"
+    },
+    {
+      "id": 1021,
+      "title": "Silver Jewellery Taster",
+      "slug": "silver-jewellery-taster",
+      "start_datetime": "2026-02-14T10:00:00+00:00",
+      "venue": {
+        "id": 317,
+        "name": "Stockport Jewellery School",
+        "slug": "stockport-jewellery-school",
+        "town": "Stockport",
+        "postcode": "SK1 1JT",
+        "venue_type": "other"
+      },
+      "event_type": "",
+      "image_url": "https://api.viaductecho.info/static/event_images/43b249c5-dbe5-4e68-bf45-6f97cf0ed686.png",
+      "price_min": null,
+      "price_max": null,
+      "is_free": false,
+      "ticket_url": "https://www.instagram.com/p/DUEa7_fAkPr/"
+    },
+    {
+      "id": 1022,
+      "title": "Brass Cuff Workshop",
+      "slug": "brass-cuff-workshop-2026-02-21",
+      "start_datetime": "2026-02-21T10:00:00+00:00",
+      "venue": {
+        "id": 317,
+        "name": "Stockport Jewellery School",
+        "slug": "stockport-jewellery-school",
+        "town": "Stockport",
+        "postcode": "SK1 1JT",
+        "venue_type": "other"
+      },
+      "event_type": "art",
+      "image_url": "https://api.viaductecho.info/static/event_images/43b249c5-dbe5-4e68-bf45-6f97cf0ed686.png",
+      "price_min": null,
+      "price_max": null,
+      "is_free": false,
+      "ticket_url": "https://www.instagram.com/p/DUEa7_fAkPr/"
     },
     {
       "id": 992,
@@ -122,5 +182,5 @@
       "ticket_url": "https://www.instagram.com/p/DT8ETudDTk_/"
     }
   ],
-  "total": 6
+  "total": 9
 }
