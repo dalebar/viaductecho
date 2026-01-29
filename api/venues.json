@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-01-29T11:46:54.579928",
+  "generated_at": "2026-01-29T12:20:46.271681",
   "venues": [
     {
       "id": 313,
@@ -288,6 +288,24 @@
       "phone": "0161 474 2500",
       "image_url": null,
       "source_name": "manual"
+    },
+    {
+      "id": 324,
+      "name": "Odioba",
+      "slug": "odioba",
+      "address_line1": "26 Lower Hillgate",
+      "address_line2": null,
+      "town": "Stockport",
+      "postcode": "SK1 1JE",
+      "latitude": 53.4088,
+      "longitude": -2.1584,
+      "description": null,
+      "venue_type": null,
+      "capacity": null,
+      "website_url": null,
+      "phone": null,
+      "image_url": null,
+      "source_name": "odioba"
     },
     {
       "id": 287,
@@ -812,5 +830,5 @@
       "source_name": "skiddle"
     }
   ],
-  "total": 45
+  "total": 46
 }
