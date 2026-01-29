@@ -1,12 +1,9 @@
 {
-  "generated_at": "2026-01-29T11:35:17.582760",
+  "generated_at": "2026-01-29T11:36:54.245587",
   "event_types": [
-    "theatre",
-    "art",
-    "comedy",
-    "music",
-    "arts",
     "other",
+    "art",
+    "music",
     "community"
   ]
 }
