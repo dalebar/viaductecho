@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-01-29T10:09:55.275184",
+  "generated_at": "2026-01-29T10:50:42.402943",
   "venues": [
     {
       "id": 313,
@@ -452,6 +452,24 @@
       "source_name": "manual"
     },
     {
+      "id": 317,
+      "name": "Stockport Jewellery School",
+      "slug": "stockport-jewellery-school",
+      "address_line1": "20 Little Underbank",
+      "address_line2": null,
+      "town": "Stockport",
+      "postcode": "SK1 1JT",
+      "latitude": null,
+      "longitude": null,
+      "description": "SJS Smith Jewellery - jewellery making workshops and classes for beginners",
+      "venue_type": "other",
+      "capacity": null,
+      "website_url": null,
+      "phone": null,
+      "image_url": null,
+      "source_name": "manual"
+    },
+    {
       "id": 292,
       "name": "Stockport Market Hall",
       "slug": "stockport-market-hall",
@@ -686,5 +704,5 @@
       "source_name": "manual"
     }
   ],
-  "total": 38
+  "total": 39
 }
