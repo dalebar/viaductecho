@@ -3,12 +3,12 @@ layout: post
 title: "The massive changes planned on roads around Stockport town centre"
 author: archie
 categories: news
-image: https://i2-prod.manchestereveningnews.co.uk/article33392581.ece/ALTERNATES/s1200/0_JS395817432.jpg
+image: https://nub.news/api/image/727777/article.jpeg
 ---
-Stockport is gearing up for significant upgrades to its walking and cycling routes through the Stockport town centre west active travel scheme. This plan aims to improve connections between the railway station, transport interchange, and the wider town centre, linking areas like Edgeley and Heaton Mersey. Key features include new shared paths, better crossings, and traffic calming measures. Proposed changes involve segregated routes on Travis Brow, enhancements along the River Mersey, and improved access through Hollywood Park. An active travel corridor is planned for Edgeley, with dedicated cycleways and upgraded junctions. Councillors recently expressed their support for these developments, highlighting their benefits for both pedestrians and cyclists. The aim is to create a more accessible and cyclist-friendly environment in the area, complementing ongoing regeneration efforts in Stockport.
+Stockport is gearing up for some exciting changes to its roads with the proposed Stockport Town Centre West active travel scheme. This initiative aims to enhance walking and cycling links between the railway station, transport interchange, and the town centre, linking up with areas like Edgeley, Cale Green, Davenport, Adswood, and Heaton Mersey. With new homes and businesses emerging in the town centre, council discussions highlighted the limited car parking at recent developments, pushing for better active travel options. Proposed upgrades include shared cycling and walking paths, traffic calming measures, and improved crossings at key locations like Heaton Lane roundabout and Hollywood Park. Key features include segregated routes along Travis Brow and a special CYCLOPS junction for cyclists at Adswood Road. Local councillors have thrown their support behind the scheme, seeing it as a significant boost for residents and a step toward making Stockport more pedestrian and cyclist-friendly. Overall, it's a promising move towards a greener and more accessible town!
 
-![Article Image](https://i2-prod.manchestereveningnews.co.uk/article33392581.ece/ALTERNATES/s1200/0_JS395817432.jpg)
+![Article Image](https://nub.news/api/image/727777/article.jpeg)
 
-[Read the full article at Manchester Evening News](https://www.manchestereveningnews.co.uk/news/greater-manchester-news/massive-changes-planned-roads-around-33392531)
+[Read the full article at Stockport Nub News](https://stockport.nub.news/news/local-news/the-massive-changes-planned-on-roads-around-stockport-town-centre-287367)
 
 ---
