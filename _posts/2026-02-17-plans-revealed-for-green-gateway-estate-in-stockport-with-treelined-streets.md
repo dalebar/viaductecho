@@ -1,14 +1,14 @@
 ---
 layout: post
-title: "Plans revealed for 'green gateway' estate in Stockport with 'treelined' streets"
+title: "Plans revealed for ‘green gateway’ estate in Stockport with ‘treelined’ streets"
 author: archie
 categories: news
-image: https://i2-prod.manchestereveningnews.co.uk/article33441425.ece/ALTERNATES/s1200/0_JS396838107.jpg
+image: https://nub.news/api/image/729331/article.jpeg
 ---
-Plans for a ‘green gateway’ estate in Stockport have been unveiled, proposing 106 new homes on land owned by Stockport Grammar School. The location on Dialstone Lane, previously unused for seven years, will feature tree-lined streets and a variety of housing options from one to five bedrooms, with half of them designated as “affordable” homes. This development aims to address the housing needs in Stockport, where over 9,000 people are on the social housing list. The area is well-connected, close to the A6 and Stepping Hill Hospital, making it a sustainable choice. The design focuses on creating a welcoming neighbourhood with minimal car dominance. There's already significant interest, with over 80 local comments received, and Stockport Council aims to decide on the proposal by April 29.
+Plans for a 'green gateway' estate in Stockport have been unveiled, proposing 106 new homes on previously unused land by Story Homes and Stockport Grammar School. The site, which has not been used for sports pitches due to its distance from the main school, aims to address housing pressures in the area, where over 9,000 people are on the social housing list. The proposal includes a range of one to five-bedroom homes, with half being designated as 'affordable' options, like shared ownership and affordable rents. The design features treelined streets and green frontages for a pleasant arrival experience. Located near key transport links and amenities, the development is expected to create a vibrant neighbourhood that blends well with the existing character of Stockport. So far, the plans have attracted over 80 comments from local residents, and a decision is expected by April 29.
 
-![Article Image](https://i2-prod.manchestereveningnews.co.uk/article33441425.ece/ALTERNATES/s1200/0_JS396838107.jpg)
+![Article Image](https://nub.news/api/image/729331/article.jpeg)
 
-[Read the full article at Manchester Evening News](https://www.manchestereveningnews.co.uk/news/greater-manchester-news/plans-revealed-green-gateway-estate-33441418)
+[Read the full article at Stockport Nub News](https://stockport.nub.news/news/local-news/plans-revealed-for-green-gateway-estate-in-stockport-with-treelined-streets-288025)
 
 ---
